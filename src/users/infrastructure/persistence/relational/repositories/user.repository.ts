@@ -19,9 +19,7 @@ export class UsersRelationalRepository implements UserRepository {
 
   async create(data: User): Promise<User> {
     const persistenceModel = UserMapper.toPersistence(data);
-    const newEntity = await this.usersRepository.save(
-      this.usersRepository.create(persistenceModel),
-    );
+    const newEntity = await this.usersRepository.save(this.usersRepository.create(persistenceModel));
     return UserMapper.toDomain(newEntity);
   }
 
@@ -83,13 +81,7 @@ export class UsersRelationalRepository implements UserRepository {
     return entity ? UserMapper.toDomain(entity) : null;
   }
 
-  async findBySocialIdAndProvider({
-    socialId,
-    provider,
-  }: {
-    socialId: User['socialId'];
-    provider: User['provider'];
-  }): Promise<NullableType<User>> {
+  async findBySocialIdAndProvider({ socialId, provider }: { socialId: User['socialId']; provider: User['provider'] }): Promise<NullableType<User>> {
     if (!socialId || !provider) return null;
 
     const entity = await this.usersRepository.findOne({

@@ -1,0 +1,62 @@
+[
+  {
+    "active": true,
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "firstName": "(HERALD SQ)-",
+    "hexColor": "#ec4d85",
+    "id": "154a38fd-c5c0-4109-aad3-f68f21e924da",
+    "isMe": false,
+    "lastName": "2 ALL",
+    "name": "(HERALD SQ)- 2 ALL",
+    "pronoun": null,
+    "role": {
+      "name": "Technician"
+    },
+    "suspended": false
+  },
+  {
+    "active": true,
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "firstName": "(HERALD SQ)-",
+    "hexColor": "#616161",
+    "id": "867bdbe2-3390-4e40-bb78-bd1d241b5186",
+    "isMe": false,
+    "lastName": "3 ALL",
+    "name": "(HERALD SQ)- 3 ALL",
+    "pronoun": null,
+    "role": {
+      "name": "Technician"
+    },
+    "suspended": false
+  },
+  {
+    "active": true,
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "firstName": "(HERALD SQ)-",
+    "hexColor": "#1ece6d",
+    "id": "819e84a0-027b-4829-89b7-ca4f65cdb45e",
+    "isMe": false,
+    "lastName": "1 ALL",
+    "name": "(HERALD SQ)- 1 ALL",
+    "pronoun": null,
+    "role": {
+      "name": "Technician"
+    },
+    "suspended": false
+  },
+  {
+    "active": true,
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "firstName": "Dora",
+    "hexColor": "#ea9028",
+    "id": "d70a3878-829a-4421-aceb-3ceae48714ae",
+    "isMe": false,
+    "lastName": "R",
+    "name": "Dora R",
+    "pronoun": null,
+    "role": {
+      "name": "Technician"
+    },
+    "suspended": false
+  }
+]

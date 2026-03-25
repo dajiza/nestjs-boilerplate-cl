@@ -1,8 +1,4 @@
-import {
-  HttpStatus,
-  Module,
-  UnprocessableEntityException,
-} from '@nestjs/common';
+import { HttpStatus, Module, UnprocessableEntityException } from '@nestjs/common';
 import { FilesLocalController } from './files.controller';
 import { MulterModule } from '@nestjs/platform-express';
 import { ConfigModule, ConfigService } from '@nestjs/config';
@@ -41,13 +37,7 @@ const infrastructurePersistenceModule = RelationalFilePersistenceModule;
           storage: diskStorage({
             destination: './files',
             filename: (request, file, callback) => {
-              callback(
-                null,
-                `${randomStringGenerator()}.${file.originalname
-                  .split('.')
-                  .pop()
-                  ?.toLowerCase()}`,
-              );
+              callback(null, `${randomStringGenerator()}.${file.originalname.split('.').pop()?.toLowerCase()}`);
             },
           }),
           limits: {

@@ -1,13 +1,4 @@
-import {
-  CreateDateColumn,
-  Entity,
-  Index,
-  ManyToOne,
-  PrimaryGeneratedColumn,
-  DeleteDateColumn,
-  Column,
-  UpdateDateColumn,
-} from 'typeorm';
+import { CreateDateColumn, Entity, Index, ManyToOne, PrimaryGeneratedColumn, DeleteDateColumn, Column, UpdateDateColumn } from 'typeorm';
 import { UserEntity } from '../../../../../users/infrastructure/persistence/relational/entities/user.entity';
 
 import { EntityRelationalHelper } from '../../../../../utils/relational-entity-helper';

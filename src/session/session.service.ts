@@ -13,26 +13,17 @@ export class SessionService {
     return this.sessionRepository.findById(id);
   }
 
-  create(
-    data: Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>,
-  ): Promise<Session> {
+  create(data: Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>): Promise<Session> {
     return this.sessionRepository.create(data);
   }
 
-  update(
-    id: Session['id'],
-    payload: Partial<
-      Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>
-    >,
-  ): Promise<Session | null> {
+  update(id: Session['id'], payload: Partial<Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>>): Promise<Session | null> {
     return this.sessionRepository.update(id, payload);
   }
 
   updateByHash(
     conditions: { id: Session['id']; hash: Session['hash'] },
-    payload: Partial<
-      Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>
-    >,
+    payload: Partial<Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>>,
   ): Promise<Session | null> {
     return this.sessionRepository.updateByHash(conditions, payload);
   }
@@ -45,10 +36,7 @@ export class SessionService {
     return this.sessionRepository.deleteByUserId(conditions);
   }
 
-  deleteByUserIdWithExclude(conditions: {
-    userId: User['id'];
-    excludeSessionId: Session['id'];
-  }): Promise<void> {
+  deleteByUserIdWithExclude(conditions: { userId: User['id']; excludeSessionId: Session['id'] }): Promise<void> {
     return this.sessionRepository.deleteByUserIdWithExclude(conditions);
   }
 }

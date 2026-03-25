@@ -1,10 +1,4 @@
-import {
-  HttpStatus,
-  Injectable,
-  NotFoundException,
-  UnauthorizedException,
-  UnprocessableEntityException,
-} from '@nestjs/common';
+import { HttpStatus, Injectable, NotFoundException, UnauthorizedException, UnprocessableEntityException } from '@nestjs/common';
 import ms from 'ms';
 import crypto from 'crypto';
 import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
@@ -69,10 +63,7 @@ export class AuthService {
       });
     }
 
-    const isValidPassword = await bcrypt.compare(
-      loginDto.password,
-      user.password,
-    );
+    const isValidPassword = await bcrypt.compare(loginDto.password, user.password);
 
     if (!isValidPassword) {
       throw new UnprocessableEntityException({
@@ -83,10 +74,7 @@ export class AuthService {
       });
     }
 
-    const hash = crypto
-      .createHash('sha256')
-      .update(randomStringGenerator())
-      .digest('hex');
+    const hash = crypto.createHash('sha256').update(randomStringGenerator()).digest('hex');
 
     const session = await this.sessionService.create({
       user,
@@ -108,10 +96,7 @@ export class AuthService {
     };
   }
 
-  async validateSocialLogin(
-    authProvider: string,
-    socialData: SocialInterface,
-  ): Promise<LoginResponseDto> {
+  async validateSocialLogin(authProvider: string, socialData: SocialInterface): Promise<LoginResponseDto> {
     let user: NullableType<User> = null;
     const socialEmail = socialData.email?.toLowerCase();
     let userByEmail: NullableType<User> = null;
@@ -164,10 +149,7 @@ export class AuthService {
       });
     }
 
-    const hash = crypto
-      .createHash('sha256')
-      .update(randomStringGenerator())
-      .digest('hex');
+    const hash = crypto.createHash('sha256').update(randomStringGenerator()).digest('hex');
 
     const session = await this.sessionService.create({
       user,
@@ -251,10 +233,7 @@ export class AuthService {
 
     const user = await this.usersService.findById(userId);
 
-    if (
-      !user ||
-      user?.status?.id?.toString() !== StatusEnum.inactive.toString()
-    ) {
+    if (!user || user?.status?.id?.toString() !== StatusEnum.inactive.toString()) {
       throw new NotFoundException({
         status: HttpStatus.NOT_FOUND,
         error: `notFound`,
@@ -395,10 +374,7 @@ export class AuthService {
     return this.usersService.findById(userJwtPayload.id);
   }
 
-  async update(
-    userJwtPayload: JwtPayloadType,
-    userDto: AuthUpdateDto,
-  ): Promise<NullableType<User>> {
+  async update(userJwtPayload: JwtPayloadType, userDto: AuthUpdateDto): Promise<NullableType<User>> {
     const currentUser = await this.usersService.findById(userJwtPayload.id);
 
     if (!currentUser) {
@@ -429,10 +405,7 @@ export class AuthService {
         });
       }
 
-      const isValidOldPassword = await bcrypt.compare(
-        userDto.oldPassword,
-        currentUser.password,
-      );
+      const isValidOldPassword = await bcrypt.compare(userDto.oldPassword, currentUser.password);
 
       if (!isValidOldPassword) {
         throw new UnprocessableEntityException({
@@ -492,18 +465,10 @@ export class AuthService {
     return this.usersService.findById(userJwtPayload.id);
   }
 
-  async refreshToken(
-    data: Pick<JwtRefreshPayloadType, 'sessionId' | 'hash'>,
-  ): Promise<Omit<LoginResponseDto, 'user'>> {
-    const hash = crypto
-      .createHash('sha256')
-      .update(randomStringGenerator())
-      .digest('hex');
+  async refreshToken(data: Pick<JwtRefreshPayloadType, 'sessionId' | 'hash'>): Promise<Omit<LoginResponseDto, 'user'>> {
+    const hash = crypto.createHash('sha256').update(randomStringGenerator()).digest('hex');
 
-    const session = await this.sessionService.updateByHash(
-      { id: data.sessionId, hash: data.hash },
-      { hash },
-    );
+    const session = await this.sessionService.updateByHash({ id: data.sessionId, hash: data.hash }, { hash });
 
     if (!session) {
       throw new UnauthorizedException();
@@ -539,12 +504,7 @@ export class AuthService {
     return this.sessionService.deleteById(data.sessionId);
   }
 
-  private async getTokensData(data: {
-    id: User['id'];
-    role: User['role'];
-    sessionId: Session['id'];
-    hash: Session['hash'];
-  }) {
+  private async getTokensData(data: { id: User['id']; role: User['role']; sessionId: Session['id']; hash: Session['hash'] }) {
     const tokenExpiresIn = this.configService.getOrThrow('auth.expires', {
       infer: true,
     });

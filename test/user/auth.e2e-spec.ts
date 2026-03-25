@@ -1,11 +1,5 @@
 import request from 'supertest';
-import {
-  APP_URL,
-  TESTER_EMAIL,
-  TESTER_PASSWORD,
-  MAIL_HOST,
-  MAIL_PORT,
-} from '../utils/constants';
+import { APP_URL, TESTER_EMAIL, TESTER_PASSWORD, MAIL_HOST, MAIL_PORT } from '../utils/constants';
 
 describe('Auth Module', () => {
   const app = APP_URL;
@@ -62,10 +56,7 @@ describe('Auth Module', () => {
           .then(({ body }) =>
             body
               .find(
-                (letter) =>
-                  letter.to[0].address.toLowerCase() ===
-                    newUserEmail.toLowerCase() &&
-                  /.*confirm\-email\?hash\=(\S+).*/g.test(letter.text),
+                (letter) => letter.to[0].address.toLowerCase() === newUserEmail.toLowerCase() && /.*confirm\-email\?hash\=(\S+).*/g.test(letter.text),
               )
               ?.text.replace(/.*confirm\-email\?hash\=(\S+).*/g, '$1'),
           );
@@ -84,10 +75,7 @@ describe('Auth Module', () => {
           .then(({ body }) =>
             body
               .find(
-                (letter) =>
-                  letter.to[0].address.toLowerCase() ===
-                    newUserEmail.toLowerCase() &&
-                  /.*confirm\-email\?hash\=(\S+).*/g.test(letter.text),
+                (letter) => letter.to[0].address.toLowerCase() === newUserEmail.toLowerCase() && /.*confirm\-email\?hash\=(\S+).*/g.test(letter.text),
               )
               ?.text.replace(/.*confirm\-email\?hash\=(\S+).*/g, '$1'),
           );
@@ -281,9 +269,7 @@ describe('Auth Module', () => {
           body
             .find((letter) => {
               return (
-                letter.to[0].address.toLowerCase() ===
-                  newUserNewEmail.toLowerCase() &&
-                /.*confirm\-new\-email\?hash\=(\S+).*/g.test(letter.text)
+                letter.to[0].address.toLowerCase() === newUserNewEmail.toLowerCase() && /.*confirm\-new\-email\?hash\=(\S+).*/g.test(letter.text)
               );
             })
             ?.text.replace(/.*confirm\-new\-email\?hash\=(\S+).*/g, '$1'),
@@ -299,10 +285,7 @@ describe('Auth Module', () => {
           expect(body.email).not.toBe(newUserNewEmail);
         });
 
-      await request(app)
-        .post('/api/v1/auth/email/login')
-        .send({ email: newUserNewEmail, password: newUserPassword })
-        .expect(422);
+      await request(app).post('/api/v1/auth/email/login').send({ email: newUserNewEmail, password: newUserPassword }).expect(422);
 
       await request(app)
         .post('/api/v1/auth/email/confirm/new')
@@ -321,10 +304,7 @@ describe('Auth Module', () => {
           expect(body.email).toBe(newUserNewEmail);
         });
 
-      await request(app)
-        .post('/api/v1/auth/email/login')
-        .send({ email: newUserNewEmail, password: newUserPassword })
-        .expect(200);
+      await request(app).post('/api/v1/auth/email/login').send({ email: newUserNewEmail, password: newUserPassword }).expect(200);
     });
 
     it('should delete profile successfully: /api/v1/auth/me (DELETE)', async () => {
@@ -337,10 +317,7 @@ describe('Auth Module', () => {
         type: 'bearer',
       });
 
-      return request(app)
-        .post('/api/v1/auth/email/login')
-        .send({ email: newUserEmail, password: newUserPassword })
-        .expect(422);
+      return request(app).post('/api/v1/auth/email/login').send({ email: newUserEmail, password: newUserPassword }).expect(422);
     });
   });
 });

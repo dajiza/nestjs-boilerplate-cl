@@ -1,8 +1,4 @@
-import {
-  HttpStatus,
-  Module,
-  UnprocessableEntityException,
-} from '@nestjs/common';
+import { HttpStatus, Module, UnprocessableEntityException } from '@nestjs/common';
 import { FilesS3PresignedController } from './files.controller';
 import { MulterModule } from '@nestjs/platform-express';
 import { ConfigModule, ConfigService } from '@nestjs/config';
@@ -57,13 +53,7 @@ const infrastructurePersistenceModule = RelationalFilePersistenceModule;
             acl: 'public-read',
             contentType: multerS3.AUTO_CONTENT_TYPE,
             key: (request, file, callback) => {
-              callback(
-                null,
-                `${randomStringGenerator()}.${file.originalname
-                  .split('.')
-                  .pop()
-                  ?.toLowerCase()}`,
-              );
+              callback(null, `${randomStringGenerator()}.${file.originalname.split('.').pop()?.toLowerCase()}`);
             },
           }),
           limits: {

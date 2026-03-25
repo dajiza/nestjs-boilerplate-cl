@@ -18,6 +18,10 @@ import { DataSource, DataSourceOptions } from 'typeorm';
 import { AllConfigType } from './config/config.type';
 import { SessionModule } from './session/session.module';
 import { MailerModule } from './mailer/mailer.module';
+import { ClientsModule } from './clients/clients.module';
+import { AppointmentsModule } from './appointments/appointments.module';
+import { StaffModule } from './staff/staff.module';
+import { ServicesModule } from './services/services.module';
 
 const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
   useClass: TypeOrmConfigService,
@@ -39,7 +43,7 @@ const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
         fallbackLanguage: configService.getOrThrow('app.fallbackLanguage', {
           infer: true,
         }),
-        loaderOptions: { path: path.join(__dirname, '/i18n/'), watch: true },
+        loaderOptions: { path: path.join(__dirname, '../i18n/'), watch: true },
       }),
       resolvers: [
         {
@@ -64,6 +68,10 @@ const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
     MailModule,
     MailerModule,
     HomeModule,
+    ClientsModule,
+    AppointmentsModule,
+    StaffModule,
+    ServicesModule,
   ],
 })
 export class AppModule {}

@@ -29,17 +29,10 @@ export class SessionRelationalRepository implements SessionRepository {
 
   async create(data: Session): Promise<Session> {
     const persistenceModel = SessionMapper.toPersistence(data);
-    return this.sessionRepository.save(
-      this.sessionRepository.create(persistenceModel),
-    );
+    return this.sessionRepository.save(this.sessionRepository.create(persistenceModel));
   }
 
-  async update(
-    id: Session['id'],
-    payload: Partial<
-      Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>
-    >,
-  ): Promise<Session | null> {
+  async update(id: Session['id'], payload: Partial<Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>>): Promise<Session | null> {
     const entity = await this.sessionRepository.findOne({
       where: { id: Number(id) },
     });
@@ -62,14 +55,9 @@ export class SessionRelationalRepository implements SessionRepository {
 
   async updateByHash(
     conditions: { id: Session['id']; hash: Session['hash'] },
-    payload: Partial<
-      Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>
-    >,
+    payload: Partial<Omit<Session, 'id' | 'createdAt' | 'updatedAt' | 'deletedAt'>>,
   ): Promise<Session | null> {
-    const result = await this.sessionRepository.update(
-      { id: Number(conditions.id), hash: conditions.hash },
-      { hash: payload.hash },
-    );
+    const result = await this.sessionRepository.update({ id: Number(conditions.id), hash: conditions.hash }, { hash: payload.hash });
 
     if (!result.affected) {
       return null;
@@ -96,10 +84,7 @@ export class SessionRelationalRepository implements SessionRepository {
     });
   }
 
-  async deleteByUserIdWithExclude(conditions: {
-    userId: User['id'];
-    excludeSessionId: Session['id'];
-  }): Promise<void> {
+  async deleteByUserIdWithExclude(conditions: { userId: User['id']; excludeSessionId: Session['id'] }): Promise<void> {
     await this.sessionRepository.softDelete({
       user: {
         id: Number(conditions.userId),
