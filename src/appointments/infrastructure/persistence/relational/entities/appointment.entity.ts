@@ -1,4 +1,4 @@
-import { Column, Entity, Index, PrimaryColumn } from 'typeorm';
+import { Column, Entity, Index, PrimaryGeneratedColumn } from 'typeorm';
 import { EntityRelationalHelper } from '../../../../../utils/relational-entity-helper';
 
 @Entity({
@@ -6,7 +6,7 @@ import { EntityRelationalHelper } from '../../../../../utils/relational-entity-h
 })
 export class AppointmentEntity extends EntityRelationalHelper {
   // ===== 必填字段 =====
-  @PrimaryColumn({ type: 'varchar', length: 255 })
+  @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @Index()
@@ -112,4 +112,15 @@ export class AppointmentEntity extends EntityRelationalHelper {
 
   @Column({ type: 'jsonb', nullable: true })
   tags: Record<string, any>[] | null;
+
+  @Index()
+  @Column({ type: 'uuid', nullable: true })
+  roomId: string | null;
+
+  @Index()
+  @Column({ type: 'uuid', nullable: true })
+  equipmentId: string | null;
+
+  @Column({ type: 'varchar', length: 255, nullable: true })
+  calComBookingId: string | null;
 }

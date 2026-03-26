@@ -39,9 +39,31 @@ export class AppointmentsController {
   @Get()
   @HttpCode(HttpStatus.OK)
   async findAll(@Query() query: QueryAppointmentDto): Promise<{ data: Appointment[]; total: number }> {
+    // If date range provided without staffId/roomId/equipmentId, return all appointments in range
+    if (query.startDate && query.endDate && !query.staffId && !query.roomId && !query.equipmentId) {
+      const data = await this.appointmentsService.findByDateRange(new Date(query.startDate), new Date(query.endDate));
+      return { data, total: data.length };
+    }
+
     // If staffId and date range provided, return filtered appointments
     if (query.staffId && query.startDate && query.endDate) {
       const data = await this.appointmentsService.findByStaffIdAndDateRange(query.staffId, new Date(query.startDate), new Date(query.endDate));
+      return { data, total: data.length };
+    }
+
+    // If roomId and date range provided, return filtered appointments
+    if (query.roomId && query.startDate && query.endDate) {
+      const data = await this.appointmentsService.findByRoomIdAndDateRange(query.roomId, new Date(query.startDate), new Date(query.endDate));
+      return { data, total: data.length };
+    }
+
+    // If equipmentId and date range provided, return filtered appointments
+    if (query.equipmentId && query.startDate && query.endDate) {
+      const data = await this.appointmentsService.findByEquipmentIdAndDateRange(
+        query.equipmentId,
+        new Date(query.startDate),
+        new Date(query.endDate),
+      );
       return { data, total: data.length };
     }
 
@@ -69,7 +91,7 @@ export class AppointmentsController {
     type: String,
     required: true,
   })
-  findOne(@Param('id') id: Appointment['id']): Promise<NullableType<Appointment>> {
+  findOne(@Param('id') id: string): Promise<NullableType<Appointment>> {
     return this.appointmentsService.findById(id);
   }
 
@@ -83,7 +105,7 @@ export class AppointmentsController {
     type: String,
     required: true,
   })
-  update(@Param('id') id: Appointment['id'], @Body() updateAppointmentDto: UpdateAppointmentDto): Promise<Appointment | null> {
+  update(@Param('id') id: string, @Body() updateAppointmentDto: UpdateAppointmentDto): Promise<Appointment | null> {
     return this.appointmentsService.update(id, updateAppointmentDto);
   }
 
@@ -94,7 +116,7 @@ export class AppointmentsController {
     required: true,
   })
   @HttpCode(HttpStatus.NO_CONTENT)
-  remove(@Param('id') id: Appointment['id']): Promise<void> {
+  remove(@Param('id') id: string): Promise<void> {
     return this.appointmentsService.remove(id);
   }
 }

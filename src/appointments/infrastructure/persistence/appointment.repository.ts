@@ -7,7 +7,7 @@ export abstract class AppointmentRepository {
 
   abstract findManyWithPagination({ paginationOptions }: { paginationOptions: IPaginationOptions }): Promise<{ data: Appointment[]; total: number }>;
 
-  abstract findById(id: Appointment['id']): Promise<NullableType<Appointment>>;
+  abstract findById(id: string): Promise<NullableType<Appointment>>;
 
   abstract findByClientId(clientId: Appointment['clientId']): Promise<Appointment[]>;
 
@@ -21,7 +21,21 @@ export abstract class AppointmentRepository {
     endDate: Date;
   }): Promise<Appointment[]>;
 
-  abstract update(id: Appointment['id'], payload: Partial<Appointment>): Promise<Appointment | null>;
+  abstract findByRoomIdAndDateRange({ roomId, startDate, endDate }: { roomId: string; startDate: Date; endDate: Date }): Promise<Appointment[]>;
 
-  abstract remove(id: Appointment['id']): Promise<void>;
+  abstract findByEquipmentIdAndDateRange({
+    equipmentId,
+    startDate,
+    endDate,
+  }: {
+    equipmentId: string;
+    startDate: Date;
+    endDate: Date;
+  }): Promise<Appointment[]>;
+
+  abstract findByDateRange({ startDate, endDate }: { startDate: Date; endDate: Date }): Promise<Appointment[]>;
+
+  abstract update(id: string, payload: Partial<Appointment>): Promise<Appointment | null>;
+
+  abstract remove(id: string): Promise<void>;
 }

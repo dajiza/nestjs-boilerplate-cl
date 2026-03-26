@@ -22,6 +22,8 @@ import { ClientsModule } from './clients/clients.module';
 import { AppointmentsModule } from './appointments/appointments.module';
 import { StaffModule } from './staff/staff.module';
 import { ServicesModule } from './services/services.module';
+import { RoomsModule } from './rooms/rooms.module';
+import { EquipmentModule } from './equipment/equipment.module';
 
 const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
   useClass: TypeOrmConfigService,
@@ -72,6 +74,8 @@ const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
     AppointmentsModule,
     StaffModule,
     ServicesModule,
+    RoomsModule,
+    EquipmentModule,
   ],
 })
 export class AppModule {}

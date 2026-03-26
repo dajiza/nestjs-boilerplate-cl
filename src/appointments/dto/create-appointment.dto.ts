@@ -1,21 +1,23 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { IsNotEmpty, IsOptional, IsBoolean, IsDateString, IsArray, IsObject, IsNumber, IsString } from 'class-validator';
+import { IsNotEmpty, IsOptional, IsBoolean, IsDateString, IsArray, IsObject, IsNumber, IsString, IsUUID } from 'class-validator';
 
 export class CreateAppointmentDto {
-  @ApiProperty({ type: String, description: 'The ID of an object' })
-  @IsNotEmpty()
-  id: string;
+  @ApiPropertyOptional({ type: String, description: 'The ID of an object (auto-generated if not provided)' })
+  @IsOptional()
+  @IsString()
+  id?: string;
 
   @ApiProperty({ type: Date, description: 'Start time for the appointment' })
   @IsDateString()
   startAt: Date;
 
-  @ApiProperty({
+  @ApiPropertyOptional({
     type: Date,
-    description: 'When the appointment was created (in Etc/UTC)',
+    description: 'When the appointment was created (auto-generated if not provided)',
   })
+  @IsOptional()
   @IsDateString()
-  createdAt: Date;
+  createdAt?: Date;
 
   @ApiProperty({
     type: Boolean,
@@ -27,6 +29,16 @@ export class CreateAppointmentDto {
   @ApiProperty({ type: String, description: 'Staff ID' })
   @IsNotEmpty()
   staffId: string;
+
+  @ApiPropertyOptional({ type: String, description: 'Room ID' })
+  @IsOptional()
+  @IsUUID()
+  roomId?: string | null;
+
+  @ApiPropertyOptional({ type: String, description: 'Equipment ID' })
+  @IsOptional()
+  @IsUUID()
+  equipmentId?: string | null;
 
   @ApiPropertyOptional({
     type: Object,

@@ -3,11 +3,11 @@ import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 export class Appointment {
   // ===== 必填字段 =====
 
-  @ApiProperty({
+  @ApiPropertyOptional({
     type: String,
-    description: 'The ID of an object',
+    description: 'The ID of an object (auto-generated if not provided)',
   })
-  id: string;
+  id?: string;
 
   @ApiProperty({
     type: Date,
@@ -208,4 +208,22 @@ export class Appointment {
     description: 'Tags that have been applied to the appointment',
   })
   tags?: Record<string, any>[] | null;
+
+  @ApiPropertyOptional({
+    type: String,
+    description: 'Room ID',
+  })
+  roomId?: string | null;
+
+  @ApiPropertyOptional({
+    type: String,
+    description: 'Equipment ID',
+  })
+  equipmentId?: string | null;
+
+  @ApiPropertyOptional({
+    type: String,
+    description: 'Cal.com booking UID for synchronization',
+  })
+  calComBookingId?: string | null;
 }

@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { AppointmentEntity } from '../entities/appointment.entity';
+import { ClientEntity } from '../../../../../clients/infrastructure/persistence/relational/entities/client.entity';
 import { NullableType } from '../../../../../utils/types/nullable.type';
 import { Appointment } from '../../../../domain/appointment';
 import { AppointmentRepository } from '../../appointment.repository';
@@ -66,14 +67,120 @@ export class AppointmentsRelationalRepository implements AppointmentRepository {
 
     const entities = await this.appointmentsRepository
       .createQueryBuilder('appointment')
+      .leftJoinAndSelect(ClientEntity, 'client', 'client.id = appointment.clientId')
       .where('appointment.staffId = :staffId', { staffId })
       .andWhere('appointment.startAt >= :startDate', { startDate })
       .andWhere('appointment.startAt < :endDate', { endDate })
       .andWhere('appointment.cancelled = :cancelled', { cancelled: false })
       .orderBy('appointment.startAt', 'ASC')
-      .getMany();
+      .select([
+        'appointment.*',
+        "json_build_object('id', client.id, 'name', client.name, 'firstName', client.\"firstName\", 'lastName', client.\"lastName\", 'email', client.email, 'mobilePhone', client.\"mobilePhone\") as client",
+      ])
+      .getRawMany();
 
-    return entities.map((appointment) => AppointmentMapper.toDomain(appointment));
+    return entities.map((raw) => {
+      const appointment = AppointmentMapper.toDomain({
+        ...raw,
+        startAt: raw.startAt,
+        createdAt: raw.createdAt,
+        endAt: raw.endAt,
+      } as AppointmentEntity);
+      appointment.client = raw.client;
+      return appointment;
+    });
+  }
+
+  async findByRoomIdAndDateRange({ roomId, startDate, endDate }: { roomId: string; startDate: Date; endDate: Date }): Promise<Appointment[]> {
+    if (!roomId) return [];
+
+    const entities = await this.appointmentsRepository
+      .createQueryBuilder('appointment')
+      .leftJoinAndSelect(ClientEntity, 'client', 'client.id = appointment.clientId')
+      .where('appointment.roomId = :roomId', { roomId })
+      .andWhere('appointment.startAt >= :startDate', { startDate })
+      .andWhere('appointment.startAt < :endDate', { endDate })
+      .andWhere('appointment.cancelled = :cancelled', { cancelled: false })
+      .orderBy('appointment.startAt', 'ASC')
+      .select([
+        'appointment.*',
+        "json_build_object('id', client.id, 'name', client.name, 'firstName', client.\"firstName\", 'lastName', client.\"lastName\", 'email', client.email, 'mobilePhone', client.\"mobilePhone\") as client",
+      ])
+      .getRawMany();
+
+    return entities.map((raw) => {
+      const appointment = AppointmentMapper.toDomain({
+        ...raw,
+        startAt: raw.startAt,
+        createdAt: raw.createdAt,
+        endAt: raw.endAt,
+      } as AppointmentEntity);
+      appointment.client = raw.client;
+      return appointment;
+    });
+  }
+
+  async findByEquipmentIdAndDateRange({
+    equipmentId,
+    startDate,
+    endDate,
+  }: {
+    equipmentId: string;
+    startDate: Date;
+    endDate: Date;
+  }): Promise<Appointment[]> {
+    if (!equipmentId) return [];
+
+    const entities = await this.appointmentsRepository
+      .createQueryBuilder('appointment')
+      .leftJoinAndSelect(ClientEntity, 'client', 'client.id = appointment.clientId')
+      .where('appointment.equipmentId = :equipmentId', { equipmentId })
+      .andWhere('appointment.startAt >= :startDate', { startDate })
+      .andWhere('appointment.startAt < :endDate', { endDate })
+      .andWhere('appointment.cancelled = :cancelled', { cancelled: false })
+      .orderBy('appointment.startAt', 'ASC')
+      .select([
+        'appointment.*',
+        "json_build_object('id', client.id, 'name', client.name, 'firstName', client.\"firstName\", 'lastName', client.\"lastName\", 'email', client.email, 'mobilePhone', client.\"mobilePhone\") as client",
+      ])
+      .getRawMany();
+
+    return entities.map((raw) => {
+      const appointment = AppointmentMapper.toDomain({
+        ...raw,
+        startAt: raw.startAt,
+        createdAt: raw.createdAt,
+        endAt: raw.endAt,
+      } as AppointmentEntity);
+      appointment.client = raw.client;
+      return appointment;
+    });
+  }
+
+  async findByDateRange({ startDate, endDate }: { startDate: Date; endDate: Date }): Promise<Appointment[]> {
+    const entities = await this.appointmentsRepository
+      .createQueryBuilder('appointment')
+      .leftJoinAndSelect(ClientEntity, 'client', 'client.id = appointment.clientId')
+      .where('appointment.startAt >= :startDate', { startDate })
+      .andWhere('appointment.startAt < :endDate', { endDate })
+      .andWhere('appointment.cancelled = :cancelled', { cancelled: false })
+      .orderBy('appointment.startAt', 'ASC')
+      .select([
+        'appointment.*',
+        "json_build_object('id', client.id, 'name', client.name, 'firstName', client.\"firstName\", 'lastName', client.\"lastName\", 'email', client.email, 'mobilePhone', client.\"mobilePhone\") as client",
+      ])
+      .getRawMany();
+
+    return entities.map((raw) => {
+      const appointment = AppointmentMapper.toDomain({
+        ...raw,
+        startAt: raw.startAt,
+        createdAt: raw.createdAt,
+        endAt: raw.endAt,
+      } as AppointmentEntity);
+      appointment.client = raw.client;
+      return appointment;
+    });
   }
 
   async update(id: Appointment['id'], payload: Partial<Appointment>): Promise<Appointment> {
@@ -97,7 +204,7 @@ export class AppointmentsRelationalRepository implements AppointmentRepository {
     return AppointmentMapper.toDomain(updatedEntity);
   }
 
-  async remove(id: Appointment['id']): Promise<void> {
+  async remove(id: string): Promise<void> {
     await this.appointmentsRepository.delete(id);
   }
 }

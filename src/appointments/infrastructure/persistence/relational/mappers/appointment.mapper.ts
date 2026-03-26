@@ -38,12 +38,17 @@ export class AppointmentMapper {
     domainEntity.remotePlatforms = raw.remotePlatforms;
     domainEntity.state = raw.state;
     domainEntity.tags = raw.tags;
+    domainEntity.roomId = raw.roomId;
+    domainEntity.equipmentId = raw.equipmentId;
+    domainEntity.calComBookingId = raw.calComBookingId;
     return domainEntity;
   }
 
   static toPersistence(domainEntity: Appointment): AppointmentEntity {
     const persistenceEntity = new AppointmentEntity();
-    persistenceEntity.id = domainEntity.id;
+    if (domainEntity.id) {
+      persistenceEntity.id = domainEntity.id;
+    }
     persistenceEntity.startAt = domainEntity.startAt;
     persistenceEntity.createdAt = domainEntity.createdAt;
     persistenceEntity.cancelled = domainEntity.cancelled;
@@ -77,6 +82,9 @@ export class AppointmentMapper {
     persistenceEntity.remotePlatforms = domainEntity.remotePlatforms ?? null;
     persistenceEntity.state = domainEntity.state ?? null;
     persistenceEntity.tags = domainEntity.tags ?? null;
+    persistenceEntity.roomId = domainEntity.roomId ?? null;
+    persistenceEntity.equipmentId = domainEntity.equipmentId ?? null;
+    persistenceEntity.calComBookingId = domainEntity.calComBookingId ?? null;
     return persistenceEntity;
   }
 }
