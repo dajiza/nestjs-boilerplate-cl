@@ -1,5 +1,13 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsNotEmpty, IsOptional, IsBoolean, IsNumber, IsDateString, IsEmail, IsArray, IsObject } from 'class-validator';
+import type {
+  CreditCard,
+  MarketingSetting,
+  ClientNote,
+  BoulevardLocationSummary,
+  ReminderSetting,
+  BoulevardTag,
+} from '../../utils/types/boulevard.types';
 
 export class CreateClientDto {
   @ApiProperty({
@@ -36,7 +44,7 @@ export class CreateClientDto {
   })
   @IsOptional()
   @IsArray()
-  creditCardsOnFile?: Record<string, any>[] | null;
+  creditCardsOnFile?: CreditCard[] | null;
 
   @ApiProperty({
     type: Number,
@@ -68,14 +76,6 @@ export class CreateClientDto {
   @IsOptional()
   @IsArray()
   customFields?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({
-    type: [String],
-    description: 'Keys',
-  })
-  @IsOptional()
-  @IsArray()
-  keys?: string[] | null;
 
   @ApiPropertyOptional({
     type: Date,
@@ -127,7 +127,7 @@ export class CreateClientDto {
   })
   @IsOptional()
   @IsArray()
-  marketingSettings?: Record<string, any>[] | null;
+  marketingSettings?: MarketingSetting[] | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -156,7 +156,7 @@ export class CreateClientDto {
   })
   @IsOptional()
   @IsArray()
-  notes?: Record<string, any>[] | null;
+  notes?: ClientNote[] | null;
 
   @ApiPropertyOptional({
     type: Object,
@@ -164,7 +164,7 @@ export class CreateClientDto {
   })
   @IsOptional()
   @IsObject()
-  primaryLocation?: Record<string, any> | null;
+  primaryLocation?: BoulevardLocationSummary | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -179,7 +179,7 @@ export class CreateClientDto {
   })
   @IsOptional()
   @IsArray()
-  reminderSettings?: Record<string, any>[] | null;
+  reminderSettings?: ReminderSetting[] | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -194,7 +194,7 @@ export class CreateClientDto {
   })
   @IsOptional()
   @IsArray()
-  tags?: Record<string, any>[] | null;
+  tags?: BoulevardTag[] | null;
 
   @ApiProperty({
     type: Date,

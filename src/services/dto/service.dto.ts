@@ -1,4 +1,5 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import type { ServiceAddon, ServiceCategorySummary, ServiceOptionGroup, ServiceOverride, ServiceStatus } from '../../utils/types/boulevard.types';
 
 export class ServiceDto {
   @ApiProperty({ type: String, description: 'The ID of an object' })
@@ -25,9 +26,6 @@ export class ServiceDto {
   @ApiProperty({ type: Number, description: 'Default price in cents' })
   defaultPrice: number;
 
-  @ApiPropertyOptional({ type: String, description: 'Location ID' })
-  locationId?: string | null;
-
   @ApiPropertyOptional({ type: String, description: 'Category ID' })
   categoryId?: string | null;
 
@@ -37,14 +35,11 @@ export class ServiceDto {
   @ApiPropertyOptional({ type: Object, description: 'Custom fields' })
   customFields?: Record<string, any>[] | null;
 
-  @ApiPropertyOptional({ type: [String], description: 'Keys' })
-  keys?: string[] | null;
-
   @ApiPropertyOptional({ type: Object, description: 'Addons' })
-  addons?: Record<string, any>[] | null;
+  addons?: ServiceAddon[] | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Category' })
-  category?: Record<string, any> | null;
+  category?: ServiceCategorySummary | null;
 
   @ApiPropertyOptional({ type: String, description: 'Description' })
   description?: string | null;
@@ -53,14 +48,14 @@ export class ServiceDto {
   externalId?: string | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Service option groups' })
-  serviceOptionGroups?: Record<string, any>[] | null;
+  serviceOptionGroups?: ServiceOptionGroup[] | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Service overrides' })
-  serviceOverrides?: Record<string, any> | null;
+  serviceOverrides?: ServiceOverride | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Service status' })
-  serviceStatus?: Record<string, any> | null;
+  serviceStatus?: ServiceStatus | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Sort path' })
-  sortPath?: Record<string, any> | null;
+  sortPath?: string | null;
 }

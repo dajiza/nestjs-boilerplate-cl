@@ -1,25 +1,59 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import type {
+  AppointmentClientSummary,
+  AppointmentServiceOption,
+  AppointmentServiceResource,
+  AppointmentServiceItem,
+  AppointmentCancellation,
+  AppointmentRating,
+  BoulevardLocationSummary,
+  BoulevardTag,
+  CalendarLinks,
+  RemotePlatforms,
+} from '../../utils/types/boulevard.types';
+
+// Matches Boulevard GraphQL Admin API Appointment type
+// https://developers.joinblvd.com/graphql-admin-api/api-reference/types/Appointment
 
 export class Appointment {
-  // ===== 必填字段 =====
+  @ApiProperty({ type: String, description: 'The ID of an object' })
+  id: string;
+
+  @ApiProperty({
+    type: Object,
+    description: 'Service options chosen with this appointment service and their true values',
+  })
+  appointmentServiceOptions: AppointmentServiceOption[];
+
+  @ApiProperty({
+    type: Object,
+    description: 'The resources associated with the appointment',
+  })
+  appointmentServiceResources: AppointmentServiceResource[];
+
+  @ApiProperty({
+    type: Object,
+    description: 'A collection of appointment services',
+  })
+  appointmentServices: AppointmentServiceItem[];
+
+  @ApiProperty({
+    type: String,
+    description: 'Booked by type',
+  })
+  bookedByType: string;
+
+  @ApiProperty({
+    type: Object,
+    description: 'Links to allow direct addition of the appointment to different calendar platforms',
+  })
+  calendarLinks: CalendarLinks;
 
   @ApiPropertyOptional({
-    type: String,
-    description: 'The ID of an object (auto-generated if not provided)',
+    type: Object,
+    description: 'Information about the cancellation, if present',
   })
-  id?: string;
-
-  @ApiProperty({
-    type: Date,
-    description: 'Start time for the appointment',
-  })
-  startAt: Date;
-
-  @ApiProperty({
-    type: Date,
-    description: 'When the appointment was created (in Etc/UTC)',
-  })
-  createdAt: Date;
+  cancellation?: AppointmentCancellation | null;
 
   @ApiProperty({
     type: Boolean,
@@ -28,60 +62,16 @@ export class Appointment {
   cancelled: boolean;
 
   @ApiProperty({
-    type: String,
-    description: 'Staff ID',
-  })
-  staffId: string;
-
-  // ===== 可选字段 =====
-
-  @ApiPropertyOptional({
-    type: Object,
-    description: 'Service options chosen with this appointment service',
-  })
-  appointmentServiceOptions?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({
-    type: Object,
-    description: 'The resources associated with the appointment',
-  })
-  appointmentServiceResources?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({
-    type: Object,
-    description: 'A collection of appointment services',
-  })
-  appointmentServices?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({
-    type: String,
-    description: 'Booked by type',
-  })
-  bookedByType?: string | null;
-
-  @ApiPropertyOptional({
-    type: Object,
-    description: 'Links to allow direct addition of the appointment to different calendar platforms',
-  })
-  calendarLinks?: Record<string, any> | null;
-
-  @ApiPropertyOptional({
-    type: Object,
-    description: 'Information about the cancellation, if present',
-  })
-  cancellation?: Record<string, any> | null;
-
-  @ApiPropertyOptional({
     type: Object,
     description: 'The client of the appointment',
   })
-  client?: Record<string, any> | null;
+  client: AppointmentClientSummary;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: String,
     description: 'The id of the client of the appointment',
   })
-  clientId?: string | null;
+  clientId: string;
 
   @ApiPropertyOptional({
     type: String,
@@ -89,71 +79,71 @@ export class Appointment {
   })
   clientMessage?: string | null;
 
+  @ApiProperty({
+    type: Date,
+    description: 'When the appointment was created (in Etc/UTC)',
+  })
+  createdAt: Date;
+
   @ApiPropertyOptional({
     type: Object,
     description: 'Custom field data wrapper',
   })
   custom?: Record<string, any> | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'Custom fields',
   })
-  customFields?: Record<string, any>[] | null;
+  customFields: Record<string, any>[];
 
-  @ApiPropertyOptional({
-    type: [String],
-    description: 'Keys',
-  })
-  keys?: string[] | null;
-
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Number,
     description: 'The duration of the appointment',
   })
-  duration?: number | null;
+  duration: number;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Date,
     description: 'End time for the appointment',
   })
-  endAt?: Date | null;
+  endAt: Date;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Boolean,
     description: 'Indicates whether the appointment is part of a group appointment',
   })
-  isGroupedAppointment?: boolean | null;
+  isGroupedAppointment: boolean;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Boolean,
     description: 'Indicates if the appointment belongs to a recurring series',
   })
-  isRecurring?: boolean | null;
+  isRecurring: boolean;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Boolean,
     description: 'Indicates that the appointment is due to be carried out remotely',
   })
-  isRemote?: boolean | null;
+  isRemote: boolean;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'The Location where this appointment was booked',
   })
-  location?: Record<string, any> | null;
+  location: BoulevardLocationSummary;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: String,
     description: 'The Id of the Location where this appointment was booked',
   })
-  locationId?: string | null;
+  locationId: string;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: String,
     description: 'The URL at which a client can manage their own booking',
   })
-  manageUrl?: string | null;
+  manageUrl: string;
 
   @ApiPropertyOptional({
     type: String,
@@ -161,17 +151,17 @@ export class Appointment {
   })
   notes?: string | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Boolean,
-    description: 'Boolean value to indicate whether a notification email should have been sent to the client when the appointment was cancelled',
+    description: 'Whether a notification email should have been sent to the client when the appointment was cancelled',
   })
-  notifyClientCancel?: boolean | null;
+  notifyClientCancel: boolean;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Boolean,
-    description: 'Boolean value to indicate whether a notification email should have been sent to the client when the appointment was booked',
+    description: 'Whether a notification email should have been sent to the client when the appointment was booked',
   })
-  notifyClientCreate?: boolean | null;
+  notifyClientCreate: boolean;
 
   @ApiPropertyOptional({
     type: String,
@@ -179,51 +169,39 @@ export class Appointment {
   })
   orderId?: string | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Number,
     description: 'The total remaining forms that need to be completed for this appointment',
   })
-  pendingFormCount?: number | null;
+  pendingFormCount: number;
 
   @ApiPropertyOptional({
     type: Object,
     description: 'The rating for this appointment',
   })
-  rating?: Record<string, any> | null;
+  rating?: AppointmentRating | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'Options for joining a virtual meeting for this appointment',
   })
-  remotePlatforms?: Record<string, any> | null;
+  remotePlatforms: RemotePlatforms;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
+    type: Date,
+    description: 'Start time for the appointment',
+  })
+  startAt: Date;
+
+  @ApiProperty({
     type: String,
     description: 'The state of the appointment',
   })
-  state?: string | null;
+  state: string;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'Tags that have been applied to the appointment',
   })
-  tags?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({
-    type: String,
-    description: 'Room ID',
-  })
-  roomId?: string | null;
-
-  @ApiPropertyOptional({
-    type: String,
-    description: 'Equipment ID',
-  })
-  equipmentId?: string | null;
-
-  @ApiPropertyOptional({
-    type: String,
-    description: 'Cal.com booking UID for synchronization',
-  })
-  calComBookingId?: string | null;
+  tags: BoulevardTag[];
 }

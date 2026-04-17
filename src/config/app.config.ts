@@ -5,6 +5,7 @@ import { IsEnum, IsInt, IsOptional, IsString, IsUrl, Max, Min } from 'class-vali
 
 enum Environment {
   Development = 'development',
+  Preview = 'preview',
   Production = 'production',
   Test = 'test',
 }

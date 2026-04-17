@@ -1,73 +1,97 @@
-# NestJS REST API boilerplate 🇺🇦
+# CRM NestJS REST API
 
-[![image](https://github.com/brocoders/nestjs-boilerplate/assets/72293912/197da43e-02f4-4895-8d3e-b7a42a591c26)](https://github.com/new?template_name=nestjs-boilerplate&template_owner=brocoders)
+NestJS REST API 后端服务，集成 Boulevard 数据同步。
 
-![github action status](https://github.com/brocoders/nestjs-boilerplate/actions/workflows/docker-e2e.yml/badge.svg)
-[![renovate](https://img.shields.io/badge/renovate-enabled-%231A1F6C?logo=renovatebot)](https://app.renovatebot.com/dashboard)
-[![Static Badge](https://img.shields.io/badge/supported_by-brocoders-d91965?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTMwIiBoZWlnaHQ9IjE4NyIgdmlld0JveD0iMCAwIDEzMCAxODciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BCjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF83NzExXzQ4OTEpIj4KPHBhdGggZD0iTTc1Ljk5NjcgNDUuNzUwNkM2NS4xMDg5IDQ2Ljg2MSA1Ny45MjMgNTguNDA5NyA2Mi4yNzgxIDY4Ljg0OEwxMDguNDQyIDE4N0w3My42MDEzIDE1NS4wMTlIMzQuODQwOUMyMC42ODY4IDE1NS4wMTkgOS4zNjM0OSAxNDMuNDcgOS4zNjM0OSAxMjkuMDM0Vjk0LjYxMDVDOS4zNjM0OSA5Mi4xNjc1IDguNDkyNDYgODkuNzI0NSA2Ljc1MDQyIDg3Ljk0NzdMMCA4MS4wNjNMNi43NTA0MiA3NC4xNzgxQzguNDkyNDYgNzIuNDAxNCA5LjM2MzQ5IDY5Ljk1ODQgOS4zNjM0OSA2Ny41MTU0VjMxLjA5MjZDOS4zNjM0OSAxMy43Njk2IDIzLjA4MjEgMCAzOS44NDkyIDBINTguMTQwN0w3NS45OTY3IDQ1Ljc1MDZaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTI1LjY0NiAxMTIuMzc4Vjk0LjgzMjdDMTI1LjY0NiA5My43MjIyIDEyNi4wODEgOTIuNjExOCAxMjYuOTUyIDkxLjcyMzRMMTMwLjAwMSA4OC4zOTIxTDEyNi45NTIgODUuMDYwN0MxMjYuMDgxIDg0LjE3MjQgMTI1LjY0NiA4My4wNjE5IDEyNS42NDYgODEuOTUxNFY2OS43MzY1QzEyNS42NDYgNTYuNDExMSAxMTQuOTc2IDQ1Ljc1MDcgMTAyLjEyOCA0NS43NTA3SDc1Ljk5NzNMMTA1LjYxMiAxMzAuODExQzEwNS42MTIgMTMwLjgxMSAxMTAuNjIgMTMwLjgxMSAxMTAuODM4IDEzMC44MTFDMTE5LjExMyAxMjkuMDM1IDEyNS42NDYgMTIxLjQ4NCAxMjUuNjQ2IDExMi4zNzhaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c%2BCjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzc3MTFfNDg5MSI%2BCjxyZWN0IHdpZHRoPSIxMzAiIGhlaWdodD0iMTg3IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM%2BCjwvc3ZnPgo%3D&logoColor=d91965)](https://brocoders.com/)
-[![Discord Badge](https://img.shields.io/badge/discord-NodeJS_boilerplate-d91965?style=flat&labelColor=5866f2&logo=discord&logoColor=white&link=https://discord.com/channels/520622812742811698/1197293125434093701)](https://discord.com/channels/520622812742811698/1197293125434093701)
+## 文档
 
-<br />
-<p align="center"><a href="https://discord.com/channels/520622812742811698/1197293125434093701"><img src="https://github.com/brocoders/nestjs-boilerplate/assets/72293912/c9d5fbf0-b56d-46b5-bb30-f96f44764bae" width="300"/></a></p>
-<br />
+[完整文档索引](docs/readme.md)
 
-## Description <!-- omit in toc -->
+| 文档                                    | 说明                             |
+| --------------------------------------- | -------------------------------- |
+| [快速开始](docs/getting-started.md)     | 安装、配置、启动                 |
+| [Preview 部署](docs/preview-guide.md)   | Preview 环境启动到种子数据导入   |
+| [项目架构](docs/architecture.md)        | 技术栈、目录结构、模块设计       |
+| [数据库](docs/database.md)              | 迁移、种子数据、Boulevard 同步表 |
+| [认证](docs/auth.md)                    | JWT、社交登录、角色              |
+| [前端对接](docs/frontend-guide.md)      | Swagger、类型生成、认证对接      |
 
-NestJS REST API boilerplate for a typical project
+## 快速启动
 
-[Full documentation here](/docs/readme.md)
+```bash
+# 安装依赖
+npm install
 
-Demo: <https://nestjs-boilerplate-test.herokuapp.com/docs>
+# 启动 PostgreSQL 等基础服务（开发环境）
+docker compose --env-file .env.development -f docker-compose.development.yaml up -d
 
-A fully compatible frontend boilerplate: <https://github.com/brocoders/extensive-react-boilerplate>
+# 运行数据库迁移 + 种子数据
+npm run migration:run
+npm run seed:run:relational
 
-Belongs to the [bc boilerplates](https://bcboilerplates.com/) ecosystem
+# 启动开发服务器
+npm run start:dev
+```
 
-<https://github.com/user-attachments/assets/a66f114a-c714-4036-8eeb-20cbf04ae985>
+- API：`http://localhost:3008/api/v1/`
+- Swagger 文档：`http://localhost:3008/docs`
+- OpenAPI JSON：`http://localhost:3000/docs-json`
 
-## Table of Contents <!-- omit in toc -->
+## 环境配置
 
-- [Features](#features)
-- [Contributors](#contributors)
-- [Support](#support)
+项目支持三套环境，每套对应独立的 env 和 docker-compose 文件：
 
-## Features
+| 环境 | Env 文件 | Docker Compose | 说明 |
+|---|---|---|---|
+| 开发 | `.env.development` | `docker-compose.development.yaml` | 基础设施在 Docker，API 本地运行 |
+| 预览 | `.env.preview` | `docker-compose.preview.yaml` | 全部服务在 Docker，含种子数据 |
+| 生产 | `.env.production` | `docker-compose.production.yaml` | 全部服务在 Docker，生产配置 |
 
-- [x] Database. Support [TypeORM](https://www.npmjs.com/package/typeorm) and [Mongoose](https://www.npmjs.com/package/mongoose).
-- [x] Seeding.
-- [x] Config Service ([@nestjs/config](https://www.npmjs.com/package/@nestjs/config)).
-- [x] Mailing ([nodemailer](https://www.npmjs.com/package/nodemailer)).
-- [x] Sign in and sign up via email.
-- [x] Social sign in (Apple, Facebook, Google).
-- [x] Admin and User roles.
-- [x] Internationalization/Translations (I18N) ([nestjs-i18n](https://www.npmjs.com/package/nestjs-i18n)).
-- [x] File uploads. Support local and Amazon S3 drivers.
-- [x] Swagger.
-- [x] E2E and units tests.
-- [x] Docker.
-- [x] CI (Github Actions).
+```bash
+# 预览环境：详见 docs/preview-guide.md（启动 → 种子数据导入完整流程）
+docker compose --env-file .env.preview -f docker-compose.preview.yaml up -d --build
 
-## Contributors
+# 生产环境
+docker compose --env-file .env.production -f docker-compose.production.yaml up -d --build
+```
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shchepotin"><img src="https://avatars.githubusercontent.com/u/6001723?v=4?s=100" width="100px;" alt="Vladyslav Shchepotin"/><br /><sub><b>Vladyslav Shchepotin</b></sub></a><br /><a href="#maintenance-Shchepotin" title="Maintenance">🚧</a> <a href="#doc-Shchepotin" title="Documentation">📖</a> <a href="#code-Shchepotin" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SergeiLomako"><img src="https://avatars.githubusercontent.com/u/31205374?v=4?s=100" width="100px;" alt="SergeiLomako"/><br /><sub><b>SergeiLomako</b></sub></a><br /><a href="#code-SergeiLomako" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ElenVlass"><img src="https://avatars.githubusercontent.com/u/72293912?v=4?s=100" width="100px;" alt="Elena Vlasenko"/><br /><sub><b>Elena Vlasenko</b></sub></a><br /><a href="#doc-ElenVlass" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://brocoders.com"><img src="https://avatars.githubusercontent.com/u/226194?v=4?s=100" width="100px;" alt="Rodion"/><br /><sub><b>Rodion</b></sub></a><br /><a href="#business-sars" title="Business development">💼</a></td>
-    </tr>
-  </tbody>
-</table>
+首次使用前，复制 `env-example-relational` 为对应环境文件并填写配置。
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+## 上游模板同步
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+本项目基于 [brocoders/nestjs-boilerplate](https://github.com/brocoders/nestjs-boilerplate) 模板开发，以独立仓库方式维护。如需参考上游更新，可添加 upstream remote：
 
-## Support
+```bash
+# 添加上游仓库（仅需执行一次）
+git remote add upstream https://github.com/brocoders/nestjs-boilerplate.git
 
-If you seek consulting, support, or wish to collaborate, please contact us via [boilerplates@brocoders.com](mailto:boilerplates@brocoders.com). For any inquiries regarding boilerplates, feel free to ask on [GitHub Discussions](https://github.com/brocoders/nestjs-boilerplate/discussions) or [Discord](https://discord.com/channels/520622812742811698/1197293125434093701).
+# 查看上游最新变更
+git fetch upstream
+
+# 查看差异
+git log HEAD..upstream/main --oneline
+
+# 选择性合并某个提交
+git cherry-pick <commit-hash>
+```
+
+## 文档结构
+
+```
+docs/
+├── readme.md                          # 文档索引
+├── getting-started.md                 # 快速开始
+├── architecture.md                    # 项目架构
+├── database.md                        # 数据库
+├── auth.md                            # 认证
+├── frontend-guide.md                  # 前端对接指南
+├── preview-guide.md                   # Preview 环境部署指南
+├── sync-guide.md                      # Boulevard 数据同步
+├── frontend-type-generation.md        # 前端类型生成
+└── vendor/                            # 原模板文档
+
+boulevard/
+└── SCHEMA_REFERENCE.md                # Boulevard Schema 参考
+
+scripts/import/
+└── README.md                          # 数据导入脚本
+```

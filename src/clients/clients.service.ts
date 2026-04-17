@@ -16,28 +16,27 @@ export class ClientsService {
       active: createClientDto.active,
       appointmentCount: createClientDto.appointmentCount,
       createdAt: createClientDto.createdAt,
-      creditCardsOnFile: createClientDto.creditCardsOnFile ?? null,
+      creditCardsOnFile: createClientDto.creditCardsOnFile ?? [],
       currentAccountBalance: createClientDto.currentAccountBalance,
       currentAccountUpdatedAt: createClientDto.currentAccountUpdatedAt ?? null,
       custom: createClientDto.custom ?? null,
-      customFields: createClientDto.customFields ?? null,
-      keys: createClientDto.keys ?? null,
+      customFields: createClientDto.customFields ?? [],
       dob: createClientDto.dob ?? null,
       email: createClientDto.email ?? null,
       externalId: createClientDto.externalId ?? null,
       firstName: createClientDto.firstName ?? null,
       hasCardOnFile: createClientDto.hasCardOnFile,
       lastName: createClientDto.lastName ?? null,
-      marketingSettings: createClientDto.marketingSettings ?? null,
+      marketingSettings: createClientDto.marketingSettings ?? [],
       mergedIntoClientId: createClientDto.mergedIntoClientId ?? null,
       mobilePhone: createClientDto.mobilePhone ?? null,
       name: createClientDto.name ?? null,
-      notes: createClientDto.notes ?? null,
+      notes: createClientDto.notes ?? [],
       primaryLocation: createClientDto.primaryLocation ?? null,
       pronoun: createClientDto.pronoun ?? null,
-      reminderSettings: createClientDto.reminderSettings ?? null,
+      reminderSettings: createClientDto.reminderSettings ?? [],
       schedulingAlert: createClientDto.schedulingAlert ?? null,
-      tags: createClientDto.tags ?? null,
+      tags: createClientDto.tags ?? [],
       updatedAt: createClientDto.updatedAt,
     });
   }
@@ -57,7 +56,7 @@ export class ClientsService {
   }
 
   async update(id: Client['id'], updateClientDto: UpdateClientDto): Promise<Client | null> {
-    return this.clientsRepository.update(id, updateClientDto);
+    return this.clientsRepository.update(id, updateClientDto as Partial<Client>);
   }
 
   async remove(id: Client['id']): Promise<void> {

@@ -1,22 +1,27 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import type { ServiceAddon, ServiceCategorySummary, ServiceOptionGroup, ServiceOverride, ServiceStatus } from '../../utils/types/boulevard.types';
 
 export class Service {
-  // ===== 必填字段 =====
-
   @ApiProperty({ type: String, description: 'The ID of an object' })
   id: string;
-
-  @ApiProperty({ type: String, description: 'Name' })
-  name: string;
 
   @ApiProperty({ type: Boolean, description: 'Active' })
   active: boolean;
 
   @ApiProperty({
     type: Boolean,
-    description: 'Addons can only booked alongside a standalone service',
+    description: 'Addons can only booked alongside a standalone service and are not exposed in online booking',
   })
   addon: boolean;
+
+  @ApiProperty({ type: Object, description: 'Get any addons that are bookable at the given location' })
+  addons: ServiceAddon[];
+
+  @ApiProperty({ type: Object, description: 'Service Category' })
+  category: ServiceCategorySummary;
+
+  @ApiProperty({ type: String, description: 'Service Category Id' })
+  categoryId: string;
 
   @ApiProperty({
     type: Date,
@@ -24,11 +29,11 @@ export class Service {
   })
   createdAt: Date;
 
-  @ApiProperty({
-    type: Date,
-    description: 'The date and time when the service was last updated',
-  })
-  updatedAt: Date;
+  @ApiProperty({ type: Object, description: 'Custom field data wrapper' })
+  custom: Record<string, any>;
+
+  @ApiProperty({ type: Object, description: 'Custom fields' })
+  customFields: Record<string, any>[];
 
   @ApiProperty({ type: Number, description: 'Default duration in minutes' })
   defaultDuration: number;
@@ -36,50 +41,30 @@ export class Service {
   @ApiProperty({ type: Number, description: 'Default price in cents' })
   defaultPrice: number;
 
-  // ===== 可选字段 =====
-
-  @ApiPropertyOptional({ type: String, description: 'Location ID' })
-  locationId?: string | null;
-
-  @ApiPropertyOptional({ type: String, description: 'Service Category Id' })
-  categoryId?: string | null;
-
-  @ApiPropertyOptional({
-    type: Object,
-    description: 'Custom field data wrapper',
-  })
-  custom?: Record<string, any> | null;
-
-  @ApiPropertyOptional({ type: Object, description: 'Custom fields' })
-  customFields?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({ type: [String], description: 'Keys' })
-  keys?: string[] | null;
-
-  @ApiPropertyOptional({ type: Object, description: 'Addons' })
-  addons?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({ type: Object, description: 'Service Category' })
-  category?: Record<string, any> | null;
-
   @ApiPropertyOptional({ type: String, description: 'Description' })
   description?: string | null;
 
   @ApiPropertyOptional({ type: String, description: 'External Id' })
   externalId?: string | null;
 
-  @ApiPropertyOptional({ type: Object, description: 'Service Option Groups' })
-  serviceOptionGroups?: Record<string, any>[] | null;
+  @ApiProperty({ type: String, description: 'Name' })
+  name: string;
 
-  @ApiPropertyOptional({ type: Object, description: 'Service overrides' })
-  serviceOverrides?: Record<string, any> | null;
+  @ApiProperty({ type: Object, description: 'Service Option Groups' })
+  serviceOptionGroups: ServiceOptionGroup[];
 
-  @ApiPropertyOptional({ type: Object, description: 'Service status' })
-  serviceStatus?: Record<string, any> | null;
+  @ApiProperty({ type: Object, description: 'Get any service overrides that may be set' })
+  serviceOverrides: ServiceOverride;
 
-  @ApiPropertyOptional({
-    type: Object,
-    description: 'Order which this service is displayed',
+  @ApiProperty({ type: Object, description: 'Get any service status overrides that may be set' })
+  serviceStatus: ServiceStatus;
+
+  @ApiProperty({ type: Object, description: 'Order which this service is displayed alongside others' })
+  sortPath: string;
+
+  @ApiProperty({
+    type: Date,
+    description: 'The date and time when the service was last updated',
   })
-  sortPath?: Record<string, any> | null;
+  updatedAt: Date;
 }

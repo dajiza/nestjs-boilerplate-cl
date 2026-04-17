@@ -1,0 +1,107 @@
+[
+  {
+    "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+    "name": "First Sandbox Location",
+    "address": {
+      "zip": "10016",
+      "city": "New York",
+      "line1": "30 E 40th St, Suite 203",
+      "line2": "this is apt",
+      "state": "OH",
+      "country": "US",
+      "province": null
+    },
+    "arrivalInstructions": "",
+    "billingContactEmail": "",
+    "businessName": "Bared Monkey SANDBOX",
+    "contactEmail": "",
+    "coordinates": null,
+    "externalId": "1",
+    "googlePlaceId": null,
+    "hours": [
+      {
+        "open": false,
+        "start": {
+          "hour": 8,
+          "minute": 0
+        },
+        "finish": {
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": false,
+        "start": {
+          "hour": 8,
+          "minute": 0
+        },
+        "finish": {
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": false,
+        "start": {
+          "hour": 8,
+          "minute": 0
+        },
+        "finish": {
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": false,
+        "start": {
+          "hour": 8,
+          "minute": 0
+        },
+        "finish": {
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": false,
+        "start": {
+          "hour": 8,
+          "minute": 0
+        },
+        "finish": {
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": false,
+        "start": {
+          "hour": 8,
+          "minute": 0
+        },
+        "finish": {
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": false,
+        "start": {
+          "hour": 8,
+          "minute": 0
+        },
+        "finish": {
+          "hour": 18,
+          "minute": 0
+        }
+      }
+    ],
+    "isRemote": false,
+    "paymentOptions": [],
+    "phone": "+16463877220",
+    "showLocationHours": true,
+    "tz": "America/Los_Angeles",
+    "website": ""
+  }
+]

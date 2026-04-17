@@ -16,7 +16,10 @@ RUN sed -i 's/\r//g' /opt/wait-for-it.sh
 RUN sed -i 's/\r//g' /opt/startup.relational.dev.sh
 
 WORKDIR /usr/src/app
-RUN if [ ! -f .env ]; then cp env-example-relational .env; fi
+RUN if [ ! -f .env.${NODE_ENV} ]; then cp env-example-relational .env.${NODE_ENV}; fi
+RUN if [ -f .env.${NODE_ENV} ]; then cp .env.${NODE_ENV} .env; fi
 RUN npm run build
+RUN cp -r src/i18n /usr/src/app/i18n
+RUN cp -r src/database/seeds/relational/boulevard/data /usr/src/app/dist/database/seeds/relational/boulevard/data
 
 CMD ["/opt/startup.relational.dev.sh"]

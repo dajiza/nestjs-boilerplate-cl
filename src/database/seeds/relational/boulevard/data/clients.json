@@ -1,0 +1,6101 @@
+[
+  {
+    "id": "urn:blvd:Client:003c4dc1-7549-4894-84cd-b9f80483e4ca",
+    "active": true,
+    "appointmentCount": 2,
+    "createdAt": "2024-11-09T03:25:40.805",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "A",
+    "hasCardOnFile": false,
+    "lastName": "B",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+20241109000",
+    "name": "A B",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-11-09T03:25:40.805"
+  },
+  {
+    "id": "urn:blvd:Client:003d709a-6a3b-4f72-a88b-a462bcc9480f",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T08:47:05.73",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "asherpa71@gmail.com",
+    "externalId": null,
+    "firstName": "Ang",
+    "hasCardOnFile": false,
+    "lastName": "Sherpa",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19177363066",
+    "name": "Ang Sherpa",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T08:47:05.73"
+  },
+  {
+    "id": "urn:blvd:Client:01649300-c17f-4acd-86fa-c93096807397",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-15T03:36:41.899",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "2222",
+    "hasCardOnFile": false,
+    "lastName": "333",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "2222 333",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-15T03:36:41.899"
+  },
+  {
+    "id": "urn:blvd:Client:0184d136-d74f-4e71-a470-04c9ae602593",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T03:22:04.397",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "jesswzhao@gmail.com",
+    "externalId": null,
+    "firstName": "Jessica",
+    "hasCardOnFile": false,
+    "lastName": "Zhao",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15124267927",
+    "name": "Jessica Zhao",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T03:22:04.397"
+  },
+  {
+    "id": "urn:blvd:Client:091312a2-325d-4401-b254-7bf073453c9d",
+    "active": true,
+    "appointmentCount": 8,
+    "createdAt": "2025-01-07T01:45:57.177",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "Jan",
+    "hasCardOnFile": false,
+    "lastName": "three not new client",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16463877225",
+    "name": "Jan three not new client",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-14T08:08:18.274"
+  },
+  {
+    "id": "urn:blvd:Client:09c093b7-b48b-4bf5-8f08-04b32c9b2bc3",
+    "active": true,
+    "appointmentCount": 2,
+    "createdAt": "2024-11-03T15:07:23.577",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "+123456789",
+    "hasCardOnFile": false,
+    "lastName": "AA",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "+123456789 AA",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-11-03T15:07:23.577"
+  },
+  {
+    "id": "urn:blvd:Client:0b838d1e-b429-4d56-83a8-a6cbf5921104",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T03:26:59.771",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "ramya.my99@gmail.com",
+    "externalId": null,
+    "firstName": "Ramya",
+    "hasCardOnFile": false,
+    "lastName": "Mylavarapu",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12034447161",
+    "name": "Ramya Mylavarapu",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-31T03:26:59.771"
+  },
+  {
+    "id": "urn:blvd:Client:0c8660d0-985b-4ad5-aecc-ad5ac5cbe83d",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T02:11:41.865",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "cpc3363@yahoo.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11241232131",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T02:11:41.865"
+  },
+  {
+    "id": "urn:blvd:Client:0d41bf54-cd6a-411d-bc32-e0319ac54018",
+    "active": true,
+    "appointmentCount": 13,
+    "createdAt": "2026-03-23T13:17:18.281",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "chensa222@163.com",
+    "externalId": null,
+    "firstName": "Test",
+    "hasCardOnFile": false,
+    "lastName": "App",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+18268504122",
+    "name": "Test App",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2026-03-23T13:17:18.281"
+  },
+  {
+    "id": "urn:blvd:Client:0e6f3f4d-4b90-445b-8035-9c35b98a161b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:51:17.924",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "margaretfisher223@gmail.com",
+    "externalId": null,
+    "firstName": "Margaret",
+    "hasCardOnFile": false,
+    "lastName": "Fisher",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16178930113",
+    "name": "Margaret Fisher",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:51:17.924"
+  },
+  {
+    "id": "urn:blvd:Client:1031ded9-5877-4515-8865-2f0cee362d6b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-01-09T07:39:44.43",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "name 1 test",
+    "hasCardOnFile": false,
+    "lastName": "last name 2 test",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13436768768",
+    "name": "name 1 test last name 2 test",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-09T07:39:44.43"
+  },
+  {
+    "id": "urn:blvd:Client:10a876c6-6a21-4793-8f9f-8c589807cf75",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2025-01-03T07:53:48.466",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "Jie",
+    "hasCardOnFile": false,
+    "lastName": "Test",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "Jie Test",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-03T07:53:48.466"
+  },
+  {
+    "id": "urn:blvd:Client:1434c0cf-23e8-44e7-bfda-6f62fbaa39b0",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-08-04T06:28:38.425",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "la.rodrigu28@gmail.com",
+    "externalId": null,
+    "firstName": "Laura",
+    "hasCardOnFile": false,
+    "lastName": "Rodriguez",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19293160461",
+    "name": "Laura Rodriguez",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-08-04T06:28:38.425"
+  },
+  {
+    "id": "urn:blvd:Client:178f9fa0-8a0b-47bb-93b1-b27cb05c2864",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T10:02:21.692",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "afarrell6972@gmail.com",
+    "externalId": null,
+    "firstName": "le5",
+    "hasCardOnFile": false,
+    "lastName": "le5",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11238912840",
+    "name": "le5 le5",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T10:02:21.692"
+  },
+  {
+    "id": "urn:blvd:Client:188dd216-1943-4ad1-bec5-3fbd51ac94f7",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:33:06.992",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "gaylahibner@gmail.com",
+    "externalId": null,
+    "firstName": "Gayla",
+    "hasCardOnFile": false,
+    "lastName": "Hibner",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19179690962",
+    "name": "Gayla Hibner",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:33:06.992"
+  },
+  {
+    "id": "urn:blvd:Client:1984fba7-4565-49bd-96e4-59b78d55addd",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-16T08:34:58.865",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "aliciamariesylvia@gmail.com",
+    "externalId": null,
+    "firstName": "Alicia",
+    "hasCardOnFile": false,
+    "lastName": "Sylvia",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19178280155",
+    "name": "Alicia Sylvia",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-16T08:34:58.865"
+  },
+  {
+    "id": "urn:blvd:Client:2227302e-6c82-4d22-a6ed-f279f7ac080d",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T10:17:24.706",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "alexasirubi@gmail.com",
+    "externalId": null,
+    "firstName": "Alexa",
+    "hasCardOnFile": false,
+    "lastName": "Sirubi",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12016692642",
+    "name": "Alexa Sirubi",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T10:17:24.706"
+  },
+  {
+    "id": "urn:blvd:Client:227e25a9-26bc-4233-99ac-3fbcd18d26a1",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T07:59:07.298",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "nsksasikran@gmail.com",
+    "externalId": null,
+    "firstName": "Sasikran",
+    "hasCardOnFile": false,
+    "lastName": "Naksomboon",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+14175938119",
+    "name": "Sasikran Naksomboon",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T07:59:07.298"
+  },
+  {
+    "id": "urn:blvd:Client:229d2fd0-ce67-4c3c-bb39-1d60ec635b09",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-16T09:11:58.092",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "hg91jung@gmail.com",
+    "externalId": null,
+    "firstName": "Jayden",
+    "hasCardOnFile": false,
+    "lastName": "Jung",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19295229767",
+    "name": "Jayden Jung",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-16T09:11:58.092"
+  },
+  {
+    "id": "urn:blvd:Client:25d74771-926d-4dce-82c3-3ee7b1f4f282",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T02:39:27.349",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "justinmailny@gmail.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11231231231",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T02:39:27.349"
+  },
+  {
+    "id": "urn:blvd:Client:25f637f8-066f-430d-80d2-f281757e5ceb",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T10:02:32.995",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "afarrell6972@gmail.com",
+    "externalId": null,
+    "firstName": "le6",
+    "hasCardOnFile": false,
+    "lastName": "le6",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11238912080",
+    "name": "le6 le6",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T10:02:32.995"
+  },
+  {
+    "id": "urn:blvd:Client:2621756a-3e56-40ac-aff0-b56b92e37c43",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T03:25:45.455",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "juliafallon1211@gmail.com",
+    "externalId": null,
+    "firstName": "Julia",
+    "hasCardOnFile": false,
+    "lastName": "Cornwell",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17168603232",
+    "name": "Julia Cornwell",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-31T03:25:45.455"
+  },
+  {
+    "id": "urn:blvd:Client:26b17534-1102-4d32-9519-aff2e6abce5d",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T08:45:30.856",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "Vanessamarisolh@gmail.com",
+    "externalId": null,
+    "firstName": "vanessa",
+    "hasCardOnFile": false,
+    "lastName": "herrera",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13364931083",
+    "name": "vanessa herrera",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T08:45:30.856"
+  },
+  {
+    "id": "urn:blvd:Client:28f00f9f-1d2c-4521-b4d8-280ef5592315",
+    "active": true,
+    "appointmentCount": 61,
+    "createdAt": "2025-02-10T12:49:09.568",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "dfdf@deer.com",
+    "externalId": null,
+    "firstName": "One",
+    "hasCardOnFile": false,
+    "lastName": "Year three",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13434323433",
+    "name": "One Year three",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:4897a846-e795-4de0-a792-a06f365c508c",
+        "text": "Pre-treatment checklist:\nId: 8de8338b-7bff-49e2-82af-38daf5ed52b8\nDate: 2025-03-14T09:00:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Emsculpt Neo\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-03-16T07:53:57.748747Z"
+      },
+      {
+        "id": "urn:blvd:Note:c4349b38-32d6-4251-96e6-ff7d70c063d5",
+        "text": "Pre-treatment checklist:\nId: 1627c1e2-8f3f-4364-91b1-9910b2145325\nDate: 2025-03-16T09:10:00-07:00\nTechnician: (HERALD SQ)-3 ALL\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation- Laser Hair Removal\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm\n\n\ndfdfdf",
+        "createdAt": "2025-03-16T07:57:51.996905Z"
+      },
+      {
+        "id": "urn:blvd:Note:2dd39223-6d77-4c73-82e0-d03c7995744c",
+        "text": "test",
+        "createdAt": "2025-03-26T00:03:58.594235Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-02-10T12:49:24.523"
+  },
+  {
+    "id": "urn:blvd:Client:2dcbf54e-7bf1-4438-8f1a-c7ba44167007",
+    "active": true,
+    "appointmentCount": 16,
+    "createdAt": "2025-02-26T08:45:13.517",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "janepescante.js@gmail.com",
+    "externalId": null,
+    "firstName": "Nina",
+    "hasCardOnFile": false,
+    "lastName": "Jane Selor",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16626612299",
+    "name": "Nina Jane Selor",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:848a27fd-a929-42be-8999-75d5895b9d37",
+        "text": "Pre-treatment checklist:\nId: c5ca4a86-d436-4e52-b166-92dfb263e4f3\nDate: 2025-02-26T16:45:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: client's feedback 1111\nDevice Number: device 1111\nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Shaving - Large\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-26T08:46:27.178062Z"
+      },
+      {
+        "id": "urn:blvd:Note:490f2960-0cfe-4772-86ce-29ce4338bea3",
+        "text": "Pre-treatment checklist:\nId: 0bca8407-159d-42f7-bd70-49181dcc9e37\nDate: 2025-02-28T12:30:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation- Laser Hair Removal\nTreatments: 3\nSetting: Alex\nFluence: \nPulse Duration: 5ms\nSpot Size: 25mm",
+        "createdAt": "2025-02-28T14:56:51.924008Z"
+      },
+      {
+        "id": "urn:blvd:Note:38206d3b-eaeb-4c2c-95f7-2a4b8c0ca693",
+        "text": "Pre-treatment checklist:\nId: a651191d-04c4-4393-a90a-15c18f2abdf3\nDate: 2025-03-04T11:35:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation- Laser Hair Removal\nTreatments: 434343\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-03-05T00:41:52.156067Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": "10/21/25 late fee overdue- payment link\n|| 1/7/26 late fee overdue- payment link\n|| Booking Alert",
+    "tags": [
+      {
+        "id": "urn:blvd:Tag:fbdfdb33-fb19-4ca2-828a-eabd10221106",
+        "name": "Friends & Family"
+      }
+    ],
+    "updatedAt": "2026-01-27T07:22:07.536"
+  },
+  {
+    "id": "urn:blvd:Client:3555f3f0-6d52-4d8a-a208-7602ea757540",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-21T06:18:51.189",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "calliesmith208@gmail.com",
+    "externalId": null,
+    "firstName": "Callie",
+    "hasCardOnFile": false,
+    "lastName": "Smith",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19133879557",
+    "name": "Callie Smith",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-21T06:18:51.189"
+  },
+  {
+    "id": "urn:blvd:Client:37fbb43c-019b-4c30-b1ed-8fe225f4fafe",
+    "active": true,
+    "appointmentCount": 13,
+    "createdAt": "2025-01-07T01:21:44.345",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "Jan two first-name",
+    "hasCardOnFile": false,
+    "lastName": "last name",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16469864964",
+    "name": "Jan two first-name last name",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:06868289-2119-46dc-aa91-41aeb7c53602",
+        "text": "Pre-treatment checklist:\nId: b03077bb-1465-40ed-971c-bd3881fc769b\nDate: 2025-01-27T14:40:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: Good\nDevice Number: 12345678\nAny change in skin tone: YES\nDate of last sun exposure: Jan 6\nAny change in medication: YES\nDate of last dosage: Feb 7\nAny tattoo on treatment area: YES\nLocation of tattoo: BM\n(Face) Any tinted product/makeup on skin: YES\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation- Laser Hair Removal\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 10ms\nSpot Size: 0mm\n\nTreatment area: (XS) - Upper Lip\nTreatments: 99\nSetting: Alex\nFluence: \nPulse Duration: 10ms\nSpot Size: 99mm\n\nTreatment area: Consultation - Body Contouring\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm\n\nTreatment area: Consultation - Specialty Skin Treatment\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm\n\nTreatment area: Consultation - Tattoo Removal Treatment\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm\n\nTreatment area: Consultation - Spider Vein Removal\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm\n\n\ntestother note",
+        "createdAt": "2025-02-25T17:00:23.419014Z"
+      },
+      {
+        "id": "urn:blvd:Note:1a271a5f-04ea-41fa-9bef-df8fccee1e16",
+        "text": "Pre-treatment checklist:\nId: 3c0342e4-1aa6-4444-a1fb-97b05f14360d\nDate: 2025-02-14T09:00:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation- Laser Hair Removal\nTreatments: 1\nSetting: Alex\nFluence: \nPulse Duration: 3ms\nSpot Size: 111mm",
+        "createdAt": "2025-02-28T14:51:13.654716Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [
+      {
+        "id": "urn:blvd:Tag:1b195d34-c781-4b82-84fc-b4d66316a5f4",
+        "name": ".Request Dora"
+      },
+      {
+        "id": "urn:blvd:Tag:8a5e5c3a-ae15-44b7-9d03-f089cb4ed629",
+        "name": ".Skin require test"
+      }
+    ],
+    "updatedAt": "2025-01-14T08:23:25.657"
+  },
+  {
+    "id": "urn:blvd:Client:3a3e51e4-d43c-4fae-a5f9-bcbc65b648ad",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:31:38.941",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "annievandervalk.3@gmail.com",
+    "externalId": null,
+    "firstName": "le4",
+    "hasCardOnFile": false,
+    "lastName": "le4",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12183912478",
+    "name": "le4 le4",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:31:38.941"
+  },
+  {
+    "id": "urn:blvd:Client:3bfee97d-f26c-4990-bc30-375c77854298",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T08:28:40.451",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "isabellaoliner@gmail.com",
+    "externalId": null,
+    "firstName": "Isabella",
+    "hasCardOnFile": false,
+    "lastName": "Oliner",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15163190042",
+    "name": "Isabella Oliner",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T08:28:40.451"
+  },
+  {
+    "id": "urn:blvd:Client:3dba9c7d-3e4a-495f-913a-ce2612759735",
+    "active": true,
+    "appointmentCount": 7,
+    "createdAt": "2025-02-10T13:08:38.667",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "ejiuj@dfdf.com",
+    "externalId": null,
+    "firstName": "One",
+    "hasCardOnFile": false,
+    "lastName": "Year five",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+18887739397",
+    "name": "One Year five",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:c3be300d-9cae-43f4-a32a-59ba7fbd7a55",
+        "text": "Pre-treatment checklist:\nId: cfb24043-39d0-493a-b038-3aaf0f7d17ee\nDate: 2025-02-26T09:45:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Lumenis\u00ae ResurFX\u2122 Treatment\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:03:02.073844Z"
+      },
+      {
+        "id": "urn:blvd:Note:2d71661f-c53e-4d4c-9f25-486b4e0c8e7e",
+        "text": "Pre-treatment checklist:\nId: cfb24043-39d0-493a-b038-3aaf0f7d17ee\nDate: 2025-02-26T09:45:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Lumenis\u00ae ResurFX\u2122 Treatment\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:04:53.077159Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-02-10T13:08:52.54"
+  },
+  {
+    "id": "urn:blvd:Client:4c696840-c722-4daa-b357-40f0f2adacf7",
+    "active": true,
+    "appointmentCount": 2,
+    "createdAt": "2024-10-27T22:49:12.82",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "10-27",
+    "hasCardOnFile": false,
+    "lastName": "10-27",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12024001027",
+    "name": "10-27 10-27",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-10-27T22:53:04.692"
+  },
+  {
+    "id": "urn:blvd:Client:4c78e702-df91-4ada-a00f-c7cda1c48420",
+    "active": true,
+    "appointmentCount": 37,
+    "createdAt": "2025-02-10T12:47:12.43",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "gaolei@codelessuniverse.com",
+    "externalId": null,
+    "firstName": "Gao",
+    "hasCardOnFile": false,
+    "lastName": "middle name Lei",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17899766656",
+    "name": "Gao middle name Lei",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:75c22245-5e3d-476e-b0d7-51ec83263246",
+        "text": "Pre-treatment checklist:\nId: 14b8f9ae-a90a-455a-9cc1-3245cb5c947c\nDate: 2025-02-24T09:45:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Shaving - Small\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm\n\nTreatment area: Patch Test\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:34:55.018644Z"
+      },
+      {
+        "id": "urn:blvd:Note:75ba8818-2722-4277-9bbe-0be249092dae",
+        "text": "Pre-treatment checklist:\nId: 20261178-cacb-45b7-a5bd-717664f14773\nDate: 2025-02-28T08:30:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation - Spider Vein Removal\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm\n\nTreatment area: Patch Test\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:34:59.152245Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-11-17T01:42:34.797"
+  },
+  {
+    "id": "urn:blvd:Client:4cbc0aad-c1a1-4a11-aa52-b2f6cef2f6d9",
+    "active": true,
+    "appointmentCount": 4,
+    "createdAt": "2024-10-09T01:59:39.007",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "123",
+    "hasCardOnFile": false,
+    "lastName": "",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+112345678",
+    "name": "123",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-12-02T22:27:44.993"
+  },
+  {
+    "id": "urn:blvd:Client:4f8643f7-b251-4204-adad-a5e72087c0cc",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-03-05T00:35:45.296",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "shushu0992+0304@gmail.com",
+    "externalId": null,
+    "firstName": "yuzhi 2",
+    "hasCardOnFile": false,
+    "lastName": "0304",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "yuzhi 2 0304",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-03-05T00:35:45.296"
+  },
+  {
+    "id": "urn:blvd:Client:53bb50f9-97c8-4ca4-801d-98b56bbe48d2",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:48:06.831",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "kguzman5@fordham.edu",
+    "externalId": null,
+    "firstName": "Kristen",
+    "hasCardOnFile": false,
+    "lastName": "Guzman",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12014033899",
+    "name": "Kristen Guzman",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:48:06.831"
+  },
+  {
+    "id": "urn:blvd:Client:543fe19d-68f4-4dc3-ad1d-ab955f6a3916",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T03:26:17.772",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "s20aharris@gmail.com",
+    "externalId": null,
+    "firstName": "Addi",
+    "hasCardOnFile": false,
+    "lastName": "Harris",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+14438752665",
+    "name": "Addi Harris",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-31T03:26:17.772"
+  },
+  {
+    "id": "urn:blvd:Client:5632122b-4160-47fa-ba90-5de9dbc1393f",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-25T10:49:04.402",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "sarahmeitalbenjamin@gmail.com",
+    "externalId": null,
+    "firstName": "Sarah",
+    "hasCardOnFile": false,
+    "lastName": "Benjamin",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16468315632",
+    "name": "Sarah Benjamin",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-25T10:49:04.402"
+  },
+  {
+    "id": "urn:blvd:Client:5a472d16-91fe-4f7e-9402-97cb867a2542",
+    "active": false,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-16T08:32:57.199",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "1@q.com",
+    "externalId": null,
+    "firstName": "111",
+    "hasCardOnFile": false,
+    "lastName": "222",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": "urn:blvd:Client:b9cd3e29-e6d8-4871-b76f-5778b2ff83fa",
+    "mobilePhone": "+11233453423",
+    "name": "111 222",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-16T08:32:57.199"
+  },
+  {
+    "id": "urn:blvd:Client:5b1d9fa0-a977-414f-82df-2b0e9a63132b",
+    "active": true,
+    "appointmentCount": 10,
+    "createdAt": "2025-02-14T18:29:34.64",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "eg@erer.com",
+    "externalId": null,
+    "firstName": "One",
+    "hasCardOnFile": false,
+    "lastName": "Year two",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13432343433",
+    "name": "One Year two",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:d11dd9cf-12bc-4a1f-9fcb-b13eaf51be27",
+        "text": "Pre-treatment checklist:\nId: d626f092-4e47-459e-b993-ac313204c65e\nDate: 2025-02-26T09:30:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Add On: Hydrafacial MD\u00ae Booster\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:01:17.137405Z"
+      },
+      {
+        "id": "urn:blvd:Note:b0d5e877-684a-4c4f-9fcf-10f90036999a",
+        "text": "Pre-treatment checklist:\nId: d626f092-4e47-459e-b993-ac313204c65e\nDate: 2025-02-26T09:30:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Add On: Hydrafacial MD\u00ae Booster\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:35:13.965170Z"
+      },
+      {
+        "id": "urn:blvd:Note:b0074293-3466-4366-a031-1f2af1d97954",
+        "text": "Pre-treatment checklist:\nId: abca2b7d-4d15-4820-ab94-b017612b7c9e\nDate: 2025-02-20T09:30:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Coolsculpting Treatment (One Applicator-Smooth)\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:35:32.108031Z"
+      },
+      {
+        "id": "urn:blvd:Note:40e9104d-ab37-4462-9656-7cf731f73983",
+        "text": "Pre-treatment checklist:\nId: 3d741816-4165-40fb-8c44-ebfedda2fd6b\nDate: 2025-02-24T08:45:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Spider Vein Removal (50 pulses)\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:35:43.595873Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-02-14T18:31:00.523"
+  },
+  {
+    "id": "urn:blvd:Client:5ba79a6c-37e4-4b3f-bd6b-1d1c79c78bfe",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-19T07:03:52.457",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "sean.p.mcculley@outlook.com",
+    "externalId": null,
+    "firstName": "Sean",
+    "hasCardOnFile": false,
+    "lastName": "McCulley",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13609222895",
+    "name": "Sean McCulley",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-19T07:03:52.457"
+  },
+  {
+    "id": "urn:blvd:Client:5bd22629-24b2-4ab6-83ec-615f245b0b05",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2024-06-26T01:02:52.97",
+    "creditCardsOnFile": [
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2042,
+        "expirationMonth": 12
+      }
+    ],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "Someone",
+    "hasCardOnFile": true,
+    "lastName": "D",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "Someone D",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-06-26T01:02:52.97"
+  },
+  {
+    "id": "urn:blvd:Client:5ceaf32f-1fb4-4c48-b20c-afad816529df",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-28T13:23:38.519",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "luciebolzan@gmail.com",
+    "externalId": null,
+    "firstName": "Lucie",
+    "hasCardOnFile": false,
+    "lastName": "Bolzan",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19143196616",
+    "name": "Lucie Bolzan",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-28T13:23:38.519"
+  },
+  {
+    "id": "urn:blvd:Client:5f76fe53-6076-495a-b425-b3dfc586bcf8",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-08-12T08:59:31.682",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "10000",
+    "hasCardOnFile": false,
+    "lastName": "10000",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11000000000",
+    "name": "10000 10000",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-08-12T08:59:31.682"
+  },
+  {
+    "id": "urn:blvd:Client:601f7601-1f20-4b9c-b748-49f089ad9111",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:14:14.081",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "xaliiis0n@yahoo.com",
+    "externalId": null,
+    "firstName": "Alison",
+    "hasCardOnFile": false,
+    "lastName": "Liu",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16462362806",
+    "name": "Alison Liu",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:14:14.081"
+  },
+  {
+    "id": "urn:blvd:Client:618e3b6d-d2c9-4d46-92d1-8da095c611bc",
+    "active": true,
+    "appointmentCount": 80,
+    "createdAt": "2024-10-31T13:17:42.499",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1992-01-03",
+    "email": "dfd@dffg.com",
+    "externalId": null,
+    "firstName": "N'lei middleName",
+    "hasCardOnFile": false,
+    "lastName": "lei2",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11234567888",
+    "name": "N'lei middleName lei2",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:f12c6d3b-3c52-42b1-992b-7868e56bda48",
+        "text": "this is a note",
+        "createdAt": "2025-09-12T06:50:56.787609Z"
+      },
+      {
+        "id": "urn:blvd:Note:008065f3-f1b0-49da-9ecc-540e2d8f64d9",
+        "text": "note with pic",
+        "createdAt": "2025-09-12T07:13:52.870727Z"
+      },
+      {
+        "id": "urn:blvd:Note:fc1f8f69-e3c7-4345-b74c-d920447a7e6d",
+        "text": "note",
+        "createdAt": "2025-09-15T09:23:48.037279Z"
+      },
+      {
+        "id": "urn:blvd:Note:f11a19a2-59bf-4b29-b32c-bc591f5a4d47",
+        "text": "666ssss",
+        "createdAt": "2025-04-12T13:48:15.759729Z"
+      },
+      {
+        "id": "urn:blvd:Note:fb422eee-b9eb-4ed6-bc30-4041be8ea97a",
+        "text": "Pre-treatment checklist:\nId: c46c2eb7-d8d1-4466-99fe-61b95789f13d\nDate: 2025-02-25T08:30:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Picoway\u00ae Laser - Skin Revitalization\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:18:14.801828Z"
+      },
+      {
+        "id": "urn:blvd:Note:1b18ca45-bf00-478c-aead-7bd7b1d983b5",
+        "text": "Pre-treatment checklist:\nId: c46c2eb7-d8d1-4466-99fe-61b95789f13d\nDate: 2025-02-25T08:30:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Picoway\u00ae Laser - Skin Revitalization\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:19:07.155334Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": "\u8b66\u544a\u8b66\u544a\u8b66\u544a\u8b66\u544a",
+    "tags": [
+      {
+        "id": "urn:blvd:Tag:b0f2e328-021e-4fb9-a744-384fef85b51f",
+        "name": ".Request Vivie"
+      },
+      {
+        "id": "urn:blvd:Tag:7d33da94-0e7a-4915-9b69-3b82305b3300",
+        "name": "Late Cancellation"
+      },
+      {
+        "id": "urn:blvd:Tag:86bbe94f-17eb-4514-bf67-b9572be3171b",
+        "name": "Tourist"
+      }
+    ],
+    "updatedAt": "2025-11-03T07:35:41.311"
+  },
+  {
+    "id": "urn:blvd:Client:61a928c8-a53f-4c79-a38d-dd5034dd5302",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T01:32:38.308",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "shahjessica91@gmail.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13452342312",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T01:32:38.308"
+  },
+  {
+    "id": "urn:blvd:Client:6c9b96ba-e17d-4227-99dc-468ed3c6d22c",
+    "active": true,
+    "appointmentCount": 4,
+    "createdAt": "2024-06-26T00:59:42.519",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "D",
+    "hasCardOnFile": false,
+    "lastName": "D",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16666666666",
+    "name": "D D",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-13T06:40:01.281"
+  },
+  {
+    "id": "urn:blvd:Client:6fcfbad5-c9d9-46b2-a04b-77442a80d0a1",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:51:40.72",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "sarah.lazun@gmail.com",
+    "externalId": null,
+    "firstName": "Sarah",
+    "hasCardOnFile": false,
+    "lastName": "Lazun",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17176151441",
+    "name": "Sarah Lazun",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:51:40.72"
+  },
+  {
+    "id": "urn:blvd:Client:73545645-59cd-4c39-97f6-ae6df2761b67",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-27T23:04:53.806",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "ubtj10400306@gmail.com",
+    "externalId": null,
+    "firstName": "Sophi",
+    "hasCardOnFile": false,
+    "lastName": "Kim",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17048048050",
+    "name": "Sophi Kim",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-27T23:04:53.806"
+  },
+  {
+    "id": "urn:blvd:Client:78c6ef56-9cdf-405f-a5f3-ccd0edbed866",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:31:26.786",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "annievandervalk.3@gmail.com",
+    "externalId": null,
+    "firstName": "le3",
+    "hasCardOnFile": false,
+    "lastName": "le3",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11289218039",
+    "name": "le3 le3",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:31:26.786"
+  },
+  {
+    "id": "urn:blvd:Client:7940615a-31a1-4174-86e8-8144c9d9bf4f",
+    "active": true,
+    "appointmentCount": 10,
+    "createdAt": "2025-02-10T13:03:20.627",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "frr@rrtr.om",
+    "externalId": null,
+    "firstName": "One",
+    "hasCardOnFile": false,
+    "lastName": "Year four",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13459454544",
+    "name": "One Year four",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:1cb90daa-ec62-45f7-a4db-ddd8e3b5af6f",
+        "text": "Pre-treatment checklist:\nId: 881b5735-45a0-40d6-858c-ab08b1eab115\nDate: 2025-02-26T10:15:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation - Specialty Skin Treatment\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:23:23.063464Z"
+      },
+      {
+        "id": "urn:blvd:Note:97e8894d-1e6d-4c0a-9a97-8c365db7611a",
+        "text": "Pre-treatment checklist:\nId: 881b5735-45a0-40d6-858c-ab08b1eab115\nDate: 2025-02-26T10:15:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation - Specialty Skin Treatment\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:23:31.915375Z"
+      },
+      {
+        "id": "urn:blvd:Note:97aaeb05-b525-44c2-96aa-2d40b3b2fbc2",
+        "text": "Pre-treatment checklist:\nId: 881b5735-45a0-40d6-858c-ab08b1eab115\nDate: 2025-02-26T10:15:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation - Specialty Skin Treatment\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:31:46.343209Z"
+      },
+      {
+        "id": "urn:blvd:Note:78713618-b9c3-44b2-be6f-dcdb42cca58b",
+        "text": "Pre-treatment checklist:\nId: 507b8354-6c13-42aa-a978-f09eb1db952b\nDate: 2025-02-24T09:15:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Follow up - Spider Vein Removal\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:33:09.396041Z"
+      },
+      {
+        "id": "urn:blvd:Note:569299a0-4779-4866-995f-12c2e0e03699",
+        "text": "Pre-treatment checklist:\nId: 507b8354-6c13-42aa-a978-f09eb1db952b\nDate: 2025-02-24T09:15:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Follow up - Spider Vein Removal\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-27T09:33:39.198019Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-02-10T13:03:51.05"
+  },
+  {
+    "id": "urn:blvd:Client:797a572b-060b-4acc-ba01-dc13ee789bae",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T02:53:41.033",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "alikielczewska@gmail.com",
+    "externalId": null,
+    "firstName": "le2",
+    "hasCardOnFile": false,
+    "lastName": "le2",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11233453453",
+    "name": "le2 le2",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T02:53:41.033"
+  },
+  {
+    "id": "urn:blvd:Client:7b3b692e-4334-4302-aa9f-960b28b5fc0b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-28T13:21:28.8",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "mungyu.alice@gmail.com",
+    "externalId": null,
+    "firstName": "Alice",
+    "hasCardOnFile": false,
+    "lastName": "Mungyu",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13473993266",
+    "name": "Alice Mungyu",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-28T13:21:28.8"
+  },
+  {
+    "id": "urn:blvd:Client:7e78317e-1d47-46b2-a707-50811a2efcad",
+    "active": true,
+    "appointmentCount": 2,
+    "createdAt": "2025-05-23T08:43:18.2",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1992-08-31",
+    "email": "zln2839@gmail.com",
+    "externalId": null,
+    "firstName": "Lina",
+    "hasCardOnFile": false,
+    "lastName": "Zhang",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19179631830",
+    "name": "Lina Zhang",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2026-03-26T11:08:35.498"
+  },
+  {
+    "id": "urn:blvd:Client:80e3a696-1611-4e0e-bd78-7f60f9c91bec",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-25T10:48:27.547",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "kaathambari@gmail.com",
+    "externalId": null,
+    "firstName": "Kaathambari",
+    "hasCardOnFile": false,
+    "lastName": "Selvaraj",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12016962655",
+    "name": "Kaathambari Selvaraj",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-25T10:48:27.547"
+  },
+  {
+    "id": "urn:blvd:Client:84c5d586-53da-4985-9f77-7b097590dc00",
+    "active": true,
+    "appointmentCount": 2,
+    "createdAt": "2025-03-07T08:49:52.618",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "yuzhi+2@codelessuniverse.com",
+    "externalId": null,
+    "firstName": "yuzhi",
+    "hasCardOnFile": false,
+    "lastName": "2",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "yuzhi 2",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:d6a07c0b-95ca-4fd7-8add-a1d6f18093c2",
+        "text": "Pre-treatment checklist:\nId: 31ace4a6-0787-4219-a930-d7135a02fa56\nDate: 2025-03-07T11:30:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: (XS) - Lower Lip\nTreatments: 1\nSessions remaining: 0\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-03-07T09:30:59.689351Z"
+      },
+      {
+        "id": "urn:blvd:Note:30e14396-2647-4516-bbd7-6a0b9901642e",
+        "text": "Pre-treatment checklist:\nId: 31ace4a6-0787-4219-a930-d7135a02fa56\nDate: 2025-03-07T11:30:00-08:00\nTechnician: TechnicianTwo\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: (XS) - Lower Lip\nTreatments: 1\nSessions remaining: 0\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-03-07T09:31:40.053504Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-03-07T08:53:02.662"
+  },
+  {
+    "id": "urn:blvd:Client:88083ce4-9bf5-4fad-8b6a-b9439fa1a95e",
+    "active": true,
+    "appointmentCount": 3,
+    "createdAt": "2025-05-13T15:41:13.799",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "gaolei@codelessuniverse.com",
+    "externalId": null,
+    "firstName": "Lei(Codeless)",
+    "hasCardOnFile": false,
+    "lastName": "Gao",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15339222437",
+    "name": "Lei(Codeless) Gao",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-11-17T01:38:14.976"
+  },
+  {
+    "id": "urn:blvd:Client:8c3f4956-1905-4576-bc68-81771fd9e5b4",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-01-09T07:40:11.378",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "name test 2 (123)",
+    "hasCardOnFile": false,
+    "lastName": "last name test 2 (test)",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13435464565",
+    "name": "name test 2 (123) last name test 2 (test)",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-09T07:41:24.753"
+  },
+  {
+    "id": "urn:blvd:Client:8c5fcd8a-f80d-4b60-9ae5-be908064579b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-04T09:05:15.085",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "t_monzon12@yahoo.com",
+    "externalId": null,
+    "firstName": "Tiffany",
+    "hasCardOnFile": false,
+    "lastName": "Monzon",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19703192288",
+    "name": "Tiffany Monzon",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-04T09:05:15.085"
+  },
+  {
+    "id": "urn:blvd:Client:8d1ff432-a512-4ab5-8cb4-a2dd116e3c66",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2024-10-31T23:58:24.751",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "buy",
+    "hasCardOnFile": false,
+    "lastName": "pkgs",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+18754789754",
+    "name": "buy pkgs",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-09T08:11:14.982"
+  },
+  {
+    "id": "urn:blvd:Client:906967d8-def0-4043-aa42-36477699d30a",
+    "active": true,
+    "appointmentCount": 30,
+    "createdAt": "2024-07-04T01:42:09.519",
+    "creditCardsOnFile": [
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2026,
+        "expirationMonth": 8
+      }
+    ],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "gaollg@qq.com",
+    "externalId": null,
+    "firstName": "Lei (123456) 2",
+    "hasCardOnFile": true,
+    "lastName": "Gao",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11533922243",
+    "name": "Lei (123456) 2 Gao",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:fda2ec9f-f2cb-466d-9fb9-f801539c66ae",
+        "text": "1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n2ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n3ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n5ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n6ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n7ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n8ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n9ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n0ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n\n1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n2ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n3ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n5ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n6ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n7ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n8ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n9ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n0ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n\n1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n2ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n3ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n5ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n6ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n7ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n8ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n9ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n0ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n\n1ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n2ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n3ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n5ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n6ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n7ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n8ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n9ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&\n0ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&",
+        "createdAt": "2025-02-19T07:27:00.450944Z"
+      },
+      {
+        "id": "urn:blvd:Note:5d5cc690-28c1-4247-992e-a8665f0bf36b",
+        "text": "NOTE",
+        "createdAt": "2024-07-05T02:16:06.332301Z"
+      },
+      {
+        "id": "urn:blvd:Note:625b481a-2b79-4371-acb2-975f639efa8b",
+        "text": "\u836f\u7269",
+        "createdAt": "2024-07-05T02:16:14.729959Z"
+      },
+      {
+        "id": "urn:blvd:Note:b2b2082e-e06b-4dd5-8cbd-ec3b597bb5a5",
+        "text": "\u8fc7\u654f",
+        "createdAt": "2024-07-05T02:16:20.826948Z"
+      },
+      {
+        "id": "urn:blvd:Note:88db5053-a9ff-4a33-a9d2-8064e827a5b5",
+        "text": "\u82b1\u7c89\u8fc7\u654f",
+        "createdAt": "2024-07-08T08:31:00.645526Z"
+      },
+      {
+        "id": "urn:blvd:Note:2cafba4c-3ce1-46a1-ab1b-2482e753157a",
+        "text": "\u81ea\u5df1\u4eba",
+        "createdAt": "2024-07-10T08:29:55.603883Z"
+      },
+      {
+        "id": "urn:blvd:Note:211a9091-a4f2-4feb-b16c-63f3a4cfc4c3",
+        "text": "abc",
+        "createdAt": "2025-02-24T06:57:20.580409Z"
+      },
+      {
+        "id": "urn:blvd:Note:fa586874-91f5-4162-804b-2a4853a065d4",
+        "text": "\u4e5f\u53ef",
+        "createdAt": "2025-02-24T07:05:51.013055Z"
+      },
+      {
+        "id": "urn:blvd:Note:c9856e71-82ec-4001-9911-d643a4a33090",
+        "text": "11",
+        "createdAt": "2025-02-24T07:20:44.309187Z"
+      },
+      {
+        "id": "urn:blvd:Note:4b7e46a1-7153-47c7-a821-868c3537caca",
+        "text": "Pre-treatment checklist:\nId: 63e1bb5d-414c-4b46-9a1f-77f6e28945e9\nDate: 2025-02-09T07:05:00-08:00\nTechnician: TechnicianOne\nClient's Feedback: \nDevice Number: \nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Consultation- Laser Hair Removal\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-02-24T07:31:51.867010Z"
+      },
+      {
+        "id": "urn:blvd:Note:6a7f6f06-5d00-4f66-b9f3-3b2d641483f8",
+        "text": "Pre-treatment checklist:\nId: 63e1bb5d-414c-4b46-9a1f-77f6e28945e9\nDate: 2025-02-09T07:05:00-08:00\nTechnician: TechnicianOne333\nClient's Feedback: 555555\nDevice Number: 4444444\nAny change in skin tone: YES\nDate of last sun exposure: 4444444\nAny change in medication: YES\nDate of last dosage: 555555\nAny tattoo on treatment area: YES\nLocation of tattoo: 6666666\n(Face) Any tinted product/makeup on skin: YES\n(Face) Use of exfoliants recently: YES\n\nTreatment note:\nTreatment area: Consultation- Laser Hair Removal\nTreatments: 444444\nSetting: Yag\nFluence: 55555\nPulse Duration: 3ms\nSpot Size: 555555mm\n\n\n66666445",
+        "createdAt": "2025-02-24T07:33:35.670077Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-02T02:22:56.915"
+  },
+  {
+    "id": "urn:blvd:Client:9386060b-79f6-46a2-9392-667f47f8b5ff",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T02:11:01.272",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "njaved96@icloud.com",
+    "externalId": null,
+    "firstName": "Noor",
+    "hasCardOnFile": false,
+    "lastName": "Javed",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19177834050",
+    "name": "Noor Javed",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T02:11:01.272"
+  },
+  {
+    "id": "urn:blvd:Client:95639ccf-194b-4494-b490-e5370100a0cf",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-16T09:04:48.95",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "chanybreuer@gmail.com",
+    "externalId": null,
+    "firstName": "Hannah",
+    "hasCardOnFile": false,
+    "lastName": "Breuer",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17184758666",
+    "name": "Hannah Breuer",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-16T09:04:48.95"
+  },
+  {
+    "id": "urn:blvd:Client:959caa29-6931-4446-89dd-ffa26cf35cd6",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T10:01:52.915",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "xaliiis0n@yahoo.com",
+    "externalId": null,
+    "firstName": "Alison",
+    "hasCardOnFile": false,
+    "lastName": "Liu",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16462362803",
+    "name": "Alison Liu",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T10:01:52.915"
+  },
+  {
+    "id": "urn:blvd:Client:970046be-dace-4c3b-b4b9-02b1f7c79477",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T03:26:06.734",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "hkim15@gmail.com",
+    "externalId": null,
+    "firstName": "Ellen",
+    "hasCardOnFile": false,
+    "lastName": "Kim",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12122033515",
+    "name": "Ellen Kim",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-31T03:26:06.734"
+  },
+  {
+    "id": "urn:blvd:Client:981e1f07-13c9-47ee-93d6-3a08925f2a13",
+    "active": true,
+    "appointmentCount": 3,
+    "createdAt": "2024-09-09T13:30:45.418",
+    "creditCardsOnFile": [
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2026,
+        "expirationMonth": 1
+      }
+    ],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "devPhone@test.com",
+    "externalId": null,
+    "firstName": "dev",
+    "hasCardOnFile": true,
+    "lastName": "Phone",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16318372564",
+    "name": "dev Phone",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-09-09T13:30:45.418"
+  },
+  {
+    "id": "urn:blvd:Client:986bd579-dcc2-43ad-9a58-2626614ef818",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T08:46:13.772",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "michelle.wonyoung@gmail.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11232131243",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T08:46:13.772"
+  },
+  {
+    "id": "urn:blvd:Client:9afa8a11-ffa5-4e42-8a96-586ddbef421a",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T10:20:07.93",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "fekeane9@gmail.com",
+    "externalId": null,
+    "firstName": "Fallon",
+    "hasCardOnFile": false,
+    "lastName": "Keane",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19784607264",
+    "name": "Fallon Keane",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T10:20:07.93"
+  },
+  {
+    "id": "urn:blvd:Client:9ce3b7f3-a4d1-4676-ad0b-77b4a2def716",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2024-10-31T21:31:47.734",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "Buy",
+    "hasCardOnFile": false,
+    "lastName": "Pkgs",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+18776555444",
+    "name": "Buy Pkgs",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-14T05:37:58.546"
+  },
+  {
+    "id": "urn:blvd:Client:9ec7f7cf-d0eb-4d46-9b7e-9f466a63ece4",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-16T08:49:38.945",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "lingfenggao@gmail.com",
+    "externalId": null,
+    "firstName": "Lingfeng",
+    "hasCardOnFile": false,
+    "lastName": "Gao",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17347301989",
+    "name": "Lingfeng Gao",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-16T08:49:38.945"
+  },
+  {
+    "id": "urn:blvd:Client:a1ed130e-0329-4080-affc-d8a1be58c45e",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:16:11.192",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "sweetlymixed417@gmail.com",
+    "externalId": null,
+    "firstName": "le2",
+    "hasCardOnFile": false,
+    "lastName": "le2",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+18931829458",
+    "name": "le2 le2",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:16:11.192"
+  },
+  {
+    "id": "urn:blvd:Client:a33b331b-18ba-454e-b67e-ccb0d3fb5470",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T03:26:20.787",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "2001-09-17",
+    "email": "krystalbencosme@hotmail.com",
+    "externalId": null,
+    "firstName": "Krystal",
+    "hasCardOnFile": false,
+    "lastName": "Bencosme",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19179453301",
+    "name": "Krystal Bencosme",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2026-04-01T22:34:03.668"
+  },
+  {
+    "id": "urn:blvd:Client:aa906497-9b20-421e-aa9e-d17397932b73",
+    "active": true,
+    "appointmentCount": 19,
+    "createdAt": "2024-08-21T01:40:07.091",
+    "creditCardsOnFile": [
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2027,
+        "expirationMonth": 9
+      },
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2027,
+        "expirationMonth": 8
+      },
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2024,
+        "expirationMonth": 8
+      }
+    ],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "li@gmail.com",
+    "externalId": null,
+    "firstName": "Li",
+    "hasCardOnFile": true,
+    "lastName": "Dai",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16463877220",
+    "name": "Li Dai",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [
+      {
+        "id": "urn:blvd:Tag:da6633b2-84fc-4f8e-bfec-e35a3cc2001f",
+        "name": "VIP"
+      },
+      {
+        "id": "urn:blvd:Tag:d57a0c36-1255-45bd-8119-267cb3ff22cb",
+        "name": "some-tag"
+      },
+      {
+        "id": "urn:blvd:Tag:fbdfdb33-fb19-4ca2-828a-eabd10221106",
+        "name": "Friends & Family"
+      },
+      {
+        "id": "urn:blvd:Tag:2b73570a-207e-41f0-8393-7c801672d55c",
+        "name": ".Request Anna"
+      }
+    ],
+    "updatedAt": "2024-08-21T01:40:07.091"
+  },
+  {
+    "id": "urn:blvd:Client:acd4a5c2-5595-4a6d-9c12-99fa200872be",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-19T07:06:37.375",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "hilaldagc4@gmail.com",
+    "externalId": null,
+    "firstName": "Hilal",
+    "hasCardOnFile": false,
+    "lastName": "Dagci",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15182253201",
+    "name": "Hilal Dagci",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-19T07:06:37.375"
+  },
+  {
+    "id": "urn:blvd:Client:b51ec7e0-3173-49bf-8fa4-39b71339804c",
+    "active": true,
+    "appointmentCount": 2,
+    "createdAt": "2024-09-13T18:49:20.945",
+    "creditCardsOnFile": [
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2024,
+        "expirationMonth": 10
+      }
+    ],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "annarshopping@gmail.com",
+    "externalId": null,
+    "firstName": "Anna",
+    "hasCardOnFile": true,
+    "lastName": "Rong",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12124332555",
+    "name": "Anna Rong",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-09-13T18:49:20.945"
+  },
+  {
+    "id": "urn:blvd:Client:b71fc070-0c48-4ac7-915e-1b8cbce4abf2",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:49:55.895",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "leungbty@gmail.com",
+    "externalId": null,
+    "firstName": "Bonita",
+    "hasCardOnFile": false,
+    "lastName": "Leung",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19173784668",
+    "name": "Bonita Leung",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:49:55.895"
+  },
+  {
+    "id": "urn:blvd:Client:b7d1c575-19c2-449e-abd2-e0183bce7691",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T02:44:31.642",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "tahanni.ahmed12@gmail.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13456544353",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T02:44:31.642"
+  },
+  {
+    "id": "urn:blvd:Client:b9cd3e29-e6d8-4871-b76f-5778b2ff83fa",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-16T07:54:20.383",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "1@a.com",
+    "externalId": null,
+    "firstName": "234",
+    "hasCardOnFile": false,
+    "lastName": "234",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+12321321312",
+    "name": "234 234",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-16T07:54:20.383"
+  },
+  {
+    "id": "urn:blvd:Client:b9f625e0-7249-43b3-845c-21b884297c63",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:15:41.625",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "sweetlymixed417@gmail.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+129301289",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:15:41.625"
+  },
+  {
+    "id": "urn:blvd:Client:bae2a8ec-ed49-4280-92a2-8271e58eb19b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:12:41.074",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "haoen95@gmail.com",
+    "externalId": null,
+    "firstName": "Haoen",
+    "hasCardOnFile": false,
+    "lastName": "Huang",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16504765612",
+    "name": "Haoen Huang",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:12:41.074"
+  },
+  {
+    "id": "urn:blvd:Client:bfcb3f02-6be4-41c8-857c-bf699eb64d9c",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T03:27:14.312",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "ncorvera09@gmail.com",
+    "externalId": null,
+    "firstName": "Norma",
+    "hasCardOnFile": false,
+    "lastName": "Gonzalez",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19175006956",
+    "name": "Norma Gonzalez",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-31T03:27:14.312"
+  },
+  {
+    "id": "urn:blvd:Client:c07c0526-5dcc-47af-ab1e-cede0c7605a2",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-11-03T08:05:02.138",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1993-07-04",
+    "email": "vivwwcheng@gmail.com",
+    "externalId": null,
+    "firstName": "Vivian",
+    "hasCardOnFile": false,
+    "lastName": "Cheng",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+14156131032",
+    "name": "Vivian Cheng",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-11-03T08:05:02.87"
+  },
+  {
+    "id": "urn:blvd:Client:c1539f7b-f82d-42b7-a01c-8d06621f2e1b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T22:32:28.618",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "conjade@yahoo.com",
+    "externalId": null,
+    "firstName": "Connie",
+    "hasCardOnFile": false,
+    "lastName": "Long",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16318302008",
+    "name": "Connie Long",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-31T22:32:28.618"
+  },
+  {
+    "id": "urn:blvd:Client:c1e98d21-76f2-45db-abf4-82fd57e1be5e",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T02:28:26.07",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "daisy.jazmin@gmail.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11231231231",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T02:28:26.07"
+  },
+  {
+    "id": "urn:blvd:Client:c29a7548-101f-452e-9339-370f13e1a30b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T03:27:06.549",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1993-09-14",
+    "email": "catanabailey1@gmail.com",
+    "externalId": null,
+    "firstName": "Catana",
+    "hasCardOnFile": false,
+    "lastName": "Bailey",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17184143887",
+    "name": "Catana Bailey",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2026-04-01T22:36:31.12"
+  },
+  {
+    "id": "urn:blvd:Client:c2af2d4a-6408-46ea-a406-c7c9b817a26b",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-11-03T07:49:05.721",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "2000-04-08",
+    "email": "jliang040800@gmail.com",
+    "externalId": null,
+    "firstName": "Jamie",
+    "hasCardOnFile": false,
+    "lastName": "Liang",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19174762035",
+    "name": "Jamie Liang",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-11-03T07:49:06.151"
+  },
+  {
+    "id": "urn:blvd:Client:c58bcd5e-e10e-4257-a46f-c04838fd5ede",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-19T07:10:14.799",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "partywithtalya@gmail.com",
+    "externalId": null,
+    "firstName": "Talya",
+    "hasCardOnFile": false,
+    "lastName": "Tehranu",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15165062489",
+    "name": "Talya Tehranu",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-19T07:10:14.799"
+  },
+  {
+    "id": "urn:blvd:Client:c5f6eab8-f0e4-4482-8feb-2ac98bf6d6e2",
+    "active": true,
+    "appointmentCount": 23,
+    "createdAt": "2024-07-23T10:13:25.364",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "john.doe@gmail.com",
+    "externalId": null,
+    "firstName": "John",
+    "hasCardOnFile": true,
+    "lastName": "Doe",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13105555555",
+    "name": "John Doe",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-07-23T10:13:25.364"
+  },
+  {
+    "id": "urn:blvd:Client:c8fda525-d391-468a-af80-75e99bc047ef",
+    "active": true,
+    "appointmentCount": 36,
+    "createdAt": "2025-01-14T07:02:07.855",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1991-01-02",
+    "email": "lele@codelessunvierse.com",
+    "externalId": null,
+    "firstName": "Le",
+    "hasCardOnFile": false,
+    "lastName": "Yang",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19865086578",
+    "name": "Le Yang",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:ff12801c-dc52-437d-b058-69810bb3a865",
+        "text": "first note",
+        "createdAt": "2025-09-15T09:48:43.828917Z"
+      },
+      {
+        "id": "urn:blvd:Note:c14489b9-4562-4033-949c-b872e74388c3",
+        "text": "note",
+        "createdAt": "2025-11-11T10:13:06.499390Z"
+      },
+      {
+        "id": "urn:blvd:Note:890e735f-a6da-4cc8-881a-f2e2b0a8cee3",
+        "text": "note1",
+        "createdAt": "2025-12-02T09:25:59.363575Z"
+      },
+      {
+        "id": "urn:blvd:Note:d420ee68-4345-41f4-a26f-6156cfa65eed",
+        "text": "note2",
+        "createdAt": "2025-12-02T09:26:12.112178Z"
+      },
+      {
+        "id": "urn:blvd:Note:ff266915-0cd7-485b-879b-1a358ea01424",
+        "text": "note3",
+        "createdAt": "2025-12-02T09:27:12.916614Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": "booking alert",
+    "tags": [
+      {
+        "id": "urn:blvd:Tag:fbdfdb33-fb19-4ca2-828a-eabd10221106",
+        "name": "Friends & Family"
+      }
+    ],
+    "updatedAt": "2026-01-06T04:28:24.987"
+  },
+  {
+    "id": "urn:blvd:Client:c9a42efd-a2a4-42bb-a919-d149b98a20ef",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:39:51.871",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "sutherka@gmail.com",
+    "externalId": null,
+    "firstName": "Lauren",
+    "hasCardOnFile": false,
+    "lastName": "Sutherland",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13473262236",
+    "name": "Lauren Sutherland",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:39:51.871"
+  },
+  {
+    "id": "urn:blvd:Client:ca6e3357-0d8d-4cc2-bb13-a491464d2273",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2025-05-23T08:46:08.266",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "aashnaagarwal00@gmail.com",
+    "externalId": null,
+    "firstName": "Aashna",
+    "hasCardOnFile": false,
+    "lastName": "Agarwal",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19197575514",
+    "name": "Aashna Agarwal",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:46:08.266"
+  },
+  {
+    "id": "urn:blvd:Client:cb6ef9a1-a2cc-4238-a420-60d103a5cdf3",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-03T01:32:18.924",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "tatianaalfaro78@gmail.com",
+    "externalId": null,
+    "firstName": "Tatiana",
+    "hasCardOnFile": false,
+    "lastName": "Alfaro",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13478339769",
+    "name": "Tatiana Alfaro",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-03T01:32:18.924"
+  },
+  {
+    "id": "urn:blvd:Client:cc79859c-df6a-407c-805a-7e5bddeea7e4",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-11-03T08:11:10.647",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "eyanna.rasheed@gmail.com",
+    "externalId": null,
+    "firstName": "Eyanna",
+    "hasCardOnFile": false,
+    "lastName": "Rasheed",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15168081611",
+    "name": "Eyanna Rasheed",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-11-03T08:11:10.647"
+  },
+  {
+    "id": "urn:blvd:Client:ccd51ac2-c7c1-4b24-818d-6abed3bf2609",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2025-03-05T00:33:54.571",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "yuzhi",
+    "hasCardOnFile": false,
+    "lastName": "0304",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "yuzhi 0304",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-03-05T00:33:54.571"
+  },
+  {
+    "id": "urn:blvd:Client:cdba9ba5-e031-4f96-b8be-6288b63bb767",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-06-04T09:05:10.219",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "elizabethmannheimer@gmail.com",
+    "externalId": null,
+    "firstName": "Elizabetth",
+    "hasCardOnFile": false,
+    "lastName": "Mannheimer",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13176501945",
+    "name": "Elizabetth Mannheimer",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-04T09:05:10.219"
+  },
+  {
+    "id": "urn:blvd:Client:cfbd7c8a-ec24-4110-b056-bd491b1f1b08",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T08:03:36.736",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "akirelemig2020@gmail.com",
+    "externalId": null,
+    "firstName": "le1",
+    "hasCardOnFile": false,
+    "lastName": "le1",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11234543453",
+    "name": "le1 le1",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T08:03:36.736"
+  },
+  {
+    "id": "urn:blvd:Client:d5eb3680-7b29-415b-af2d-024438e91d81",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:38:10.822",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "nikato16@yahoo.com",
+    "externalId": null,
+    "firstName": "Nika",
+    "hasCardOnFile": false,
+    "lastName": "To",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15623167664",
+    "name": "Nika To",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:38:10.822"
+  },
+  {
+    "id": "urn:blvd:Client:d6fa1422-4c8d-45fe-b6ad-48cebdd3af4e",
+    "active": true,
+    "appointmentCount": 28,
+    "createdAt": "2025-01-14T07:10:28.373",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "Jan",
+    "hasCardOnFile": false,
+    "lastName": "Five",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+8618009220355",
+    "name": "Jan Five",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:cbbdd4b5-b361-4f6f-aa8a-d335993d4907",
+        "text": "Pre-treatment checklist:\nId: c4a552b8-4688-4530-a184-1970ce7aad40\nDate: 2025-03-06T08:15:00-08:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: ewrgfnbvbvjh\nDevice Number: 335\nAny change in skin tone: \nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: EmSculpt Treatment (One Paddle)\nTreatments: 45\nTreatment area: drde544\nApplicators: Small - flat\n\n\n\u7279\u7279\u6536\u51655454 \u68b5\u8482\u5188\u623f\u5730\u4ea7VB\u4f60\u53e4\u53e4\u602a\u602a5",
+        "createdAt": "2025-03-23T11:42:18.354021Z"
+      },
+      {
+        "id": "urn:blvd:Note:144a79ba-b522-4380-882b-2d921b38644d",
+        "text": "Pre-treatment checklist:\nId: 03d4e9da-64fe-4e5e-b3d3-9757771b321e\nDate: 2025-03-23T14:40:00-15:00\nTechnician: (HERALD SQ)-2 ALL Dora\nClient's Feedback: Good\nDevice Number: 34554564\nAny change in skin tone: YES\nDate of last sun exposure: 43545\nAny change in medication: YES\nDate of last dosage: 13/03/2025\nAny tattoo on treatment area: YES\nLocation of tattoo: shoulder\n(Face) Any tinted product/makeup on skin: YES\n(Face) Use of exfoliants recently: YES\n\nTreatment note:\nTreatment area: x- Piqo4 Laser Skin Brightening Treatment (without numbing)\nTreatments: 2\nLaserDevice: Picosure\n---Spot Treatment---\nWavelength: 34\nSpot Size: 32\nFluence: 3545\nNumber of pulses: 3\n---Toning---\nWavelength: 5\nSpot Size: 3\nFluence: 6\nNumber of pulses: 4\n---Retexturizing Resolve---\nFluence: 2f\nNumber of pulses: 1\n---Retexturizing Focus---\nFluence: 3344\nSpot size: 2\nNumber of pulses: 5\n---Retexturizing LaseMD---\nPower: 43\n# of passes: 34\nTotal energy: 34\n---Retexturizing Mosaic---\nLevel: 2\nEnergy: 45\nNum of total passes: 3\nTotal energy: 454\nEndpoint: Pigment darkening\nPost treatment: Cliniclam\nTakeHome: HQ\nNote: \n\n\nTest other note, 112234354354 noot",
+        "createdAt": "2025-03-23T10:07:07.260358Z"
+      },
+      {
+        "id": "urn:blvd:Note:e0c0a643-e078-485b-a6c5-19854824fad0",
+        "text": "Pre-treatment checklist:\nId: 91a13746-47aa-45b9-9217-0cc991928b1b\nDate: 2025-03-23T14:20:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nAny change in skin tone: \nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: x- Picosure Pro\u00ae Laser - Skin Revitalization (without numbing)\nTreatments: 1\nLaserDevice: \n---Spot Treatment---\nWavelength: \nSpot Size: \nFluence: \nNumber of pulses: \n---Toning---\nWavelength: \nSpot Size: \nFluence: \nNumber of pulses: \nEndpoint: \nPost treatment: \nTakeHome: \nNote:",
+        "createdAt": "2025-03-23T10:16:12.065293Z"
+      },
+      {
+        "id": "urn:blvd:Note:0b594543-dba5-4a10-844b-b38e143887e9",
+        "text": "Pre-treatment checklist:\nId: bcde0f5c-74ec-419e-9da2-5360080e3295\nDate: 2025-03-23T09:00:00-07:00\nTechnician: (HERALD SQ)-3 ALL dora\nClient's Feedback: Awesome\nDevice Number: 34\nAny change in skin tone: YES\nDate of last sun exposure: 004f\nAny change in medication: YES\nDate of last dosage: 12\nAny tattoo on treatment area: YES\nLocation of tattoo: 34f\n(Face) Any tinted product/makeup on skin: YES\n(Face) Use of exfoliants recently: YES\n\nTreatment note:\nTreatment area: LaseMD Ultra\u2122 Treatment\nTreatments: 2\nSkin rejuvenation: Random mode\nPower: 55g\nNumber of passes: 66f\nTotal energy: 77d\nBooster: 88c\nEndpoint: Moderate redness\nPost treatment: Ice pack\nTakeHome: HQ\nNote: 99\n\n\nerfvv",
+        "createdAt": "2025-03-23T11:05:44.651745Z"
+      },
+      {
+        "id": "urn:blvd:Note:67bd4547-20fc-4dfd-8eaa-e363bf32621f",
+        "text": "Pre-treatment checklist:\nId: 7a77d01b-73f8-4750-9712-876e87927021\nDate: 2025-03-25T09:00:00-07:00\nTechnician: (HERALD SQ)-3 ALL\nClient's Feedback: 22 good\nDevice Number: 11\nAny change in skin tone: NO\nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Coolsculpting Treatment (One Applicator-Smooth)\nTreatments: 33\nTreatment area: 22 tedst\nApplicators: Smooth\n# of Applicator: 44\n\n\ntest note v465456",
+        "createdAt": "2025-03-23T11:22:34.101422Z"
+      },
+      {
+        "id": "urn:blvd:Note:2388202d-89b1-4657-84ec-9d1776b9b57f",
+        "text": "Pre-treatment checklist:\nId: 894c7431-f569-4501-a532-11e73af4d134\nDate: 2025-03-27T09:35:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nAny change in skin tone: \nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Any tinted product/makeup on skin: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: Coolsculpting Treatment (One Applicators- Large)\nTreatments: 1\nTreatment area: \nApplicators: \n# of Applicator: \n\nTreatment area: Tattoo Removal Treatment (SIZE- 36-50 square inches)\nTreatments: 1\nSetting: Yag\nFluence: \nPulse Duration: 5ms\nSpot Size: 20mm",
+        "createdAt": "2025-03-24T06:05:30.192456Z"
+      },
+      {
+        "id": "urn:blvd:Note:8e014aea-94cd-4d21-b97d-04e90bd7fa5d",
+        "text": "Pre-treatment checklist:\nId: 03d4e9da-64fe-4e5e-b3d3-9757771b321e\nDate: 2025-03-23T14:40:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nBefore photo taken: \nAfter Care Instruction: EMail\nRemove makeup and skin cleanse: NO\nAny change in skin tone: YES\nDate of last sun exposure: \nAny change in medication: NO\nAny tattoo on treatment area: NO\n(Face) Use of exfoliants recently: NO\n\nTreatment note:\nTreatment area: x- Piqo4 Laser Skin Brightening Treatment (without numbing)\nTreatments: 1\nLaserDevice: Picoway\n---Spot Treatment---\nWavelength: \nSpot Size: \nFluence: \nNumber of pulses: \n---Toning---\nWavelength: \nSpot Size: \nFluence: \nNumber of pulses: \n---Retexturizing LaseMD---\nPower: 333\n# of passes: 22\nTotal energy: 3333\nEndpoint: No redness\nPost treatment: \nTakeHome: \nNote: 33399887hbhnnn\n\n\ngtyuinm 6789hjkl hjkl",
+        "createdAt": "2025-03-30T06:35:03.163924Z"
+      },
+      {
+        "id": "urn:blvd:Note:da97a462-eff1-4b50-ae95-0755afc79151",
+        "text": "Pre-treatment checklist:\nId: 7a77d01b-73f8-4750-9712-876e87927021\nDate: 2025-03-25T09:00:00-07:00\nTechnician: (HERALD SQ)-3 ALL\nClient's Feedback: 00 good feedback\nDevice Number: \nBefore photo taken: YES\nMeasurement taken: YES\nMeasurement: 1a 0b\nMeasurement Weight: 1a 0b\nAfter Care Instruction: Text\n\nTreatment note:\nTreatment area: Coolsculpting Treatment (One Applicator-Smooth)\nTreatments: 10\nTreatment area: 1a 0b\nApplicators: Large - Curve\n# of Applicator: 1a 0b\n\n\n1a 0b",
+        "createdAt": "2025-03-30T06:41:35.413214Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [
+      {
+        "id": "urn:blvd:Tag:fe0e85f1-eef8-498d-9f9f-3d2bae139125",
+        "name": ".Request test"
+      }
+    ],
+    "updatedAt": "2025-09-10T07:26:48.522"
+  },
+  {
+    "id": "urn:blvd:Client:d7bff1c3-e129-4bef-892b-4b2ed221592e",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:50:32.542",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "imanam.ikuzus@gmail.com",
+    "externalId": null,
+    "firstName": "Manami",
+    "hasCardOnFile": false,
+    "lastName": "Suzuki",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+17184061070",
+    "name": "Manami Suzuki",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:50:32.542"
+  },
+  {
+    "id": "urn:blvd:Client:dacb45b4-e6a6-4f4a-8115-aa9dda0e35f3",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2025-05-29T00:58:46.592",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "jeandanso@gmail.com",
+    "externalId": null,
+    "firstName": "Jean Marie",
+    "hasCardOnFile": false,
+    "lastName": "Danso",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15404089562",
+    "name": "Jean Marie Danso",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-06-17T07:47:38.46"
+  },
+  {
+    "id": "urn:blvd:Client:db1a4465-c965-44dc-8c89-ab3a23ef75b5",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-31T03:26:24.335",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "aahernandez1920@gmail.com",
+    "externalId": null,
+    "firstName": "Ashley",
+    "hasCardOnFile": false,
+    "lastName": "Hernandez",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+15516895009",
+    "name": "Ashley Hernandez",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-31T03:26:24.335"
+  },
+  {
+    "id": "urn:blvd:Client:dc07b298-5126-40b0-8018-5a7a3a41c727",
+    "active": true,
+    "appointmentCount": 4,
+    "createdAt": "2025-02-10T12:48:34.66",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "dfdf@ere.com",
+    "externalId": null,
+    "firstName": "Feb",
+    "hasCardOnFile": false,
+    "lastName": "test one",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13438847667",
+    "name": "Feb test one",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-02-14T18:28:19.087"
+  },
+  {
+    "id": "urn:blvd:Client:dc759b64-4a13-4c70-906d-3024154419bd",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T07:09:18.058",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "narendjie94@gmail.com",
+    "externalId": null,
+    "firstName": "Narendjie",
+    "hasCardOnFile": false,
+    "lastName": "Angibeau",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16316193009",
+    "name": "Narendjie Angibeau",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T07:09:18.058"
+  },
+  {
+    "id": "urn:blvd:Client:dd49f865-40c6-4cb0-9f5b-245a4767f1b6",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-16T09:00:17.044",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "rainaskarim@gmail.com",
+    "externalId": null,
+    "firstName": "Raina",
+    "hasCardOnFile": false,
+    "lastName": "Karim",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16177687140",
+    "name": "Raina Karim",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-16T09:00:17.044"
+  },
+  {
+    "id": "urn:blvd:Client:e2a9a4e6-e0b3-4184-8a5f-76e8340232f7",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-28T13:22:29.812",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1989-04-03",
+    "email": "akazati@hotmail.com",
+    "externalId": null,
+    "firstName": "Kogchakorn",
+    "hasCardOnFile": false,
+    "lastName": "Charoenpol",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19179690298",
+    "name": "Kogchakorn Charoenpol",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2026-04-01T22:34:49.354"
+  },
+  {
+    "id": "urn:blvd:Client:e57939c4-aaf9-469e-8e8d-d5dcc76e54bc",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2025-03-07T13:53:46.357",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "yuzhi",
+    "hasCardOnFile": false,
+    "lastName": "3",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "yuzhi 3",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-03-07T13:57:36.358"
+  },
+  {
+    "id": "urn:blvd:Client:e5d10289-a0a3-430d-bbbf-f212b4d50ca0",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T10:20:34.529",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "jane9137@hotmail.com",
+    "externalId": null,
+    "firstName": "Yewon",
+    "hasCardOnFile": false,
+    "lastName": "Lee",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13473228212",
+    "name": "Yewon Lee",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T10:20:34.529"
+  },
+  {
+    "id": "urn:blvd:Client:e5d55ec4-ac3c-4b7c-b2d0-ee57894b32fa",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-28T12:51:58.795",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "lfitzgibbons21@gmail.com",
+    "externalId": null,
+    "firstName": "Elizabeth",
+    "hasCardOnFile": false,
+    "lastName": "Fitzgibbons",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19137871727",
+    "name": "Elizabeth Fitzgibbons",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-28T12:51:58.795"
+  },
+  {
+    "id": "urn:blvd:Client:e72b9cd6-ed95-4755-a4ea-7dbb77d011bf",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2025-01-07T01:20:03.518",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "Jan",
+    "hasCardOnFile": false,
+    "lastName": "no phone no",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "Jan no phone no",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-01-14T06:55:28.998"
+  },
+  {
+    "id": "urn:blvd:Client:e89828c1-9b74-4966-b47d-fb4d24f235a4",
+    "active": true,
+    "appointmentCount": 3,
+    "createdAt": "2025-03-07T10:03:50.8",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "page",
+    "hasCardOnFile": false,
+    "lastName": "12",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": null,
+    "name": "page 12",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-03-07T10:05:30.264"
+  },
+  {
+    "id": "urn:blvd:Client:e8d454d9-2129-4249-8e32-a74dccbd514d",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T07:35:34.154",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "julie.j.tzeng@gmail.com",
+    "externalId": null,
+    "firstName": "Julie",
+    "hasCardOnFile": false,
+    "lastName": "Tzeng",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19785057318",
+    "name": "Julie Tzeng",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T07:35:34.154"
+  },
+  {
+    "id": "urn:blvd:Client:ea09db43-4354-4299-89a2-e50bc7778962",
+    "active": true,
+    "appointmentCount": 9,
+    "createdAt": "2025-01-19T11:45:00.955",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "test@test.com",
+    "externalId": null,
+    "firstName": "Jan (Fist Name) Middle Nname",
+    "hasCardOnFile": false,
+    "lastName": "Six Last Name",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19867865789",
+    "name": "Jan (Fist Name) Middle Nname Six Last Name",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-02-10T12:45:05.594"
+  },
+  {
+    "id": "urn:blvd:Client:ead4ff4c-af6a-4c5c-b838-ed34c78477a5",
+    "active": true,
+    "appointmentCount": 1,
+    "createdAt": "2024-06-26T02:05:41.06",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "err@gmail.com",
+    "externalId": null,
+    "firstName": "New",
+    "hasCardOnFile": false,
+    "lastName": "Client",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16666666666",
+    "name": "New Client",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:a141cea6-cadb-4d03-8f7d-336af4be3984",
+        "text": "qqq",
+        "createdAt": "2024-09-29T13:22:02.366191Z"
+      },
+      {
+        "id": "urn:blvd:Note:aad1fe8e-d2cc-49fc-9d14-f12c5204d2eb",
+        "text": "eeedddd",
+        "createdAt": "2024-09-29T13:22:06.084105Z"
+      },
+      {
+        "id": "urn:blvd:Note:03420bcb-857f-4302-abea-90248bd33b2a",
+        "text": "fff",
+        "createdAt": "2024-09-29T13:22:09.908679Z"
+      },
+      {
+        "id": "urn:blvd:Note:bc0fdaef-13c9-4057-8b5a-6900ce9b179b",
+        "text": "123",
+        "createdAt": "2024-09-30T01:51:42.526639Z"
+      },
+      {
+        "id": "urn:blvd:Note:11d1752e-7705-4391-a424-760d2dc9168c",
+        "text": "123",
+        "createdAt": "2024-09-30T01:51:33.909372Z"
+      },
+      {
+        "id": "urn:blvd:Note:4384b5f0-a01b-4e23-a42e-fa6fe6b685d8",
+        "text": "123",
+        "createdAt": "2024-09-30T01:51:37.544989Z"
+      },
+      {
+        "id": "urn:blvd:Note:4636b76b-d52d-40a5-a2aa-aae4565cdbcd",
+        "text": "123",
+        "createdAt": "2024-09-30T01:51:40.768059Z"
+      },
+      {
+        "id": "urn:blvd:Note:2c47b780-da63-4678-92f4-e2a948bc5fab",
+        "text": "asd",
+        "createdAt": "2024-09-30T01:51:44.731403Z"
+      },
+      {
+        "id": "urn:blvd:Note:3130e8c3-b0ec-4ac7-b83c-49b226e3ca75",
+        "text": "asd",
+        "createdAt": "2024-09-30T01:51:49.548649Z"
+      },
+      {
+        "id": "urn:blvd:Note:b3c91f0f-f930-4317-988b-39792c8d6ac5",
+        "text": "asdads",
+        "createdAt": "2024-09-30T01:51:52.061847Z"
+      },
+      {
+        "id": "urn:blvd:Note:f83c2c15-eb2d-4bb1-8615-f10c802e5a1d",
+        "text": "asdasd",
+        "createdAt": "2024-09-30T01:51:55.541847Z"
+      },
+      {
+        "id": "urn:blvd:Note:03c1019b-8032-4d87-b594-638dfeebf71d",
+        "text": "123",
+        "createdAt": "2024-09-30T08:34:27.883211Z"
+      },
+      {
+        "id": "urn:blvd:Note:108e3024-9c00-41aa-8fbc-c3c217f377c9",
+        "text": "123123",
+        "createdAt": "2024-09-30T09:22:23.051817Z"
+      },
+      {
+        "id": "urn:blvd:Note:498c50a7-3699-4e27-898c-c0dcdc9957be",
+        "text": "123qwe",
+        "createdAt": "2024-09-30T09:22:27.946877Z"
+      },
+      {
+        "id": "urn:blvd:Note:6f6a8920-d5ea-4561-94e2-738f954ff73e",
+        "text": "123qwe",
+        "createdAt": "2024-09-30T09:24:20.646534Z"
+      },
+      {
+        "id": "urn:blvd:Note:be78f1a7-bc5f-4a68-8db0-f526d06ca6b9",
+        "text": "sdfsdf",
+        "createdAt": "2024-09-30T09:24:22.296157Z"
+      },
+      {
+        "id": "urn:blvd:Note:6ee7dac2-e89f-48ff-8dc3-eddd79226b98",
+        "text": "12w3qwe",
+        "createdAt": "2024-09-30T09:24:26.153385Z"
+      },
+      {
+        "id": "urn:blvd:Note:cea13cf1-5751-4eea-bcf8-40650f92400f",
+        "text": "123123",
+        "createdAt": "2024-09-30T09:24:58.103645Z"
+      },
+      {
+        "id": "urn:blvd:Note:a862750f-7f29-4f36-8082-1856a7755212",
+        "text": "123qwe",
+        "createdAt": "2024-09-30T09:25:24.582051Z"
+      },
+      {
+        "id": "urn:blvd:Note:6d4eac88-56a9-4899-8102-58c7561782d3",
+        "text": "123",
+        "createdAt": "2024-09-30T09:28:27.578189Z"
+      },
+      {
+        "id": "urn:blvd:Note:f5e9638b-dcc0-4ebb-86ad-ae7b3e36b01d",
+        "text": "qwe",
+        "createdAt": "2024-09-30T09:28:56.320632Z"
+      },
+      {
+        "id": "urn:blvd:Note:005fe464-9937-4230-a6d7-663b9d448fc7",
+        "text": "asdf",
+        "createdAt": "2024-09-30T09:29:18.053294Z"
+      },
+      {
+        "id": "urn:blvd:Note:edf223d5-25b7-4b6e-b2c7-848da8ea5709",
+        "text": "abc",
+        "createdAt": "2024-09-30T09:29:25.389177Z"
+      },
+      {
+        "id": "urn:blvd:Note:6c3e38f6-6a42-4d6d-8237-de4849e6d40c",
+        "text": "123qwe",
+        "createdAt": "2024-09-30T09:29:44.200186Z"
+      },
+      {
+        "id": "urn:blvd:Note:b512f0db-9618-4ee0-a58a-37229b078f6c",
+        "text": "qwe",
+        "createdAt": "2024-09-30T09:31:14.297848Z"
+      },
+      {
+        "id": "urn:blvd:Note:9111064d-d374-456c-833f-44cd506ba6cf",
+        "text": "test",
+        "createdAt": "2024-09-30T09:31:46.598951Z"
+      },
+      {
+        "id": "urn:blvd:Note:0e3e92e1-fc66-4ad3-a4f0-92c8ad8d5814",
+        "text": "123",
+        "createdAt": "2024-08-11T01:40:21.166166Z"
+      },
+      {
+        "id": "urn:blvd:Note:bf97b7d1-fbde-4474-be53-1c417ae8f751",
+        "text": "test notes",
+        "createdAt": "2024-08-14T09:19:39.118149Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": "aaaa",
+    "tags": [],
+    "updatedAt": "2024-07-10T08:29:47.073"
+  },
+  {
+    "id": "urn:blvd:Client:ed144527-46e9-45a5-b376-2fe642121afb",
+    "active": true,
+    "appointmentCount": 39,
+    "createdAt": "2025-01-07T01:41:46.011",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "35343@343.com",
+    "externalId": null,
+    "firstName": "Jan",
+    "hasCardOnFile": false,
+    "lastName": "one",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13433454545",
+    "name": "Jan one",
+    "notes": [
+      {
+        "id": "urn:blvd:Note:ecb26ebb-c9cd-45cf-9ae0-7e7c0ce8e8c4",
+        "text": "Pre-treatment checklist:\nId: b3871a56-14fd-4931-b77b-1c4327b13c3c\nDate: 2025-05-11T12:00:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nBefore photo taken: \nAfter Care Instruction: \nRemove makeup and skin cleanse: \nAny change in skin tone: YES\nDate of last sun exposure: 33-335-4459\nAny change in medication: YES\nDate of last dosage: 778hbfoo jh8\nAny tattoo on treatment area: YES\nLocation of tattoo: 343nv  990\n(Face) Use of exfoliants recently: YES\n\nTreatment note:\nTreatment area: Spider Vein Removal (50 pulses)\nTreatments: 333\nLaser Device: Lutronic\nSetting\nWavelength: eee 22  e3r\nSpot Size: 2-3mm\nFluence: ee33 33\nPulse Duration: 333 r\nCooling: 0a 2b 333 ccc\nNumber of pulses: 0a 2b 333 ccc\nEndpoint: Mild redness,Moderate redness\nPost treatment: Ice pack,Zimmer,Hydrocortisone,Petrolatum\nTakeHome: Bacitracin\nNote: \n\n\n0a 2b 333 ccc",
+        "createdAt": "2025-03-30T07:42:24.658133Z"
+      },
+      {
+        "id": "urn:blvd:Note:cbd90b40-e981-4348-befa-2ce4384d6c42",
+        "text": "Pre-treatment checklist:\nId: f24be0c6-2fe2-437c-ab0f-847b9be3dcbd\nDate: 2025-05-11T13:15:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nBefore photo taken: \nAfter Care Instruction: \nRemove makeup and skin cleanse: \nAny change in skin tone: YES\nDate of last sun exposure: \nAny change in medication: YES\nDate of last dosage: \nAny tattoo on treatment area: YES\nLocation of tattoo: \n(Face) Use of exfoliants recently: YES\n\nTreatment note:\nTreatment area: Tattoo Removal Treatment (SIZE: 1-2 square inches)\nTreatments: 333\nLaser Device: Piqo4\nSetting\nWavelength: 2233d fff\nSpot Size: 2233d fff\nFluence: 2233d fff\nNumber of pulses: 2233d fff\nEndpoint: No redness,Mild redness\nPost treatment: Hydrocortisone,Petrolatum\nTakeHome: Bacitracin\nNote: \n\n\n2233d fff2233d fff2233d fff 2233d fff",
+        "createdAt": "2025-03-30T07:51:03.602588Z"
+      },
+      {
+        "id": "urn:blvd:Note:cb8ec52a-9782-4287-beb7-3caa9637aab0",
+        "text": "Pre-treatment checklist:\nId: f2274374-a7ca-474a-ba65-ba926b5e9061\nDate: 2025-05-11T15:15:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nBefore photo taken: \nAfter Care Instruction: \nRemove makeup and skin cleanse: \nAny change in skin tone: YES\nDate of last sun exposure: ww 44 ff66  8n--11, . 0-=` / abc\nAny change in medication: YES\nDate of last dosage: ww 44 ff66  8n--11, . 0-=` / abc\nAny tattoo on treatment area: YES\nLocation of tattoo: ww 44 ff66  8n--11, . 0-=` / abc\n(Face) Use of exfoliants recently: YES\n\nTreatment note:\nTreatment area: Secret\u2122 RF Micro-Needling Treatment (Face & Neck)\nTreatments: 10\nLaser Device: \nSetting\nWavelength: \nSpot Size: \nFluence: \nPulse Duration: \nCooling: \nNumber of pulses: \nEndpoint: No redness\nPost treatment: \nTakeHome: \nNote: \n\n\nww 44 ff66  8n--11, . 0-=` / abc",
+        "createdAt": "2025-03-30T08:07:11.988658Z"
+      },
+      {
+        "id": "urn:blvd:Note:7d47953b-0282-4956-9d4a-7a50828aa7b7",
+        "text": "Pre-treatment checklist:\nId: 66a4e726-ed4d-43c2-9e5b-7423251f103f\nDate: 2025-05-12T13:00:00-07:00\nTechnician: (HERALD SQ)-2 ALL\nClient's Feedback: \nDevice Number: \nBefore photo taken: \nAfter Care Instruction: \nRemove makeup and skin cleanse: \nAny change in skin tone: \nAny change in medication: \nAny tattoo on treatment area: \n(Face) Use of exfoliants recently: \n\nTreatment note:\nTreatment area: Lumenis\u00ae M22\u2122 IPL (Photofacial) Treatment (No numbing)\nTreatments: 1\nST: Age/Telang(M)\nShallow: 560/ST1 v b 333  ddd \nMedium: 590/ST2ecv 33fg 33rf \nDeep: 640/ST2ecv 33fg 33rf \nSpot Treat: PL: Lentigines-light-epidermis\n560/ST2ecv 33fg 33rf \nSpot Treat: VL: Facial Telang\nVascular/ST2ecv 33fg 33rf \n- Deep\nSpot Treat: ST: Acne Mild (Facial)\nAcne/ST2ecv 33fg 33rf \n- Medium\nEndpoint: \nPost treatment: Ice pack,Zimmer,Cliniclam,SPF\nTakeHome: \nNote: 2ecv 33fg 33rf \n\n\n2ecv 33fg 33rf",
+        "createdAt": "2025-03-30T08:12:03.616056Z"
+      }
+    ],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [
+      {
+        "id": "urn:blvd:Tag:31e1a335-5641-45af-bb7a-4f41a6e68f03",
+        "name": "Influencer"
+      }
+    ],
+    "updatedAt": "2025-02-11T12:48:05.655"
+  },
+  {
+    "id": "urn:blvd:Client:ee3c9774-3340-4875-a08a-6c230fab6618",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T08:50:54.165",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "jocelynnagy@gmail.com",
+    "externalId": null,
+    "firstName": "Jocelyn",
+    "hasCardOnFile": false,
+    "lastName": "Nagy",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19788862782",
+    "name": "Jocelyn Nagy",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T08:50:54.165"
+  },
+  {
+    "id": "urn:blvd:Client:ee3e229f-c2a1-48b9-a6be-657edfb3fd83",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2024-07-10T08:29:02.306",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "qwesdasdqw@qq.com",
+    "externalId": null,
+    "firstName": "qwe",
+    "hasCardOnFile": false,
+    "lastName": "qqaa",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+11231231231",
+    "name": "qwe qqaa",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-07-10T08:29:02.306"
+  },
+  {
+    "id": "urn:blvd:Client:ef01dcf3-cbdb-4d1e-8229-a969b582fa73",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-23T10:18:54.37",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "guerra.josh2@gmail.com",
+    "externalId": null,
+    "firstName": "Joshua",
+    "hasCardOnFile": false,
+    "lastName": "Guerra",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+13054576299",
+    "name": "Joshua Guerra",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-23T10:18:54.37"
+  },
+  {
+    "id": "urn:blvd:Client:ef17b582-d5b5-4276-a920-d2726b8d494f",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-11-03T08:13:11.04",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1972-08-14",
+    "email": "dlaurie63@aol.com",
+    "externalId": null,
+    "firstName": "Dolores",
+    "hasCardOnFile": false,
+    "lastName": "Ramirez",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19178422489",
+    "name": "Dolores Ramirez",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-11-03T08:13:11.438"
+  },
+  {
+    "id": "urn:blvd:Client:f4e51ae8-e0ff-4da1-a9b4-1ee037076a13",
+    "active": true,
+    "appointmentCount": 8,
+    "createdAt": "2024-07-29T05:03:10.791",
+    "creditCardsOnFile": [
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2025,
+        "expirationMonth": 1
+      },
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2025,
+        "expirationMonth": 1
+      },
+      {
+        "brand": "Visa",
+        "last4": "4242",
+        "expirationYear": 2025,
+        "expirationMonth": 1
+      }
+    ],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "bin@codelessuniverse.com",
+    "externalId": null,
+    "firstName": "bin",
+    "hasCardOnFile": true,
+    "lastName": "zhan",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": false
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16034999185",
+    "name": "bin zhan",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-09-27T07:55:00.859"
+  },
+  {
+    "id": "urn:blvd:Client:f6243d68-ffae-43f4-8141-2b990bbf3ae9",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2024-11-09T03:28:47.645",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "",
+    "externalId": null,
+    "firstName": "A",
+    "hasCardOnFile": false,
+    "lastName": "C",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+20241109001",
+    "name": "A C",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2024-11-09T03:28:47.645"
+  },
+  {
+    "id": "urn:blvd:Client:f815e9e9-98d2-42c3-8ef8-8eaa6d1c5e42",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-29T07:21:18.707",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "stone.pill.6e@icloud.com",
+    "externalId": null,
+    "firstName": "Aimee",
+    "hasCardOnFile": false,
+    "lastName": "Xu",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16467444771",
+    "name": "Aimee Xu",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-29T07:21:18.707"
+  },
+  {
+    "id": "urn:blvd:Client:f9fbb8f7-9a43-43c1-8b3a-34df96eb04d8",
+    "active": true,
+    "appointmentCount": 2,
+    "createdAt": "2025-05-29T08:37:38.4",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": "1991-01-14",
+    "email": "ceren.aksoy91@gmail.com",
+    "externalId": null,
+    "firstName": "Ceren",
+    "hasCardOnFile": false,
+    "lastName": "Aksoy",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+16196368977",
+    "name": "Ceren Aksoy",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2026-04-08T11:00:07.592"
+  },
+  {
+    "id": "urn:blvd:Client:fdc3717b-4312-465e-a32d-253ff98da574",
+    "active": true,
+    "appointmentCount": 0,
+    "createdAt": "2025-05-21T06:28:31.903",
+    "creditCardsOnFile": [],
+    "currentAccountBalance": 0,
+    "currentAccountUpdatedAt": null,
+    "custom": null,
+    "customFields": [],
+    "dob": null,
+    "email": "nataliebatista95@gmail.com",
+    "externalId": null,
+    "firstName": "natalie",
+    "hasCardOnFile": false,
+    "lastName": "batista",
+    "marketingSettings": [
+      {
+        "sms": false,
+        "push": false,
+        "type": "MARKETING",
+        "email": true
+      }
+    ],
+    "mergedIntoClientId": null,
+    "mobilePhone": "+19179295827",
+    "name": "natalie batista",
+    "notes": [],
+    "primaryLocation": {
+      "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+      "name": "First Sandbox Location"
+    },
+    "pronoun": null,
+    "reminderSettings": [
+      {
+        "sms": true,
+        "push": false,
+        "type": "APPOINTMENT_REMINDER",
+        "email": true
+      }
+    ],
+    "schedulingAlert": null,
+    "tags": [],
+    "updatedAt": "2025-05-21T06:28:31.903"
+  }
+]

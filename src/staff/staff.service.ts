@@ -4,6 +4,7 @@ import { UpdateStaffDto } from './dto/update-staff.dto';
 import { StaffRepository } from './infrastructure/persistence/staff.repository';
 import { Staff } from './domain/staff';
 import { NullableType } from '../utils/types/nullable.type';
+import type { AppRoleSummary, StaffLocationAbilities, StaffRoleSummary } from '../utils/types/boulevard.types';
 import { IPaginationOptions } from '../utils/types/pagination-options';
 
 @Injectable()
@@ -16,27 +17,26 @@ export class StaffService {
       email: createStaffDto.email,
       name: createStaffDto.name,
       mobilePhone: createStaffDto.mobilePhone,
-      active: createStaffDto.active,
-      displayName: createStaffDto.displayName ?? null,
-      firstName: createStaffDto.firstName ?? null,
+      active: createStaffDto.active ?? null,
+      displayName: createStaffDto.displayName ?? '',
+      firstName: createStaffDto.firstName ?? '',
       lastName: createStaffDto.lastName ?? null,
-      createdAt: createStaffDto.createdAt ? new Date(createStaffDto.createdAt) : null,
-      updatedAt: createStaffDto.updatedAt ? new Date(createStaffDto.updatedAt) : null,
+      createdAt: createStaffDto.createdAt ? new Date(createStaffDto.createdAt) : new Date(),
+      updatedAt: createStaffDto.updatedAt ? new Date(createStaffDto.updatedAt) : new Date(),
       alternateId: createStaffDto.alternateId ?? null,
-      appRole: createStaffDto.appRole ?? null,
+      appRole: createStaffDto.appRole ?? ({} as AppRoleSummary),
       appRoleId: createStaffDto.appRoleId ?? null,
       avatar: createStaffDto.avatar ?? null,
       bio: createStaffDto.bio ?? null,
-      enabledForFutureLocations: createStaffDto.enabledForFutureLocations ?? null,
+      enabledForFutureLocations: createStaffDto.enabledForFutureLocations ?? false,
       externalId: createStaffDto.externalId ?? null,
       externalNickname: createStaffDto.externalNickname ?? null,
       externallyBookable: createStaffDto.externallyBookable ?? null,
-      locationAbilities: createStaffDto.locationAbilities ?? null,
-      locationId: createStaffDto.locationId ?? null,
+      locationAbilities: createStaffDto.locationAbilities ?? ({} as StaffLocationAbilities),
       locations: createStaffDto.locations ?? null,
       nickname: createStaffDto.nickname ?? null,
-      role: createStaffDto.role ?? null,
-      staffRoleId: createStaffDto.staffRoleId ?? null,
+      role: createStaffDto.role ?? ({} as StaffRoleSummary),
+      staffRoleId: createStaffDto.staffRoleId ?? '',
       suspended: createStaffDto.suspended ?? null,
     });
   }
@@ -56,7 +56,7 @@ export class StaffService {
   }
 
   async update(id: Staff['id'], updateStaffDto: UpdateStaffDto): Promise<Staff | null> {
-    return this.staffRepository.update(id, updateStaffDto);
+    return this.staffRepository.update(id, updateStaffDto as Partial<Staff>);
   }
 
   async remove(id: Staff['id']): Promise<void> {

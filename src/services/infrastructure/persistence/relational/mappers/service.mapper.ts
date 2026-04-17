@@ -5,52 +5,48 @@ export class ServiceMapper {
   static toDomain(raw: ServiceEntity): Service {
     const domainEntity = new Service();
     domainEntity.id = raw.id;
-    domainEntity.name = raw.name;
     domainEntity.active = raw.active;
     domainEntity.addon = raw.addon;
-    domainEntity.createdAt = raw.createdAt;
-    domainEntity.updatedAt = raw.updatedAt;
-    domainEntity.defaultDuration = raw.defaultDuration;
-    domainEntity.defaultPrice = raw.defaultPrice;
-    domainEntity.locationId = raw.locationId;
-    domainEntity.categoryId = raw.categoryId;
-    domainEntity.custom = raw.custom;
-    domainEntity.customFields = raw.customFields;
-    domainEntity.keys = raw.keys;
     domainEntity.addons = raw.addons;
     domainEntity.category = raw.category;
+    domainEntity.categoryId = raw.categoryId;
+    domainEntity.createdAt = raw.createdAt;
+    domainEntity.custom = raw.custom;
+    domainEntity.customFields = raw.customFields;
+    domainEntity.defaultDuration = raw.defaultDuration;
+    domainEntity.defaultPrice = raw.defaultPrice;
     domainEntity.description = raw.description;
     domainEntity.externalId = raw.externalId;
+    domainEntity.name = raw.name;
     domainEntity.serviceOptionGroups = raw.serviceOptionGroups;
     domainEntity.serviceOverrides = raw.serviceOverrides;
     domainEntity.serviceStatus = raw.serviceStatus;
     domainEntity.sortPath = raw.sortPath;
+    domainEntity.updatedAt = raw.updatedAt;
     return domainEntity;
   }
 
   static toPersistence(domainEntity: Service): ServiceEntity {
     const persistenceEntity = new ServiceEntity();
     persistenceEntity.id = domainEntity.id;
-    persistenceEntity.name = domainEntity.name;
     persistenceEntity.active = domainEntity.active;
     persistenceEntity.addon = domainEntity.addon;
+    persistenceEntity.addons = domainEntity.addons;
+    persistenceEntity.category = domainEntity.category;
+    persistenceEntity.categoryId = domainEntity.categoryId;
     persistenceEntity.createdAt = domainEntity.createdAt;
-    persistenceEntity.updatedAt = domainEntity.updatedAt;
+    persistenceEntity.custom = domainEntity.custom;
+    persistenceEntity.customFields = domainEntity.customFields;
     persistenceEntity.defaultDuration = domainEntity.defaultDuration;
     persistenceEntity.defaultPrice = domainEntity.defaultPrice;
-    persistenceEntity.locationId = domainEntity.locationId ?? null;
-    persistenceEntity.categoryId = domainEntity.categoryId ?? null;
-    persistenceEntity.custom = domainEntity.custom ?? null;
-    persistenceEntity.customFields = domainEntity.customFields ?? null;
-    persistenceEntity.keys = domainEntity.keys ?? null;
-    persistenceEntity.addons = domainEntity.addons ?? null;
-    persistenceEntity.category = domainEntity.category ?? null;
     persistenceEntity.description = domainEntity.description ?? null;
     persistenceEntity.externalId = domainEntity.externalId ?? null;
-    persistenceEntity.serviceOptionGroups = domainEntity.serviceOptionGroups ?? null;
-    persistenceEntity.serviceOverrides = domainEntity.serviceOverrides ?? null;
-    persistenceEntity.serviceStatus = domainEntity.serviceStatus ?? null;
-    persistenceEntity.sortPath = domainEntity.sortPath ?? null;
+    persistenceEntity.name = domainEntity.name;
+    persistenceEntity.serviceOptionGroups = domainEntity.serviceOptionGroups;
+    persistenceEntity.serviceOverrides = domainEntity.serviceOverrides;
+    persistenceEntity.serviceStatus = domainEntity.serviceStatus;
+    persistenceEntity.sortPath = domainEntity.sortPath;
+    persistenceEntity.updatedAt = domainEntity.updatedAt;
     return persistenceEntity;
   }
 }

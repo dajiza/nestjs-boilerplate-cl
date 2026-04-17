@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { HttpModule } from '@nestjs/axios';
 import { UsersModule } from './users/users.module';
 import { FilesModule } from './files/files.module';
 import { AuthModule } from './auth/auth.module';
@@ -22,8 +23,16 @@ import { ClientsModule } from './clients/clients.module';
 import { AppointmentsModule } from './appointments/appointments.module';
 import { StaffModule } from './staff/staff.module';
 import { ServicesModule } from './services/services.module';
-import { RoomsModule } from './rooms/rooms.module';
-import { EquipmentModule } from './equipment/equipment.module';
+import { ServiceCategoryModule } from './service-categories/service-category.module';
+import { LocationModule } from './locations/location.module';
+import { ShiftModule } from './shifts/shift.module';
+import { TimeblockModule } from './timeblocks/timeblock.module';
+import { StaffRoleModule } from './staff-roles/staff-role.module';
+import { AvailabilityModule } from './availability/availability.module';
+import { BookingModule } from './booking/booking.module';
+import { BoulevardModule } from './boulevard/boulevard.module';
+import { SyncModule } from './sync/sync.module';
+import { WebhooksModule } from './webhooks/webhooks.module';
 
 const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
   useClass: TypeOrmConfigService,
@@ -34,10 +43,11 @@ const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
 
 @Module({
   imports: [
+    HttpModule,
     ConfigModule.forRoot({
       isGlobal: true,
       load: [databaseConfig, authConfig, appConfig, mailConfig, fileConfig],
-      envFilePath: ['.env'],
+      envFilePath: [`.env.${process.env.NODE_ENV || 'development'}`],
     }),
     infrastructureDatabaseModule,
     I18nModule.forRootAsync({
@@ -74,8 +84,16 @@ const infrastructureDatabaseModule = TypeOrmModule.forRootAsync({
     AppointmentsModule,
     StaffModule,
     ServicesModule,
-    RoomsModule,
-    EquipmentModule,
+    ServiceCategoryModule,
+    LocationModule,
+    ShiftModule,
+    TimeblockModule,
+    StaffRoleModule,
+    AvailabilityModule,
+    BookingModule,
+    BoulevardModule,
+    SyncModule,
+    WebhooksModule,
   ],
 })
 export class AppModule {}

@@ -1,115 +1,81 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable, NotFoundException, BadRequestException, Inject, forwardRef } from '@nestjs/common';
 import { CreateAppointmentDto } from './dto/create-appointment.dto';
 import { UpdateAppointmentDto } from './dto/update-appointment.dto';
-import { AppointmentRepository } from './infrastructure/persistence/appointment.repository';
+import { CancelAppointmentDto } from './dto/cancel-appointment.dto';
+import { UpdateStateDto } from './dto/update-state.dto';
+import { RescheduleAppointmentDto } from './dto/reschedule-appointment.dto';
+import { SetNoteDto } from './dto/set-note.dto';
+import { AddTagsDto } from './dto/add-tags.dto';
+import { RemoveTagsDto } from './dto/remove-tags.dto';
+import { RescheduleAvailableDatesDto } from './dto/reschedule-available-dates.dto';
+import { RescheduleAvailableTimesDto } from './dto/reschedule-available-times.dto';
+import { AppointmentRepository, AppointmentFilterOptions } from './infrastructure/persistence/appointment.repository';
 import { Appointment } from './domain/appointment';
+import type { BoulevardTag } from '../utils/types/boulevard.types';
 import { NullableType } from '../utils/types/nullable.type';
 import { IPaginationOptions } from '../utils/types/pagination-options';
-import { CalComService } from '../cal-com';
-import { ClientsService } from '../clients/clients.service';
+import { AppointmentState, isValidTransition, WRITABLE_STATES } from './domain/appointment-state';
+import { CancellationReason } from './domain/cancellation-reason';
+import { AvailabilityService, StaffAvailability } from '../availability/availability.service';
+import { BookingService } from '../booking/booking.service';
 
 @Injectable()
 export class AppointmentsService {
-  private readonly logger = new Logger(AppointmentsService.name);
-
   constructor(
     private readonly appointmentsRepository: AppointmentRepository,
-    private readonly calComService: CalComService,
-    private readonly clientsService: ClientsService,
+    @Inject(forwardRef(() => AvailabilityService))
+    private readonly availabilityService: AvailabilityService,
+    @Inject(forwardRef(() => BookingService))
+    private readonly bookingService: BookingService,
   ) {}
 
   async create(createAppointmentDto: CreateAppointmentDto): Promise<Appointment> {
     const appointment = await this.appointmentsRepository.create({
+      id: createAppointmentDto.id,
       startAt: new Date(createAppointmentDto.startAt),
       createdAt: createAppointmentDto.createdAt ? new Date(createAppointmentDto.createdAt) : new Date(),
       cancelled: createAppointmentDto.cancelled,
-      staffId: createAppointmentDto.staffId,
-      roomId: createAppointmentDto.roomId ?? null,
-      equipmentId: createAppointmentDto.equipmentId ?? null,
-      appointmentServiceOptions: createAppointmentDto.appointmentServiceOptions ?? null,
-      appointmentServiceResources: createAppointmentDto.appointmentServiceResources ?? null,
-      appointmentServices: createAppointmentDto.appointmentServices ?? null,
-      bookedByType: createAppointmentDto.bookedByType ?? null,
-      calendarLinks: createAppointmentDto.calendarLinks ?? null,
+      appointmentServiceOptions: createAppointmentDto.appointmentServiceOptions ?? [],
+      appointmentServiceResources: createAppointmentDto.appointmentServiceResources ?? [],
+      appointmentServices: createAppointmentDto.appointmentServices ?? [],
+      bookedByType: createAppointmentDto.bookedByType ?? '',
+      calendarLinks: createAppointmentDto.calendarLinks ?? {},
       cancellation: createAppointmentDto.cancellation ?? null,
-      client: createAppointmentDto.client ?? null,
-      clientId: createAppointmentDto.clientId ?? null,
+      client: createAppointmentDto.client ?? {},
+      clientId: createAppointmentDto.clientId ?? '',
       clientMessage: createAppointmentDto.clientMessage ?? null,
       custom: createAppointmentDto.custom ?? null,
-      customFields: createAppointmentDto.customFields ?? null,
-      keys: createAppointmentDto.keys ?? null,
-      duration: createAppointmentDto.duration ?? null,
-      endAt: createAppointmentDto.endAt ? new Date(createAppointmentDto.endAt) : null,
-      isGroupedAppointment: createAppointmentDto.isGroupedAppointment ?? null,
-      isRecurring: createAppointmentDto.isRecurring ?? null,
-      isRemote: createAppointmentDto.isRemote ?? null,
-      location: createAppointmentDto.location ?? null,
-      locationId: createAppointmentDto.locationId ?? null,
-      manageUrl: createAppointmentDto.manageUrl ?? null,
+      customFields: createAppointmentDto.customFields ?? [],
+      duration: createAppointmentDto.duration ?? 0,
+      endAt: createAppointmentDto.endAt ? new Date(createAppointmentDto.endAt) : new Date(),
+      isGroupedAppointment: createAppointmentDto.isGroupedAppointment ?? false,
+      isRecurring: createAppointmentDto.isRecurring ?? false,
+      isRemote: createAppointmentDto.isRemote ?? false,
+      location: createAppointmentDto.location ?? {},
+      locationId: createAppointmentDto.locationId ?? '',
+      manageUrl: createAppointmentDto.manageUrl ?? '',
       notes: createAppointmentDto.notes ?? null,
-      notifyClientCancel: createAppointmentDto.notifyClientCancel ?? null,
-      notifyClientCreate: createAppointmentDto.notifyClientCreate ?? null,
+      notifyClientCancel: createAppointmentDto.notifyClientCancel ?? false,
+      notifyClientCreate: createAppointmentDto.notifyClientCreate ?? false,
       orderId: createAppointmentDto.orderId ?? null,
-      pendingFormCount: createAppointmentDto.pendingFormCount ?? null,
+      pendingFormCount: createAppointmentDto.pendingFormCount ?? 0,
       rating: createAppointmentDto.rating ?? null,
-      remotePlatforms: createAppointmentDto.remotePlatforms ?? null,
-      state: createAppointmentDto.state ?? null,
-      tags: createAppointmentDto.tags ?? null,
-    });
-
-    // Sync to Cal.com if appointment has clientId
-    if (appointment.clientId) {
-      this.syncToCalCom(appointment).catch((error) => {
-        this.logger.error(`Failed to sync appointment ${appointment.id} to Cal.com:`, error);
-      });
-    }
+      remotePlatforms: createAppointmentDto.remotePlatforms ?? {},
+      state: createAppointmentDto.state ?? AppointmentState.BOOKED,
+      tags: createAppointmentDto.tags ?? [],
+    } as Appointment);
 
     return appointment;
-  }
-
-  private async syncToCalCom(appointment: Appointment): Promise<void> {
-    // Fetch client data if not populated
-    let client = appointment.client;
-    if (!client?.email && appointment.clientId) {
-      const clientData = await this.clientsService.findById(appointment.clientId);
-      client = clientData;
-    }
-
-    if (!client?.email) {
-      this.logger.warn(`Appointment ${appointment.id} has no client email, skipping Cal.com sync`);
-      return;
-    }
-
-    // Calculate end time
-    const endAt = appointment.endAt || new Date(appointment.startAt.getTime() + (appointment.duration || 3600) * 1000);
-
-    const booking = await this.calComService.createBooking({
-      start: appointment.startAt,
-      end: endAt,
-      attendee: {
-        name: client.name || `${client.firstName || ''} ${client.lastName || ''}`.trim() || 'Unknown',
-        email: client.email,
-        timeZone: (client as any).timeZone || 'UTC',
-      },
-      notes: appointment.notes || undefined,
-      metadata: {
-        appointmentId: appointment.id,
-        staffId: appointment.staffId,
-      },
-    });
-
-    if (booking && appointment.id) {
-      await this.appointmentsRepository.update(appointment.id, {
-        calComBookingId: booking.uid,
-      });
-      this.logger.log(`Synced appointment ${appointment.id} to Cal.com booking ${booking.uid}`);
-    }
   }
 
   findManyWithPagination({ paginationOptions }: { paginationOptions: IPaginationOptions }): Promise<{ data: Appointment[]; total: number }> {
     return this.appointmentsRepository.findManyWithPagination({
       paginationOptions,
     });
+  }
+
+  findWithFilters(filters: AppointmentFilterOptions): Promise<{ data: Appointment[]; total: number }> {
+    return this.appointmentsRepository.findWithFilters(filters);
   }
 
   findById(id: string): Promise<NullableType<Appointment>> {
@@ -120,7 +86,7 @@ export class AppointmentsService {
     return this.appointmentsRepository.findByClientId(clientId);
   }
 
-  findByStaffIdAndDateRange(staffId: Appointment['staffId'], startDate: Date, endDate: Date): Promise<Appointment[]> {
+  findByStaffIdAndDateRange(staffId: string, startDate: Date, endDate: Date): Promise<Appointment[]> {
     return this.appointmentsRepository.findByStaffIdAndDateRange({
       staffId,
       startDate,
@@ -128,17 +94,9 @@ export class AppointmentsService {
     });
   }
 
-  findByRoomIdAndDateRange(roomId: string, startDate: Date, endDate: Date): Promise<Appointment[]> {
-    return this.appointmentsRepository.findByRoomIdAndDateRange({
-      roomId,
-      startDate,
-      endDate,
-    });
-  }
-
-  findByEquipmentIdAndDateRange(equipmentId: string, startDate: Date, endDate: Date): Promise<Appointment[]> {
-    return this.appointmentsRepository.findByEquipmentIdAndDateRange({
-      equipmentId,
+  findByStaffIdsAndDateRange(staffIds: string[], startDate: Date, endDate: Date): Promise<Appointment[]> {
+    return this.appointmentsRepository.findByStaffIdsAndDateRange({
+      staffIds,
       startDate,
       endDate,
     });
@@ -151,33 +109,314 @@ export class AppointmentsService {
     });
   }
 
-  async update(id: string, updateAppointmentDto: UpdateAppointmentDto): Promise<Appointment | null> {
-    const updated = await this.appointmentsRepository.update(id, updateAppointmentDto);
+  findByLocationIdAndDateRange(locationId: string, startDate: Date, endDate: Date): Promise<Appointment[]> {
+    return this.appointmentsRepository.findByLocationIdAndDateRange({
+      locationId,
+      startDate,
+      endDate,
+    });
+  }
 
-    // Sync time changes to Cal.com
-    if (updated?.calComBookingId && updateAppointmentDto.startAt) {
-      this.calComService
-        .updateBooking({
-          bookingUid: updated.calComBookingId,
-          start: new Date(updateAppointmentDto.startAt),
-          notes: updateAppointmentDto.notes ?? undefined,
-        })
-        .catch((error) => {
-          this.logger.error(`Failed to update Cal.com booking for appointment ${id}:`, error);
-        });
+  async update(id: string, payload: Partial<Appointment>): Promise<Appointment | null> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
     }
 
+    const updated = await this.appointmentsRepository.update(id, payload);
     return updated;
   }
 
-  async remove(id: string): Promise<void> {
-    // Get appointment to find cal.com booking ID
+  /**
+   * 取消预约 -- 软删除（设 cancelled=true），填充 cancellation JSONB
+   * 与 Boulevard cancelAppointment 行为一致
+   */
+  async cancel(id: string, cancelDto: CancelAppointmentDto): Promise<Appointment> {
     const appointment = await this.appointmentsRepository.findById(id);
-
-    if (appointment?.calComBookingId) {
-      await this.calComService.cancelBooking(appointment.calComBookingId);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
     }
 
+    if (appointment.cancelled) {
+      throw new BadRequestException(`Appointment #${id} is already cancelled`);
+    }
+
+    if (appointment.state === AppointmentState.FINAL) {
+      throw new BadRequestException(`Cannot cancel a completed appointment`);
+    }
+
+    const now = new Date();
+    const cancellation = {
+      cancelledAt: now.toISOString(),
+      reason: cancelDto.reason,
+      notes: cancelDto.notes || null,
+    };
+
+    const updated = await this.appointmentsRepository.update(id, {
+      cancelled: true,
+      state: AppointmentState.CANCELLED,
+      cancellation,
+      notifyClientCancel: cancelDto.notifyClient ?? true,
+    } as Partial<Appointment>);
+
+    return updated!;
+  }
+
+  /**
+   * 恢复已取消的预约
+   */
+  async restore(id: string): Promise<Appointment> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    if (!appointment.cancelled) {
+      throw new BadRequestException(`Appointment #${id} is not cancelled`);
+    }
+
+    const updated = await this.appointmentsRepository.update(id, {
+      cancelled: false,
+      state: AppointmentState.BOOKED,
+      cancellation: null,
+    } as Partial<Appointment>);
+
+    return updated!;
+  }
+
+  /**
+   * 更新预约状态 -- 仅允许在 BOOKED/CONFIRMED/ARRIVED/ACTIVE 之间转换
+   * CANCELLED 必须通过 cancel() 方法，FINAL 由结账流程设置
+   */
+  async updateState(id: string, updateStateDto: UpdateStateDto): Promise<Appointment> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    if (appointment.cancelled) {
+      throw new BadRequestException(`Cannot update state of a cancelled appointment`);
+    }
+
+    const currentState = (appointment.state as AppointmentState) || AppointmentState.BOOKED;
+    const targetState = updateStateDto.state;
+
+    // 不允许通过此方法设置 CANCELLED 或 FINAL
+    if (!WRITABLE_STATES.includes(targetState)) {
+      throw new BadRequestException(`Cannot set state to ${targetState} via this endpoint. Use /cancel for CANCELLED.`);
+    }
+
+    if (!isValidTransition(currentState, targetState)) {
+      throw new BadRequestException(`Invalid state transition: ${currentState} -> ${targetState}`);
+    }
+
+    const updated = await this.appointmentsRepository.update(id, {
+      state: targetState,
+    } as Partial<Appointment>);
+
+    return updated!;
+  }
+
+  /**
+   * 改期预约 -- 更新 startAt，可选更改员工
+   * 可用性验证将在 Phase 1C 可用时段引擎完成后集成
+   */
+  async reschedule(id: string, rescheduleDto: RescheduleAppointmentDto): Promise<Appointment> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    if (appointment.cancelled) {
+      throw new BadRequestException(`Cannot reschedule a cancelled appointment`);
+    }
+
+    if (appointment.state === AppointmentState.FINAL || appointment.state === AppointmentState.ACTIVE) {
+      throw new BadRequestException(`Cannot reschedule an appointment in ${appointment.state} state`);
+    }
+
+    const newStartAt = new Date(rescheduleDto.startAt);
+    const updatePayload: Partial<Appointment> = {
+      startAt: newStartAt,
+    } as Partial<Appointment>;
+
+    // 如果提供了新的员工 ID，更新 appointmentServices 中的 staffId
+    if (rescheduleDto.staffId && appointment.appointmentServices) {
+      const services = [...appointment.appointmentServices];
+      services[0] = { ...services[0], staffId: rescheduleDto.staffId };
+      updatePayload.appointmentServices = services;
+    }
+
+    // 重新计算 endAt（保持时长不变）
+    if (appointment.endAt && appointment.startAt) {
+      const durationMs = appointment.endAt.getTime() - appointment.startAt.getTime();
+      updatePayload.endAt = new Date(newStartAt.getTime() + durationMs);
+    }
+
+    // 记录改期历史
+    const custom = (appointment.custom as Record<string, any>) || {};
+    const rescheduleHistory = custom.rescheduleHistory || [];
+    rescheduleHistory.push({
+      previousStartAt: appointment.startAt.toISOString(),
+      newStartAt: newStartAt.toISOString(),
+      changedAt: new Date().toISOString(),
+      staffChanged: rescheduleDto.staffId ? true : false,
+      sendNotification: rescheduleDto.sendNotification ?? true,
+    });
+    updatePayload.custom = { ...custom, rescheduleHistory };
+
+    const updated = await this.appointmentsRepository.update(id, updatePayload);
+    return updated!;
+  }
+
+  /**
+   * 获取改期可用日期 — 从预约中提取 locationId/serviceId/staffId 后委托 AvailabilityService
+   */
+  async getRescheduleAvailableDates(id: string, dto: RescheduleAvailableDatesDto): Promise<string[]> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    if (appointment.cancelled) {
+      throw new BadRequestException(`Cannot reschedule a cancelled appointment`);
+    }
+
+    const { locationId, serviceId, staffId } = this.extractBookingContext(appointment);
+
+    return this.availabilityService.getAvailableDates(locationId, serviceId, staffId, dto.searchRangeLower, dto.searchRangeUpper);
+  }
+
+  /**
+   * 获取改期可用时段 — 从预约中提取 context 后委托 AvailabilityService
+   */
+  async getRescheduleAvailableTimes(id: string, dto: RescheduleAvailableTimesDto): Promise<StaffAvailability[]> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    if (appointment.cancelled) {
+      throw new BadRequestException(`Cannot reschedule a cancelled appointment`);
+    }
+
+    const { locationId, serviceId, staffId } = this.extractBookingContext(appointment);
+
+    return this.availabilityService.getAvailableTimes(locationId, serviceId, dto.date, staffId);
+  }
+
+  /**
+   * 设置预约备注
+   */
+  async setNote(id: string, dto: SetNoteDto): Promise<Appointment> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    const updated = await this.appointmentsRepository.update(id, {
+      notes: dto.note ?? null,
+    } as Partial<Appointment>);
+
+    return updated!;
+  }
+
+  /**
+   * 添加标签 — 合并到已有 tags（去重）
+   */
+  async addTags(id: string, dto: AddTagsDto): Promise<Appointment> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    const existingTags: BoulevardTag[] = appointment.tags || [];
+    const existingIds = new Set(existingTags.map((t) => t.id).filter(Boolean));
+
+    const newTags = dto.tagIds.filter((tagId) => !existingIds.has(tagId)).map((tagId) => ({ id: tagId }));
+
+    const merged = [...existingTags, ...newTags];
+
+    const updated = await this.appointmentsRepository.update(id, {
+      tags: merged,
+    } as Partial<Appointment>);
+
+    return updated!;
+  }
+
+  /**
+   * 移除标签 — 从 tags 中移除指定 ID
+   */
+  async removeTags(id: string, dto: RemoveTagsDto): Promise<Appointment> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    const removeSet = new Set(dto.tagIds);
+    const filtered = (appointment.tags || []).filter((t) => t.id != null && !removeSet.has(t.id));
+
+    const updated = await this.appointmentsRepository.update(id, {
+      tags: filtered,
+    } as Partial<Appointment>);
+
+    return updated!;
+  }
+
+  /**
+   * 从已有预约创建 Booking Session — 预填充 locationId/clientId/services
+   */
+  async createBookingFromAppointment(id: string): Promise<any> {
+    const appointment = await this.appointmentsRepository.findById(id);
+    if (!appointment) {
+      throw new NotFoundException(`Appointment #${id} not found`);
+    }
+
+    const { locationId, serviceId, staffId } = this.extractBookingContext(appointment);
+
+    // 创建预填充的 booking session
+    const session = await this.bookingService.createFromAppointment({
+      locationId,
+      clientId: appointment.clientId || undefined,
+      serviceId,
+      staffId,
+      startAt: appointment.startAt.toISOString(),
+      notes: appointment.notes || undefined,
+    });
+
+    return session;
+  }
+
+  /**
+   * 从预约中提取 locationId/serviceId/staffId
+   */
+  private extractBookingContext(appointment: Appointment): {
+    locationId: string;
+    serviceId: string;
+    staffId?: string;
+  } {
+    const locationId = appointment.locationId;
+    if (!locationId) {
+      throw new BadRequestException('Appointment has no locationId');
+    }
+
+    let serviceId = '';
+    let staffId: string | undefined;
+
+    if (appointment.appointmentServices?.length) {
+      const firstService = appointment.appointmentServices[0];
+      serviceId = firstService.serviceId || '';
+      staffId = firstService.staffId || undefined;
+    }
+
+    if (!serviceId) {
+      throw new BadRequestException('Appointment has no serviceId');
+    }
+
+    return { locationId, serviceId, staffId };
+  }
+
+  async remove(id: string): Promise<void> {
     await this.appointmentsRepository.remove(id);
   }
 }

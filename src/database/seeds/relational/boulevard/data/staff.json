@@ -1,0 +1,412 @@
+[
+  {
+    "id": "urn:blvd:Staff:154a38fd-c5c0-4109-aad3-f68f21e924da",
+    "name": "(HERALD SQ)- 2 ALL",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+      "name": "Service Provider"
+    },
+    "appRoleId": "376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2024-08-05T09:15:36.961",
+    "displayName": "(HERALD SQ)-2 ALL",
+    "email": "abc@qq.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": "(HERALD SQ)-2 ALL",
+    "externallyBookable": true,
+    "firstName": "(HERALD SQ)-",
+    "lastName": "2 ALL",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": false,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": "+14546565667",
+    "nickname": "(HERALD SQ)-2 ALL",
+    "role": {
+      "id": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+      "name": "Technician"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+    "suspended": false,
+    "updatedAt": "2025-03-09T17:07:31.531"
+  },
+  {
+    "id": "urn:blvd:Staff:1ca8f8c9-1e74-42bb-8474-0cb7b6ea44f6",
+    "name": "Lei Gao",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+      "name": "Admin"
+    },
+    "appRoleId": "4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2025-02-13T08:58:01.416",
+    "displayName": "Lei Gao",
+    "email": "gaollg@qq.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": null,
+    "externallyBookable": true,
+    "firstName": "Lei",
+    "lastName": "Gao",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": true,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": null,
+    "nickname": "Lei",
+    "role": {
+      "id": "urn:blvd:StaffRole:3b021f6f-1410-4ff8-8a92-1263eb4f468f",
+      "name": "Front Desk"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:3b021f6f-1410-4ff8-8a92-1263eb4f468f",
+    "suspended": false,
+    "updatedAt": "2025-08-18T15:06:03.645"
+  },
+  {
+    "id": "urn:blvd:Staff:51d7cbea-ef28-455b-bbab-46cff72816cb",
+    "name": "Test Technician",
+    "active": false,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+      "name": "Service Provider"
+    },
+    "appRoleId": "376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2025-02-08T02:36:01.786",
+    "displayName": "test",
+    "email": "dgdfgdf@343.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": "test",
+    "externallyBookable": true,
+    "firstName": "Test",
+    "lastName": "Technician",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": false,
+      "viewLoyaltyPointHistory": false
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": "+13445565657",
+    "nickname": "Test",
+    "role": {
+      "id": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+      "name": "Technician"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+    "suspended": false,
+    "updatedAt": "2025-12-04T19:20:24.973"
+  },
+  {
+    "id": "urn:blvd:Staff:819e84a0-027b-4829-89b7-ca4f65cdb45e",
+    "name": "(HERALD SQ)- 1 ALL",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+      "name": "Service Provider"
+    },
+    "appRoleId": "376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2025-02-08T02:36:36.553",
+    "displayName": "(HERALD SQ)-1 ALL",
+    "email": "ereddfs@dfdf.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": "(HERALD SQ)-1 ALL",
+    "externallyBookable": true,
+    "firstName": "(HERALD SQ)-",
+    "lastName": "1 ALL",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": false,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": "+45456577688",
+    "nickname": "(HERALD SQ)-1 ALL",
+    "role": {
+      "id": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+      "name": "Technician"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+    "suspended": false,
+    "updatedAt": "2025-03-09T17:07:41.248"
+  },
+  {
+    "id": "urn:blvd:Staff:830b41c7-34ed-41bc-9e59-a875d5c41837",
+    "name": "Li Dai",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+      "name": "Admin"
+    },
+    "appRoleId": "4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2025-06-12T23:39:47.445",
+    "displayName": "err",
+    "email": "lidaivet@gmail.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": "err",
+    "externallyBookable": true,
+    "firstName": "Li",
+    "lastName": "Dai",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": true,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": null,
+    "nickname": "Li",
+    "role": {
+      "id": "urn:blvd:StaffRole:0b527b8a-9d92-4143-9f01-9e8e0ce221e7",
+      "name": "Location Manager"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:0b527b8a-9d92-4143-9f01-9e8e0ce221e7",
+    "suspended": false,
+    "updatedAt": "2025-08-18T15:06:03.645"
+  },
+  {
+    "id": "urn:blvd:Staff:867bdbe2-3390-4e40-bb78-bd1d241b5186",
+    "name": "(HERALD SQ)- 3 ALL",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+      "name": "Service Provider"
+    },
+    "appRoleId": "376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2025-01-20T07:17:56.874",
+    "displayName": "(HERALD SQ)-3 ALL",
+    "email": "fdf@ede.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": "(HERALD SQ)-3 ALL",
+    "externallyBookable": true,
+    "firstName": "(HERALD SQ)-",
+    "lastName": "3 ALL",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": false,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": "+18439545656",
+    "nickname": "(HERALD SQ)-3 ALL",
+    "role": {
+      "id": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+      "name": "Technician"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+    "suspended": false,
+    "updatedAt": "2025-03-09T17:07:19.872"
+  },
+  {
+    "id": "urn:blvd:Staff:a617221f-c641-4ac4-a514-84f4a4a6a6cf",
+    "name": "Jie Shi",
+    "active": false,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:3876bf23-1c66-4b3d-af31-b048cb40a9ab",
+      "name": "Front Desk/Receptionist"
+    },
+    "appRoleId": "3876bf23-1c66-4b3d-af31-b048cb40a9ab",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2025-02-14T16:23:37.308",
+    "displayName": "Jie",
+    "email": "jie@codelessuniverse.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": "Jie",
+    "externallyBookable": true,
+    "firstName": "Jie",
+    "lastName": "Shi",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": false,
+      "viewLoyaltyPointHistory": false
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": "+13399778009",
+    "nickname": "Jie",
+    "role": {
+      "id": "urn:blvd:StaffRole:3b021f6f-1410-4ff8-8a92-1263eb4f468f",
+      "name": "Front Desk"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:3b021f6f-1410-4ff8-8a92-1263eb4f468f",
+    "suspended": false,
+    "updatedAt": "2025-03-09T17:04:37.858"
+  },
+  {
+    "id": "urn:blvd:Staff:d07fccf1-b89e-486c-8421-6f283177e574",
+    "name": "LeLe Yang",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+      "name": "Admin"
+    },
+    "appRoleId": "4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2026-01-05T01:52:20.487",
+    "displayName": "LeLe Yang",
+    "email": "lele@codelessuniverse.com",
+    "enabledForFutureLocations": true,
+    "externalId": null,
+    "externalNickname": null,
+    "externallyBookable": true,
+    "firstName": "LeLe",
+    "lastName": "Yang",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": true,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": "+12833938943",
+    "nickname": "LeLe",
+    "role": {
+      "id": "urn:blvd:StaffRole:3b021f6f-1410-4ff8-8a92-1263eb4f468f",
+      "name": "Front Desk"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:3b021f6f-1410-4ff8-8a92-1263eb4f468f",
+    "suspended": false,
+    "updatedAt": "2026-01-05T01:52:31.13"
+  },
+  {
+    "id": "urn:blvd:Staff:d70a3878-829a-4421-aceb-3ceae48714ae",
+    "name": "Dora R",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+      "name": "Service Provider"
+    },
+    "appRoleId": "376e6c60-3b05-4cc4-a5c3-99825568c3f7",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2025-03-09T18:33:18.051",
+    "displayName": "Dora",
+    "email": null,
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": "Dora",
+    "externallyBookable": true,
+    "firstName": "Dora",
+    "lastName": "R",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": false,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": null,
+    "nickname": "Dora",
+    "role": {
+      "id": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+      "name": "Technician"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+    "suspended": false,
+    "updatedAt": "2025-03-09T18:33:18.051"
+  },
+  {
+    "id": "urn:blvd:Staff:fe663735-b311-4df2-ac4f-7af981b5f1b7",
+    "name": "Li Dai",
+    "active": true,
+    "alternateId": null,
+    "appRole": {
+      "id": "urn:blvd:AppRole:4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+      "name": "Admin"
+    },
+    "appRoleId": "4ae261cf-6ce5-4c91-8e8c-d67b4bd8cde9",
+    "avatar": "https://sandbox.joinblvd.com/images/users/default-avatar.png",
+    "bio": "",
+    "createdAt": "2024-06-10T16:51:33.541",
+    "displayName": "Li Dai",
+    "email": "li@codelessuniverse.com",
+    "enabledForFutureLocations": false,
+    "externalId": null,
+    "externalNickname": null,
+    "externallyBookable": true,
+    "firstName": "Li",
+    "lastName": "Dai",
+    "locationAbilities": {
+      "editLoyaltyPointHistory": true,
+      "viewLoyaltyPointHistory": true
+    },
+    "locations": [
+      {
+        "id": "urn:blvd:Location:ba13266a-b1c1-44a2-ac32-3c646fde07f5",
+        "name": "First Sandbox Location"
+      }
+    ],
+    "mobilePhone": "+16689976553",
+    "nickname": "Li",
+    "role": {
+      "id": "urn:blvd:StaffRole:0b527b8a-9d92-4143-9f01-9e8e0ce221e7",
+      "name": "Location Manager"
+    },
+    "staffRoleId": "urn:blvd:StaffRole:0b527b8a-9d92-4143-9f01-9e8e0ce221e7",
+    "suspended": false,
+    "updatedAt": "2025-08-18T15:06:03.645"
+  }
+]

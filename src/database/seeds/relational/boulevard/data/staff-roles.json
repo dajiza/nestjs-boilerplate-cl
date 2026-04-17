@@ -1,0 +1,14 @@
+[
+  {
+    "id": "urn:blvd:StaffRole:0b527b8a-9d92-4143-9f01-9e8e0ce221e7",
+    "name": "Location Manager"
+  },
+  {
+    "id": "urn:blvd:StaffRole:3b021f6f-1410-4ff8-8a92-1263eb4f468f",
+    "name": "Front Desk"
+  },
+  {
+    "id": "urn:blvd:StaffRole:62e8a625-f071-4478-9249-99f858fd002c",
+    "name": "Technician"
+  }
+]

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { RoomEntity } from '../entities/room.entity';
@@ -57,7 +57,7 @@ export class RoomsRelationalRepository implements RoomRepository {
     });
 
     if (!entity) {
-      throw new Error('Room not found');
+      throw new NotFoundException('Room not found');
     }
 
     const updatedEntity = await this.roomsRepository.save(

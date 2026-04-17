@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { ServiceEntity } from '../entities/service.entity';
@@ -48,7 +48,7 @@ export class ServiceRelationalRepository implements ServiceRepository {
     });
 
     if (!entity) {
-      throw new Error('Service not found');
+      throw new NotFoundException('Service not found');
     }
 
     const updatedEntity = await this.serviceRepository.save(

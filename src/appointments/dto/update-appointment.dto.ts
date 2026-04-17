@@ -1,4 +1,30 @@
-import { PartialType } from '@nestjs/swagger';
-import { CreateAppointmentDto } from './create-appointment.dto';
+import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { IsOptional, IsString, IsArray, IsEnum } from 'class-validator';
+import { AppointmentState } from '../domain/appointment-state';
 
-export class UpdateAppointmentDto extends PartialType(CreateAppointmentDto) {}
+/**
+ * 对应 Boulevard UpdateAppointmentInput
+ * 只允许更新 notes / customFields / state
+ */
+export class UpdateAppointmentDto {
+  @ApiPropertyOptional({ description: 'Internal notes on the appointment' })
+  @IsOptional()
+  @IsString()
+  notes?: string | null;
+
+  @ApiPropertyOptional({
+    type: [Object],
+    description: 'Custom field data',
+  })
+  @IsOptional()
+  @IsArray()
+  customFields?: Record<string, any>[] | null;
+
+  @ApiPropertyOptional({
+    enum: AppointmentState,
+    description: 'The state of the appointment (BOOKED/CONFIRMED/ARRIVED/ACTIVE)',
+  })
+  @IsOptional()
+  @IsEnum(AppointmentState)
+  state?: AppointmentState;
+}

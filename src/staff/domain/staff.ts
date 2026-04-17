@@ -1,53 +1,20 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { AppRoleSummary, StaffLocationAbilities, BoulevardLocationSummary, StaffRoleSummary } from '../../utils/types/boulevard.types';
 
 export class Staff {
-  // ===== 必填字段 =====
-
   @ApiProperty({ type: String, description: 'The ID of an object' })
   id: string;
 
-  @ApiProperty({ type: String, description: 'Email address' })
-  email: string;
-
-  @ApiProperty({ type: String, description: 'Full name' })
-  name: string;
-
-  @ApiProperty({ type: String, description: 'Mobile phone' })
-  mobilePhone: string;
-
-  @ApiProperty({ type: Boolean, description: 'Active' })
-  active: boolean;
-
-  // ===== 可选字段 =====
-
-  @ApiPropertyOptional({ type: String, description: 'Display name' })
-  displayName?: string | null;
-
-  @ApiPropertyOptional({ type: String, description: 'First name' })
-  firstName?: string | null;
-
-  @ApiPropertyOptional({ type: String, description: 'Last name' })
-  lastName?: string | null;
-
-  @ApiPropertyOptional({
-    type: Date,
-    description: 'The date and time when the staff was created',
-  })
-  createdAt?: Date | null;
-
-  @ApiPropertyOptional({
-    type: Date,
-    description: 'The date and time when the staff was last updated',
-  })
-  updatedAt?: Date | null;
+  @ApiPropertyOptional({ type: Boolean, description: 'Active' })
+  active?: boolean | null;
 
   @ApiPropertyOptional({ type: String, description: 'Alternate Id' })
   alternateId?: string | null;
 
-  @ApiPropertyOptional({ type: Object, description: 'App Role' })
-  appRole?: Record<string, any> | null;
+  @ApiProperty({ type: Object, description: 'App role' })
+  appRole: AppRoleSummary;
 
-  @ApiPropertyOptional({ type: String, description: 'App Role ID' })
+  @ApiPropertyOptional({ type: String, description: 'App role ID' })
   appRoleId?: string | null;
 
   @ApiPropertyOptional({ type: String, description: 'Avatar' })
@@ -59,11 +26,23 @@ export class Staff {
   })
   bio?: string | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
+    type: Date,
+    description: 'The date and time when the staff was created',
+  })
+  createdAt: Date;
+
+  @ApiProperty({ type: String, description: 'Display name, preferred over other name fields in client-facing features' })
+  displayName: string;
+
+  @ApiPropertyOptional({ type: String, description: 'Email address' })
+  email?: string | null;
+
+  @ApiProperty({
     type: Boolean,
     description: 'If the staff is enabled for future locations',
   })
-  enabledForFutureLocations?: boolean | null;
+  enabledForFutureLocations: boolean;
 
   @ApiPropertyOptional({ type: String, description: 'External Id' })
   externalId?: string | null;
@@ -77,27 +56,42 @@ export class Staff {
   @ApiPropertyOptional({ type: Boolean, description: 'External bookability' })
   externallyBookable?: boolean | null;
 
-  @ApiPropertyOptional({ type: Object, description: 'Location abilities' })
-  locationAbilities?: Record<string, any> | null;
+  @ApiProperty({ type: String, description: 'First name' })
+  firstName: string;
 
-  @ApiPropertyOptional({ type: String, description: 'Location ID' })
-  locationId?: string | null;
+  @ApiPropertyOptional({ type: String, description: 'Last name' })
+  lastName?: string | null;
+
+  @ApiProperty({ type: Object, description: 'Object describing what actions the current staff member can perform with a location' })
+  locationAbilities: StaffLocationAbilities;
 
   @ApiPropertyOptional({
     type: Object,
     description: 'List of locations the staff is assigned to',
   })
-  locations?: Record<string, any>[] | null;
+  locations?: BoulevardLocationSummary[] | null;
+
+  @ApiPropertyOptional({ type: String, description: 'Mobile phone' })
+  mobilePhone?: string | null;
+
+  @ApiProperty({ type: String, description: 'Full name' })
+  name: string;
 
   @ApiPropertyOptional({ type: String, description: 'Nick name' })
   nickname?: string | null;
 
-  @ApiPropertyOptional({ type: Object, description: 'Role' })
-  role?: Record<string, any> | null;
+  @ApiProperty({ type: Object, description: 'Role' })
+  role: StaffRoleSummary;
 
-  @ApiPropertyOptional({ type: String, description: 'Role ID' })
-  staffRoleId?: string | null;
+  @ApiProperty({ type: String, description: 'Role ID' })
+  staffRoleId: string;
 
   @ApiPropertyOptional({ type: Boolean, description: 'Suspended' })
   suspended?: boolean | null;
+
+  @ApiProperty({
+    type: Date,
+    description: 'The date and time when the staff was last updated',
+  })
+  updatedAt: Date;
 }

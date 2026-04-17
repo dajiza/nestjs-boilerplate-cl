@@ -1,4 +1,5 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import { AppRoleSummary, StaffLocationAbilities, BoulevardLocationSummary, StaffRoleSummary } from '../../utils/types/boulevard.types';
 
 export class StaffDto {
   @ApiProperty({ type: String, description: 'The ID of an object' })
@@ -35,7 +36,7 @@ export class StaffDto {
   alternateId?: string | null;
 
   @ApiPropertyOptional({ type: Object, description: 'App Role' })
-  appRole?: Record<string, any> | null;
+  appRole?: AppRoleSummary | null;
 
   @ApiPropertyOptional({ type: String, description: 'App Role ID' })
   appRoleId?: string | null;
@@ -62,19 +63,19 @@ export class StaffDto {
   externallyBookable?: boolean | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Location abilities' })
-  locationAbilities?: Record<string, any> | null;
+  locationAbilities?: StaffLocationAbilities | null;
 
   @ApiPropertyOptional({ type: String, description: 'Location ID' })
   locationId?: string | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Locations' })
-  locations?: Record<string, any>[] | null;
+  locations?: BoulevardLocationSummary[] | null;
 
   @ApiPropertyOptional({ type: String, description: 'Nickname' })
   nickname?: string | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Role' })
-  role?: Record<string, any> | null;
+  role?: StaffRoleSummary | null;
 
   @ApiPropertyOptional({ type: String, description: 'Role ID' })
   staffRoleId?: string | null;

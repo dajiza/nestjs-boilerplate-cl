@@ -1,4 +1,12 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import type {
+  CreditCard,
+  MarketingSetting,
+  ClientNote,
+  BoulevardLocationSummary,
+  ReminderSetting,
+  BoulevardTag,
+} from '../../utils/types/boulevard.types';
 
 export class Client {
   @ApiProperty({
@@ -15,7 +23,7 @@ export class Client {
 
   @ApiProperty({
     type: Number,
-    description: 'The total number of appointments that this client has booked (excluding cancelled appointemnts)',
+    description: 'The total number of appointments that this client has booked (excluding cancelled appointments)',
   })
   appointmentCount: number;
 
@@ -25,11 +33,11 @@ export class Client {
   })
   createdAt: Date;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'Credit cards on file for the client',
   })
-  creditCardsOnFile?: Record<string, any>[] | null;
+  creditCardsOnFile: CreditCard[];
 
   @ApiProperty({
     type: Number,
@@ -49,17 +57,11 @@ export class Client {
   })
   custom?: Record<string, any> | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'Custom fields',
   })
-  customFields?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({
-    type: [String],
-    description: 'Keys',
-  })
-  keys?: string[] | null;
+  customFields: Record<string, any>[];
 
   @ApiPropertyOptional({
     type: Date,
@@ -97,11 +99,11 @@ export class Client {
   })
   lastName?: string | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: "The client's marketing settings",
   })
-  marketingSettings?: Record<string, any>[] | null;
+  marketingSettings: MarketingSetting[];
 
   @ApiPropertyOptional({
     type: String,
@@ -121,17 +123,17 @@ export class Client {
   })
   name?: string | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'Notes that are available for the client',
   })
-  notes?: Record<string, any>[] | null;
+  notes: ClientNote[];
 
   @ApiPropertyOptional({
     type: Object,
     description: 'Primary location (based on last 3 appointments)',
   })
-  primaryLocation?: Record<string, any> | null;
+  primaryLocation?: BoulevardLocationSummary | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -139,11 +141,11 @@ export class Client {
   })
   pronoun?: string | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: "The client's reminder settings",
   })
-  reminderSettings?: Record<string, any>[] | null;
+  reminderSettings: ReminderSetting[];
 
   @ApiPropertyOptional({
     type: String,
@@ -151,11 +153,11 @@ export class Client {
   })
   schedulingAlert?: string | null;
 
-  @ApiPropertyOptional({
+  @ApiProperty({
     type: Object,
     description: 'Tags that have been applied to the client',
   })
-  tags?: Record<string, any>[] | null;
+  tags: BoulevardTag[];
 
   @ApiProperty({
     type: Date,

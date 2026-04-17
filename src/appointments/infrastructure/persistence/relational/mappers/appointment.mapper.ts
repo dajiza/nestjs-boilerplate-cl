@@ -5,22 +5,19 @@ export class AppointmentMapper {
   static toDomain(raw: AppointmentEntity): Appointment {
     const domainEntity = new Appointment();
     domainEntity.id = raw.id;
-    domainEntity.startAt = raw.startAt;
-    domainEntity.createdAt = raw.createdAt;
-    domainEntity.cancelled = raw.cancelled;
-    domainEntity.staffId = raw.staffId;
     domainEntity.appointmentServiceOptions = raw.appointmentServiceOptions;
     domainEntity.appointmentServiceResources = raw.appointmentServiceResources;
     domainEntity.appointmentServices = raw.appointmentServices;
     domainEntity.bookedByType = raw.bookedByType;
     domainEntity.calendarLinks = raw.calendarLinks;
     domainEntity.cancellation = raw.cancellation;
+    domainEntity.cancelled = raw.cancelled;
     domainEntity.client = raw.client;
     domainEntity.clientId = raw.clientId;
     domainEntity.clientMessage = raw.clientMessage;
+    domainEntity.createdAt = raw.createdAt;
     domainEntity.custom = raw.custom;
     domainEntity.customFields = raw.customFields;
-    domainEntity.keys = raw.keys;
     domainEntity.duration = raw.duration;
     domainEntity.endAt = raw.endAt;
     domainEntity.isGroupedAppointment = raw.isGroupedAppointment;
@@ -36,55 +33,46 @@ export class AppointmentMapper {
     domainEntity.pendingFormCount = raw.pendingFormCount;
     domainEntity.rating = raw.rating;
     domainEntity.remotePlatforms = raw.remotePlatforms;
+    domainEntity.startAt = raw.startAt;
     domainEntity.state = raw.state;
     domainEntity.tags = raw.tags;
-    domainEntity.roomId = raw.roomId;
-    domainEntity.equipmentId = raw.equipmentId;
-    domainEntity.calComBookingId = raw.calComBookingId;
     return domainEntity;
   }
 
   static toPersistence(domainEntity: Appointment): AppointmentEntity {
     const persistenceEntity = new AppointmentEntity();
-    if (domainEntity.id) {
-      persistenceEntity.id = domainEntity.id;
-    }
-    persistenceEntity.startAt = domainEntity.startAt;
-    persistenceEntity.createdAt = domainEntity.createdAt;
-    persistenceEntity.cancelled = domainEntity.cancelled;
-    persistenceEntity.staffId = domainEntity.staffId;
-    persistenceEntity.appointmentServiceOptions = domainEntity.appointmentServiceOptions ?? null;
-    persistenceEntity.appointmentServiceResources = domainEntity.appointmentServiceResources ?? null;
-    persistenceEntity.appointmentServices = domainEntity.appointmentServices ?? null;
-    persistenceEntity.bookedByType = domainEntity.bookedByType ?? null;
-    persistenceEntity.calendarLinks = domainEntity.calendarLinks ?? null;
+    persistenceEntity.id = domainEntity.id;
+    persistenceEntity.appointmentServiceOptions = domainEntity.appointmentServiceOptions;
+    persistenceEntity.appointmentServiceResources = domainEntity.appointmentServiceResources;
+    persistenceEntity.appointmentServices = domainEntity.appointmentServices;
+    persistenceEntity.bookedByType = domainEntity.bookedByType;
+    persistenceEntity.calendarLinks = domainEntity.calendarLinks;
     persistenceEntity.cancellation = domainEntity.cancellation ?? null;
-    persistenceEntity.client = domainEntity.client ?? null;
-    persistenceEntity.clientId = domainEntity.clientId ?? null;
+    persistenceEntity.cancelled = domainEntity.cancelled;
+    persistenceEntity.client = domainEntity.client;
+    persistenceEntity.clientId = domainEntity.clientId;
     persistenceEntity.clientMessage = domainEntity.clientMessage ?? null;
+    persistenceEntity.createdAt = domainEntity.createdAt;
     persistenceEntity.custom = domainEntity.custom ?? null;
-    persistenceEntity.customFields = domainEntity.customFields ?? null;
-    persistenceEntity.keys = domainEntity.keys ?? null;
-    persistenceEntity.duration = domainEntity.duration ?? null;
-    persistenceEntity.endAt = domainEntity.endAt ?? null;
-    persistenceEntity.isGroupedAppointment = domainEntity.isGroupedAppointment ?? null;
-    persistenceEntity.isRecurring = domainEntity.isRecurring ?? null;
-    persistenceEntity.isRemote = domainEntity.isRemote ?? null;
-    persistenceEntity.location = domainEntity.location ?? null;
-    persistenceEntity.locationId = domainEntity.locationId ?? null;
-    persistenceEntity.manageUrl = domainEntity.manageUrl ?? null;
+    persistenceEntity.customFields = domainEntity.customFields;
+    persistenceEntity.duration = domainEntity.duration;
+    persistenceEntity.endAt = domainEntity.endAt;
+    persistenceEntity.isGroupedAppointment = domainEntity.isGroupedAppointment;
+    persistenceEntity.isRecurring = domainEntity.isRecurring;
+    persistenceEntity.isRemote = domainEntity.isRemote;
+    persistenceEntity.location = domainEntity.location;
+    persistenceEntity.locationId = domainEntity.locationId;
+    persistenceEntity.manageUrl = domainEntity.manageUrl;
     persistenceEntity.notes = domainEntity.notes ?? null;
-    persistenceEntity.notifyClientCancel = domainEntity.notifyClientCancel ?? null;
-    persistenceEntity.notifyClientCreate = domainEntity.notifyClientCreate ?? null;
+    persistenceEntity.notifyClientCancel = domainEntity.notifyClientCancel;
+    persistenceEntity.notifyClientCreate = domainEntity.notifyClientCreate;
     persistenceEntity.orderId = domainEntity.orderId ?? null;
-    persistenceEntity.pendingFormCount = domainEntity.pendingFormCount ?? null;
+    persistenceEntity.pendingFormCount = domainEntity.pendingFormCount;
     persistenceEntity.rating = domainEntity.rating ?? null;
-    persistenceEntity.remotePlatforms = domainEntity.remotePlatforms ?? null;
-    persistenceEntity.state = domainEntity.state ?? null;
-    persistenceEntity.tags = domainEntity.tags ?? null;
-    persistenceEntity.roomId = domainEntity.roomId ?? null;
-    persistenceEntity.equipmentId = domainEntity.equipmentId ?? null;
-    persistenceEntity.calComBookingId = domainEntity.calComBookingId ?? null;
+    persistenceEntity.remotePlatforms = domainEntity.remotePlatforms;
+    persistenceEntity.startAt = domainEntity.startAt;
+    persistenceEntity.state = domainEntity.state;
+    persistenceEntity.tags = domainEntity.tags;
     return persistenceEntity;
   }
 }

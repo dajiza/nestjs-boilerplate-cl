@@ -1,5 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsNotEmpty, IsOptional, IsBoolean, IsString, IsObject, IsArray, IsDateString, IsInt } from 'class-validator';
+import type { ServiceAddon, ServiceCategorySummary, ServiceOptionGroup, ServiceOverride, ServiceStatus } from '../../utils/types/boulevard.types';
 
 export class CreateServiceDto {
   @ApiProperty({ type: String, description: 'The ID of an object' })
@@ -35,11 +36,6 @@ export class CreateServiceDto {
   @IsInt()
   defaultPrice: number;
 
-  @ApiPropertyOptional({ type: String, description: 'Location ID' })
-  @IsOptional()
-  @IsString()
-  locationId?: string | null;
-
   @ApiPropertyOptional({ type: String, description: 'Category ID' })
   @IsOptional()
   @IsString()
@@ -55,21 +51,15 @@ export class CreateServiceDto {
   @IsArray()
   customFields?: Record<string, any>[] | null;
 
-  @ApiPropertyOptional({ type: [String], description: 'Keys' })
-  @IsOptional()
-  @IsArray()
-  @IsString({ each: true })
-  keys?: string[] | null;
-
   @ApiPropertyOptional({ type: Object, description: 'Addons' })
   @IsOptional()
   @IsArray()
-  addons?: Record<string, any>[] | null;
+  addons?: ServiceAddon[] | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Category' })
   @IsOptional()
   @IsObject()
-  category?: Record<string, any> | null;
+  category?: ServiceCategorySummary | null;
 
   @ApiPropertyOptional({ type: String, description: 'Description' })
   @IsOptional()
@@ -84,20 +74,20 @@ export class CreateServiceDto {
   @ApiPropertyOptional({ type: Object, description: 'Service option groups' })
   @IsOptional()
   @IsArray()
-  serviceOptionGroups?: Record<string, any>[] | null;
+  serviceOptionGroups?: ServiceOptionGroup[] | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Service overrides' })
   @IsOptional()
   @IsObject()
-  serviceOverrides?: Record<string, any> | null;
+  serviceOverrides?: ServiceOverride | null;
 
   @ApiPropertyOptional({ type: Object, description: 'Service status' })
   @IsOptional()
   @IsObject()
-  serviceStatus?: Record<string, any> | null;
+  serviceStatus?: ServiceStatus | null;
 
-  @ApiPropertyOptional({ type: Object, description: 'Sort path' })
+  @ApiPropertyOptional({ type: String, description: 'Sort path' })
   @IsOptional()
-  @IsObject()
-  sortPath?: Record<string, any> | null;
+  @IsString()
+  sortPath?: string | null;
 }

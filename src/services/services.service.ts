@@ -3,6 +3,7 @@ import { CreateServiceDto } from './dto/create-service.dto';
 import { UpdateServiceDto } from './dto/update-service.dto';
 import { ServiceRepository } from './infrastructure/persistence/service.repository';
 import { Service } from './domain/service';
+import type { ServiceCategorySummary, ServiceOverride, ServiceStatus } from '../utils/types/boulevard.types';
 import { NullableType } from '../utils/types/nullable.type';
 import { IPaginationOptions } from '../utils/types/pagination-options';
 
@@ -20,19 +21,17 @@ export class ServicesService {
       updatedAt: new Date(createServiceDto.updatedAt),
       defaultDuration: createServiceDto.defaultDuration,
       defaultPrice: createServiceDto.defaultPrice,
-      locationId: createServiceDto.locationId ?? null,
-      categoryId: createServiceDto.categoryId ?? null,
-      custom: createServiceDto.custom ?? null,
-      customFields: createServiceDto.customFields ?? null,
-      keys: createServiceDto.keys ?? null,
-      addons: createServiceDto.addons ?? null,
-      category: createServiceDto.category ?? null,
+      categoryId: createServiceDto.categoryId ?? '',
+      custom: createServiceDto.custom ?? {},
+      customFields: createServiceDto.customFields ?? [],
+      addons: createServiceDto.addons ?? [],
+      category: createServiceDto.category ?? ({} as ServiceCategorySummary),
       description: createServiceDto.description ?? null,
       externalId: createServiceDto.externalId ?? null,
-      serviceOptionGroups: createServiceDto.serviceOptionGroups ?? null,
-      serviceOverrides: createServiceDto.serviceOverrides ?? null,
-      serviceStatus: createServiceDto.serviceStatus ?? null,
-      sortPath: createServiceDto.sortPath ?? null,
+      serviceOptionGroups: createServiceDto.serviceOptionGroups ?? [],
+      serviceOverrides: createServiceDto.serviceOverrides ?? ({} as ServiceOverride),
+      serviceStatus: createServiceDto.serviceStatus ?? ({} as ServiceStatus),
+      sortPath: createServiceDto.sortPath ?? '',
     });
   }
 
@@ -47,7 +46,7 @@ export class ServicesService {
   }
 
   async update(id: Service['id'], updateServiceDto: UpdateServiceDto): Promise<Service | null> {
-    return this.serviceRepository.update(id, updateServiceDto);
+    return this.serviceRepository.update(id, updateServiceDto as Partial<Service>);
   }
 
   async remove(id: Service['id']): Promise<void> {

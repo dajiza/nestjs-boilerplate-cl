@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv client.json clients.json)",
+      "Bash(mv service.json services.json)",
+      "Bash(mv location.json locations.json)",
+      "Bash(mv staff-role.json staff-roles.json)",
+      "Bash(mv appointment.json appointments.json)"
+    ]
+  }
+}

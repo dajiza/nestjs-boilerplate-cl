@@ -1,0 +1,24 @@
+[
+  {
+    "id": "urn:blvd:Business:982e85b1-fed0-4747-9dc4-bd767cde1539",
+    "name": "Bared Monkey SANDBOX",
+    "address": {
+      "zip": null,
+      "city": null,
+      "line1": null,
+      "line2": null,
+      "state": null,
+      "country": null,
+      "province": null
+    },
+    "allowLoginWithMultipleClients": true,
+    "billingContactEmail": "11",
+    "custom": {},
+    "customBookingUrl": null,
+    "customFields": [],
+    "phone": null,
+    "showLocationHours": true,
+    "tz": "America/Los_Angeles",
+    "website": ""
+  }
+]

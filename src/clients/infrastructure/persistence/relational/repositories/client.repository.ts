@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { ClientEntity } from '../entities/client.entity';
@@ -58,7 +58,7 @@ export class ClientsRelationalRepository implements ClientRepository {
     });
 
     if (!entity) {
-      throw new Error('Client not found');
+      throw new NotFoundException('Client not found');
     }
 
     const updatedEntity = await this.clientsRepository.save(

@@ -1,25 +1,26 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsNotEmpty, IsOptional, IsBoolean, IsEmail, IsString, IsObject, IsArray, IsDateString } from 'class-validator';
+import { AppRoleSummary, StaffLocationAbilities, BoulevardLocationSummary, StaffRoleSummary } from '../../utils/types/boulevard.types';
 
 export class CreateStaffDto {
   @ApiProperty({ type: String, description: 'The ID of an object' })
   @IsNotEmpty()
   id: string;
 
-  @ApiProperty({ type: String, description: 'Email address' })
-  @IsNotEmpty()
+  @ApiPropertyOptional({ type: String, description: 'Email address' })
+  @IsOptional()
   @IsEmail()
-  email: string;
+  email?: string | null;
 
   @ApiProperty({ type: String, description: 'Full name' })
   @IsNotEmpty()
   @IsString()
   name: string;
 
-  @ApiProperty({ type: String, description: 'Mobile phone' })
-  @IsNotEmpty()
+  @ApiPropertyOptional({ type: String, description: 'Mobile phone' })
+  @IsOptional()
   @IsString()
-  mobilePhone: string;
+  mobilePhone?: string | null;
 
   @ApiProperty({ type: Boolean, description: 'Active' })
   @IsBoolean()
@@ -58,7 +59,7 @@ export class CreateStaffDto {
   @ApiPropertyOptional({ type: Object, description: 'App Role' })
   @IsOptional()
   @IsObject()
-  appRole?: Record<string, any> | null;
+  appRole?: AppRoleSummary | null;
 
   @ApiPropertyOptional({ type: String, description: 'App Role ID' })
   @IsOptional()
@@ -101,7 +102,7 @@ export class CreateStaffDto {
   @ApiPropertyOptional({ type: Object, description: 'Location abilities' })
   @IsOptional()
   @IsObject()
-  locationAbilities?: Record<string, any> | null;
+  locationAbilities?: StaffLocationAbilities | null;
 
   @ApiPropertyOptional({ type: String, description: 'Location ID' })
   @IsOptional()
@@ -111,7 +112,7 @@ export class CreateStaffDto {
   @ApiPropertyOptional({ type: Object, description: 'Locations' })
   @IsOptional()
   @IsArray()
-  locations?: Record<string, any>[] | null;
+  locations?: BoulevardLocationSummary[] | null;
 
   @ApiPropertyOptional({ type: String, description: 'Nickname' })
   @IsOptional()
@@ -121,7 +122,7 @@ export class CreateStaffDto {
   @ApiPropertyOptional({ type: Object, description: 'Role' })
   @IsOptional()
   @IsObject()
-  role?: Record<string, any> | null;
+  role?: StaffRoleSummary | null;
 
   @ApiPropertyOptional({ type: String, description: 'Role ID' })
   @IsOptional()

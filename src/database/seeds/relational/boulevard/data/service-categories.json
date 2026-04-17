@@ -1,0 +1,1866 @@
+[
+  {
+    "id": "urn:blvd:ServiceCategory:06706af2-227b-426d-ac52-e23d9334a8c7",
+    "name": "Laser Hair Removal (X-Small Areas) - Returning Clients",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.408",
+    "sortPath": ".33",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:1aa51342-069c-4651-b497-c8f48772c743"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:38bcfb85-9b99-4e12-9670-5a32cf911641"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:bdc1a3ed-c5cd-4a4a-950b-31857422af29"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:040d69a4-4e99-4196-87ea-1891bb5b2b18"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a71b9624-4ef7-4014-b5d5-96a9a5c207fa"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:cb3bb7c6-0029-4e21-964c-caeb3d007c2f"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:508dea5f-da2f-41b0-946c-e7aa6220bc1b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:1dba6ce6-d682-4f08-ba83-1dfd5720becf"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:91d48094-21e2-4441-ba97-517b8a519811"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6ccc80b7-427d-4d8b-bf51-84b08983bddc"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.408"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:0f1b4887-6bfa-409c-9643-c742dd06b02b",
+    "name": "Laser Hair Removal (X-Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.348",
+    "sortPath": ".27",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:0fb531b5-9b19-4ed5-ae4d-67b3473ff6dd"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9681753b-209c-48d4-bef9-986d31e2345c"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:468d70e8-7521-478e-be80-2fb9965bd65a"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:eda736ca-afd6-413c-88e1-7ae9a73499e5"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:535e95af-e2c6-402c-829e-de6ee90829f6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6fd80bdf-c4bb-4d7b-b0f4-338dd111a028"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:69c06a42-2147-4970-ac8f-4573283f1851"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6319c0c4-b1f3-4f17-9cda-618e45a4d9bd"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:7813c19c-cad0-4761-be5a-f67c010976ee"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6b4c8441-a71f-4121-9780-e5d395e7b7d3"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.348"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:0fa8d41a-023f-41da-b481-0c52d2121157",
+    "name": "Laser Hair Removal (X-Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.337",
+    "sortPath": ".25",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:c2e6f227-6e87-4252-9b5d-7cb3063cf161"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:7afc312e-4bda-4490-85f1-6886b469e94b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b7d5b232-91a1-4dbe-a8ad-67d3d318310f"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ddd147bf-239c-4f37-9316-9d258f860631"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d4a2b7d6-9ce4-44f8-b6b7-a2a1be1db7bc"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:17989f8e-7ad2-49ba-ac19-1c4bad796144"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.337"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:17490bed-3483-402f-890c-288b08148507",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.05",
+    "sortPath": ".13",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.05"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:1bf95110-8576-4f44-a2aa-1ea4912dde7c",
+    "name": "\u773c\u90e8\u624b\u672f",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.81",
+    "sortPath": ".3",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:d2774430-e3bb-4445-a92a-66afdd169408"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:c772d5f0-c7c0-4c68-b942-61ff566145f4"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:04bdeae4-b08a-4072-a530-a24952e8b2aa"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:5d283711-ded6-4bce-98d8-12ae16fb97a3"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.81"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:22fc96dd-6155-47ce-a56f-46d04c0c43f9",
+    "name": "Laser Hair Removal (X-Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.035",
+    "sortPath": ".11",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.035"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:253d5b58-feb5-4988-8d69-80f63f5af5d5",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.283",
+    "sortPath": ".21",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.283"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:25aadc19-dc0d-4184-ba0e-23d8a5fa12ba",
+    "name": "Body Contouring Treatment",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.451",
+    "sortPath": ".41",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:a6a62cb2-156b-472e-b372-21df79ab15f1"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:079a8439-3b0d-43dc-b7f2-fcbc9d501023"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:667ef3bb-9fe2-48c9-9b1b-de7ce7807281"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:cd212a3f-3ab3-4d76-8879-33127e7c66e5"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:2821a235-a7d5-462d-b6da-9c5c7499aedf"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:e938ad6d-886b-4998-90eb-ff7225b53cb9"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b0ebf3f3-22e5-479f-9363-18bf48d3a733"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:67d026e1-72c9-47fb-9366-6638d3223c7e"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b3ce5779-e08b-4d77-b1be-6c12aa29dfba"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:87fe5377-9723-49bd-83f3-debd3229390e"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.451"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:289cbfbf-85d0-4d74-9fe6-6fd8c670db5c",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.332",
+    "sortPath": ".24",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:125c1fdf-dc1d-44ba-b4de-b3a6ee19873d"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a5b09ce7-aa79-42cc-980c-8432712ff96e"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.332"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:29adf60b-1e77-4df6-838b-82a055ac146f",
+    "name": "BLVD TEST",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.896",
+    "sortPath": ".5",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:e886772d-e37e-4bf0-99a5-49d4ae0e4dbd"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.896"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:2e0764be-56b1-461c-9958-3761a19743ec",
+    "name": "Laser Hair Removal (X-Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.324",
+    "sortPath": ".23",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:31495351-df8e-48e7-b54f-9d68a1deeb55"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:8b4da096-df8c-4602-8ce8-3e0c908e8dd2"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4fd8ef98-e377-4aad-afc0-2fee7dac3628"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:759fa04c-f856-42d2-afa8-72c3bcff08a2"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4cef84d3-56f1-450e-a7b8-1ca515c09beb"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:63296dba-174f-482d-a0dc-4921282bb7d8"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.324"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:3858b4cb-6577-469c-bf0f-156543716cbb",
+    "name": "test category",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.783",
+    "sortPath": ".0",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:03cde856-c15b-40e0-9bb3-3a9514f80e53"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.783"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:3c6caf08-8829-4191-934b-305a0e74fb1c",
+    "name": "kkkk",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.015",
+    "sortPath": ".9",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.015"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:4a406b8e-93c3-4d94-823b-2541c93d4a61",
+    "name": "Laser Hair Removal (Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.353",
+    "sortPath": ".28",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.353"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:4cffa390-7cf0-4b6f-9318-e0db484607b3",
+    "name": "Shaving Service",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.474",
+    "sortPath": ".46",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:7c134277-a36d-4095-b1fa-db4b05a936c8"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:55f7d956-d5f6-4475-a672-7070e9271812"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9eea31ec-f4b4-4f0b-a391-71d3e51cf256"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d22cea42-972a-4e5d-b7a2-85e7fb50dcc0"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.474"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:4e874203-517f-4e07-880d-37c1f9714f17",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.025",
+    "sortPath": ".10",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.025"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:50cc7ecf-a413-4671-98d7-1dc75dd32800",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.381",
+    "sortPath": ".31",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:36a763c4-f224-4cd1-bedc-a14d0f1a8258"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:43afd79a-cbfe-4eae-9088-729748cec361"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:43fd16c3-51ac-4e13-9163-a8a6130a18e9"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:fee326fa-dc26-4974-b204-377b94bc4bfb"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.381"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:51b6e189-3a10-4b61-85e3-17330be9d9ba",
+    "name": "Laser Hair Removal",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.992",
+    "sortPath": ".7",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:e9efb477-9d8b-4278-8546-af8050569cc2"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:47412f7a-507d-40d6-958e-498b45be450a"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a2a1cfa7-63f6-40e2-945f-837035081223"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:77471b18-c6d3-4259-976a-6a5628d1b6c9"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ee3e8e8b-a41d-4a6d-8668-a038e8b23786"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:db7bc87c-2f1f-4332-83cb-2f6ecfc186eb"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.992"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:586e177a-6ccc-4482-82ab-1241b57b2e19",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.3",
+    "sortPath": ".22",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:f36c2a6f-1b24-4b23-96da-89ca2e9bfa27"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:7a486914-b1a7-4e35-84b4-550fe8c6a625"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.3"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:5aa9b0a4-b5ab-4fdf-be4b-c134490157a6",
+    "name": "test",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.484",
+    "sortPath": ".47",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:5fe4aa66-d764-4448-a975-c213aa46d1c0"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.484"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:60c2a84b-ad42-4a64-93d6-859ad39dfac7",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.078",
+    "sortPath": ".17",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:5808d007-ad3c-4e35-a78d-e34e1d3e0b80"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:03785c9b-9eee-4d85-9674-9bcadaa7568e"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.078"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:61a14787-afd3-45f2-a58f-33ff4f05db56",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.044",
+    "sortPath": ".12",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.044"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:639db1df-3318-4512-8917-77d6e7c96b34",
+    "name": "Follow Up Visit",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.464",
+    "sortPath": ".44",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:24b392de-4888-4ab6-a323-f0236b65dc5d"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:957dde40-cdfe-4c4d-b15e-8c887cc22ded"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:2d17dd9a-177b-4b59-ba35-64e1fa8ec220"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:569fa8ff-9b20-4ba6-b483-12e426ac45b6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d0b66b17-2740-4582-91ea-454bf47706b6"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.464"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:66a22406-5878-470a-8124-29219a633f34",
+    "name": "t1",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.955",
+    "sortPath": ".6",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:9c41fb5b-e5c2-4861-b10e-e8cc747baf05"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.955"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:6ac66ba0-9ee2-44f9-bec6-a25f16509ea3",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.057",
+    "sortPath": ".14",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.057"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:6b73d79c-ce24-4acf-aacc-a57489bec81b",
+    "name": "test",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.803",
+    "sortPath": ".2",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:da68a4a3-984a-4cae-8468-b0ec22c2bd42"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:c4dbaf57-bcdb-499e-a0e5-5b03cd251cb2"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.803"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:7534fc4e-18b9-465c-8b60-a6dc72c41137",
+    "name": "Laser Hair Removal (X-Large Areas) - Returning Clients",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.43",
+    "sortPath": ".37",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:b7b2a025-2098-4c85-8f92-2c8e4a361e99"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a1d2fe21-b9dc-46cc-a6fc-2bbae3b25043"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:c1823083-3e94-4eb6-a547-56eacf25cb11"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:0cc0c0b8-a2f4-4f44-9ce2-e909fd3ea693"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:478d153c-d546-4af1-96cc-dd09733ceefa"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:40297d82-b098-4e21-b2c9-a11f07516540"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:64e9cc10-6caf-4824-b311-9482f6ee4886"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:5519dc5b-146e-4b91-87f1-952f3edf712a"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ee8f8ab9-390c-4519-ac91-e5e0b43cf472"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:de92e0c0-3067-46f3-b7a0-4b0002e6c3eb"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9de2f8b1-bd2f-40e3-8d48-bdf836d92746"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:e8e22adc-cccd-4a27-a80c-21b2540d889f"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:c5f142a5-8980-4f29-b94d-fa3003be1cc8"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:fb1f295b-9f3e-4d56-af7b-35e56fad4d0a"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d1ce49d2-5fcf-4a10-afdf-ee5d1ac5fc14"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:e29bc719-030f-457f-ad44-ed0dc8e83436"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:e4f4bf97-0d2e-4f3c-9d18-581da4ed2811"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:e4dc76fe-bbd3-4919-b134-3101458919d4"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:05948494-626f-4225-8729-cc0e2aac9b0d"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.43"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:7967d422-dd12-4a11-9e0c-8fa3fb8f9a8f",
+    "name": "Laser Hair Removal (Medium Areas) - Returning Clients",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.418",
+    "sortPath": ".35",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:ceb6b5f0-3aa5-4642-8987-8929882d6dbb"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:3929ca55-5494-4130-b741-92aad1aa3d88"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:2f6dfcdc-e6d5-4a79-98f7-7242313902eb"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:7b2bd73a-2db9-4e46-abb5-7ff3e3753290"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:069ea6f2-fb9e-4c17-8539-b1699cc96e17"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ea3c32e6-bdf5-41d6-a7db-d354e46e8fda"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4a8b909b-e496-46c7-8c52-a20039414d19"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a56eddea-7c8b-4c4b-b17f-6836245766d4"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:cf7be6f6-79cc-4a68-87aa-6cc255eb6665"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:63a7dbad-d8e0-46d9-b01a-c715d93af806"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b9984100-b4df-41b3-84ee-3d8ea7e905d3"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4baa1f71-23b0-4ca8-8cf4-0cd5f5156915"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:437b218c-4996-48f0-bd99-6fc81a99d137"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.418"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:90a7ac1d-cf9b-45ac-a78d-60d5c30623f5",
+    "name": "General Services",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.791",
+    "sortPath": ".1",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:b469916e-3f94-4755-a16a-548e278f5237"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:3c53950e-da0b-4295-bc08-ed95c177883d"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.791"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:9d9ade1c-6e8b-4a5d-b1cd-75493d15766c",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.239",
+    "sortPath": ".20",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:14b876a6-151d-475a-a533-7dfbee627595"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.239"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:a8616c5f-9c52-4067-b446-409017e24f7c",
+    "name": "Mosaic Fractional Laser Resurfacing",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.759",
+    "sortPath": ".49",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.759"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:a8bbf656-a1be-4d80-94cd-edaf17f789bb",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.071",
+    "sortPath": ".16",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:21605067-f0fe-4e0d-8d94-f8fdb579bd87"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.071"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:a94e12d9-0b3f-4d3a-be4d-3eda51df63d1",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.368",
+    "sortPath": ".30",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.368"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:b96a909c-5ca5-48a3-b68b-72c5313b0d62",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.343",
+    "sortPath": ".26",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:d01324be-00c4-4af2-89c4-5d5a9e58b5d3"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b2a1e577-3d61-413f-82d5-d727b5a9115f"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.343"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:c24e39a9-5537-430e-82db-dbe407aed8b3",
+    "name": "Acne/Pigmentation Treatment",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.441",
+    "sortPath": ".39",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:f0481384-a277-4ccd-9765-afd566ded845"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ff03b819-cc80-4a92-909e-33c38e9f5e35"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a0fd8b12-d32f-4e14-880e-5585b43dd601"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:454ea236-ed3e-4c45-9d11-c6ba235bfdf4"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:58d47e4a-92ce-422e-b8ff-d78b7a247856"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:80dff78a-5c51-4ded-8890-552069869778"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a7f3ea06-c885-49e4-abea-ad77250d9940"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:12af0a4d-b83a-4930-8047-4f99455e2dd1"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:95b8f19a-a566-427d-bc40-fee1989681f6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:fde693bd-6294-412f-a395-b191a583ad4b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:2fee0adf-8bfa-4308-800d-b4839cb13299"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b0ab79ce-89ff-4ef0-ac78-0257743cfcea"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4fbcc47f-917f-467c-bda0-aae23114f294"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.441"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:c35cba0c-9786-475d-93dd-c7e22ad1e9b3",
+    "name": "Tattoo Removal Treatment",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.456",
+    "sortPath": ".42",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:ee7b9c14-c02c-402b-8122-a030deb542b4"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:8de74e77-e01e-4605-865a-ad5d5dad9db6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:fbeb47b6-ffa3-4001-a634-70bab44feddd"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:eb3f44b1-7afc-4318-9199-5315b4d0ff13"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:49675261-4967-41bd-af65-98fa4b0e514f"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:f37191e1-ae46-4739-a875-e56e61e64bc3"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:85de4ed0-c0fe-4660-8b6d-4e8f97d060d2"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:758d83db-953b-4692-adff-838b6f3691d9"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:0a7599dc-067e-47da-94e9-7e7647b7cce6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4eab6ec7-067d-4f50-be2e-e5dff0f30b00"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:30aa70cc-3ada-49b8-b919-c78b3f8b33e7"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4b26620a-7730-46eb-8534-bfd6a0316f5f"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.456"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:c4264339-e2cd-47f7-bb0b-f91a90447aeb",
+    "name": "Laser Hair Removal (Large Areas) - Returning Clients",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.424",
+    "sortPath": ".36",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:2ae0e867-449d-47b3-a8c4-2bdb9556208d"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9ecefeb2-5348-4e18-9303-2c5b0edf29e6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:2a1eba86-4e65-4fc0-88d9-81d4bef830ff"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:194fc420-1e43-4443-b031-75a7cfb17eb0"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:511ccadc-099d-4db2-af20-19948f805802"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:63e1546b-9e1e-49e2-a48f-cbb8671689f5"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:185ec93a-469b-442c-8966-38e70421609a"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d6677311-6d7a-4d37-9066-29680b8ed461"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:dc5743c1-f0b2-40f8-b069-9a931a3375f5"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4adba3ed-974d-47d4-a54c-348ef5f1fc93"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4c26d04d-234f-47cf-a14a-7eda16876ad6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b5c33a39-dab4-4b7e-8bc6-a517f4fa8697"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:137d0313-185d-4969-a9e1-35cbaf69df4b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:aca585d9-6653-4255-bcd2-0c4af504d877"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9aa9f142-b940-4774-b539-804e2d85f49e"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9c395332-e694-4f73-8032-9c6626b18414"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d3980a1d-978f-4c0a-b455-4f2c3901a898"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.424"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:c9cef594-8cb9-4a86-927e-3c01b5d7aed3",
+    "name": "\u80f8\u90e8",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:55.85",
+    "sortPath": ".4",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:1c987ee6-d62c-4ec5-b102-8a7ec9a58061"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.85"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:cf4ee5c1-f910-407e-b550-5e73edf4b7f7",
+    "name": "Depigmentation/Skin rejuvenation Treatment",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.436",
+    "sortPath": ".38",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:52b09062-5382-4927-b9cd-ab7b1fa0f252"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b012b054-24e2-435c-a113-52d82d631e30"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ea30fee7-3948-44cb-8f22-151c21d323b1"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a9e9b086-1468-45dd-ab63-56d8aa0f9cf9"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:18a0c22a-c207-45ae-a46e-1406bf50ac70"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:59e688a8-0957-4844-9adc-26b62aeb885a"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:0294af3d-d7ef-48e4-ac1a-148d788cc37a"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:65bccf87-4c78-4cf3-9051-78c1587b4f86"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:28d88592-8fd5-4a5b-88c9-5e42c381f3ef"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6942c5b3-ed06-4e2d-9a9f-03e0be249c17"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a5a3c756-93f9-40b2-b8d0-a94513f3c3a0"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.436"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:d13b24bd-36cf-4590-85e5-52fa8eee0373",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.358",
+    "sortPath": ".29",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:25f47479-6a45-49d2-b02d-346132e356a3"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.358"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:d50e468e-92ec-400e-a4ad-d53468cf33b7",
+    "name": "Laser Hair Removal (X-Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.39",
+    "sortPath": ".32",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.39"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:d85da1a1-0c82-4c95-8613-a932b0308427",
+    "name": "Laser Hair Removal (First Time Client)",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.064",
+    "sortPath": ".15",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.064"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:d9c7963e-0722-4e11-bfe6-96fa0e152541",
+    "name": "Skin Rejuvenation/Anti-Aging",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.446",
+    "sortPath": ".40",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:5cfdf6c8-2e0b-4e1c-85ad-463ba6f3e8aa"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a5399e49-e818-40fd-a1cc-a35e8c058419"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:08ad85c3-0605-4510-acb0-f82c3350b049"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:86c6b219-8a47-4263-920c-2c527d0d8b84"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:5d33ecbc-28bc-46b9-9672-a81641324f24"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:17b40120-eca7-4def-a787-cf964608c4b3"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.446"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:de328012-7459-4b0d-97fb-810926dea52c",
+    "name": "\u6d4b\u8bd51",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.005",
+    "sortPath": ".8",
+    "services": {
+      "edges": []
+    },
+    "updatedAt": "2026-04-17T10:35:56.005"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:e5906bb0-331d-4309-a22d-b0f93d74be75",
+    "name": "Laser Hair Removal (X-Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.088",
+    "sortPath": ".18",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:34a093ab-bf60-4752-bf89-589b3601c2a7"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:bdbd5b01-307d-4035-aebf-3bbd18199154"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:27b59534-1040-4709-85c4-0eb7e597f6b5"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:7d25d836-8f62-4958-b683-60438a514c70"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:472a19a7-6d01-46bc-9a49-dfafc7725fe8"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:600757ac-9810-45a4-9714-80ddb46b7404"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d01ea905-72d5-4735-9f75-648a8682b1a5"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ee5781cb-64a0-4758-b14f-c74788092851"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:70d3b522-7ebc-4d51-8d47-03770f005bf1"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:3c6666f8-5f0e-4eef-90a9-cef4c26db782"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.088"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:e9478b92-12a2-4bd8-906d-ee350068ded7",
+    "name": "Spider Vein Removal Treatment",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.46",
+    "sortPath": ".43",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:f8016a76-5818-46c0-b6b0-6672c26d3c20"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:73442a76-2dd9-4a26-940e-16afeab211ee"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b4a65fd2-8f52-45af-8c4a-77c6f37a16d4"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:0e573665-124f-41ef-bd84-7b455abc81c1"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:47956ebc-501b-421f-9b28-0b7feeff503b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:92cfa065-0e5d-4a4d-9227-3f8068cf8a51"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.46"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:f121e1a8-c335-4e37-ac2c-76bf400d6585",
+    "name": "Laser Hair Removal (Small Areas) - Returning Clients",
+    "active": false,
+    "createdAt": "2026-04-17T10:35:56.166",
+    "sortPath": ".19",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:b9c9a4de-df4c-4e39-9403-c4ed5234d427"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:74ea4b43-77b2-452f-9909-4f60e45413ef"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:dc4216ff-263f-4e2d-98ad-b775bd1c2d51"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ebc16d43-8c5b-44ea-8702-156a4941801b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:3fed9635-530d-4863-858a-4032f3a288d3"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6d0c342f-b655-4ad1-bfdd-0b19aafc5be3"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:cf414102-ec43-450e-9e57-a3cf2da4c1ec"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d624e62b-aae0-49ce-901b-20b115305ab6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:854f17e6-c2f7-48a0-a3d1-3b48f0e54e1e"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:0db88f03-1935-4906-a423-650b62e7cad3"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:1ab11029-b263-4a71-af7b-64b68b6b6a52"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.166"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:f4dfc43f-994f-4e3b-8704-ee35396c6e73",
+    "name": "Laser Hair Removal (Small Areas) - Returning Clients",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.414",
+    "sortPath": ".34",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:758a0b2c-2611-48e6-b514-344a4f0403db"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:766a74ec-88a1-448b-aa80-7ec5289690d6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:3bec08c1-5ca1-40dc-91ad-4df5ec96990e"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6ff180dd-a7a2-4850-9524-ca3c70046341"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:5aaa5db1-3fe0-421b-bb43-cc20eba178a2"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d681ff1d-ee94-4622-9dfc-45c7962649fb"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9bb21dcb-24e1-4d29-acbf-9570d6b24e3f"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:af5ebbf0-5dc4-4f7d-9b88-a34bbf4ed7a9"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:20b9d62d-9767-4bee-8b7e-1ecc6193b905"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:33dff978-4815-4271-9eed-f84ab49bd0fd"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:372bf8b8-05cd-4675-98c0-56ca3f7661c4"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.414"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:f5e0c0c5-6b3f-434d-a96f-cb2fb9dda3da",
+    "name": "Body Contouring Service",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:55.763",
+    "sortPath": ".0",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:b5f50ba7-238b-46db-8c6c-7c4adaffecf1"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:77c1b89a-b4b8-40f1-80cc-081fe3dd1039"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:f8763c4a-2efb-4e1b-ae8f-7045cfa4d3c7"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:7b77aed2-81bc-445e-858f-4af3b6070f0d"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:58380d44-b137-4a1d-8161-3cd517177d3b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:f658d4be-6dd6-4099-8954-1bcf89293c81"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4ab58403-2ae5-42f4-8169-ff1e1889f044"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9e9864a2-37d3-4577-a3b1-30f9954b4912"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:3f5983c5-4ac9-452f-933b-33b909573b6e"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:55.763"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:f8281974-0bd9-4e87-aa5d-4f0d1e616557",
+    "name": "General Services",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.469",
+    "sortPath": ".45",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:bc0f137c-46b5-47dc-a367-df88f798823d"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ae835916-90dd-4dfd-8401-ba44139bb145"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:8b881eee-4736-4860-996a-4cb3410f8a80"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:83123af8-c9d5-472b-92c4-5551069ffdb0"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:10d9d7f1-23de-4dc9-a47f-7a47b36e63dd"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:b33b13cd-8219-4e51-ae87-1da3c06d07a4"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.469"
+  },
+  {
+    "id": "urn:blvd:ServiceCategory:fd39ac71-d9e6-4725-9b07-e013dd8f8396",
+    "name": "Test Service Catergory",
+    "active": true,
+    "createdAt": "2026-04-17T10:35:56.49",
+    "sortPath": ".48",
+    "services": {
+      "edges": [
+        {
+          "node": {
+            "id": "urn:blvd:Service:1c7f9eef-8baa-49b1-a5da-2924dce37271"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:5bb16fcd-2d43-46b5-9fb8-bdbdb68fe937"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:186d4599-d6ca-4c8a-b821-83db6300466e"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:0cf5caae-692f-4ef0-943c-b7e98c1f8a68"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:06ed620b-bd63-436e-be7a-355113ac47d6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:74652090-465c-482c-a49e-5aea0003cb27"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:ea405f68-e49a-45b1-afac-367520ea72e7"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:f376b597-fba4-4bd4-a967-b0fddc9e701b"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:7109c6ae-68eb-4067-b4ef-14d483fdf4b7"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:5ba70077-b878-446d-a51d-4823e0bc62da"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:451f313e-0a4d-4ef0-85f3-558d1e55aa4e"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:9390f03d-44a3-4868-90d4-9f0f910e5a3e"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:3ef5a649-39af-4dd6-894e-563bce63e123"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:70ce37eb-70da-4e4d-a11a-2e353da05ac7"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:0f3cd8ab-b56a-494e-9f41-f302763eb7da"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:4506052b-d75d-472c-84a2-d4e016833559"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:d48d047f-514e-4437-b669-cc7ce913ce6c"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:6e67271b-90b2-4428-ba0d-528c85466be6"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:da976e57-7e64-409b-8a14-644a5398c749"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:a86664b4-9165-4346-824c-bb0521c89135"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:80c560c3-2209-4faf-8649-bbf7b57a5539"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:22ec1329-3f38-45b8-ac70-4b5e3383ec73"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:cec1f7f8-329b-4fca-8326-6569963ccaac"
+          }
+        },
+        {
+          "node": {
+            "id": "urn:blvd:Service:f7203476-5aef-4e04-b663-b83c0a0d4167"
+          }
+        }
+      ]
+    },
+    "updatedAt": "2026-04-17T10:35:56.49"
+  }
+]

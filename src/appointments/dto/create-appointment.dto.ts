@@ -1,8 +1,20 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { IsNotEmpty, IsOptional, IsBoolean, IsDateString, IsArray, IsObject, IsNumber, IsString, IsUUID } from 'class-validator';
+import { IsNotEmpty, IsOptional, IsBoolean, IsDateString, IsArray, IsObject, IsNumber, IsString } from 'class-validator';
+import type {
+  AppointmentClientSummary,
+  AppointmentServiceOption,
+  AppointmentServiceResource,
+  AppointmentServiceItem,
+  AppointmentCancellation,
+  AppointmentRating,
+  BoulevardLocationSummary,
+  BoulevardTag,
+  CalendarLinks,
+  RemotePlatforms,
+} from '../../utils/types/boulevard.types';
 
 export class CreateAppointmentDto {
-  @ApiPropertyOptional({ type: String, description: 'The ID of an object (auto-generated if not provided)' })
+  @ApiPropertyOptional({ type: String, description: 'The ID of an object' })
   @IsOptional()
   @IsString()
   id?: string;
@@ -13,7 +25,7 @@ export class CreateAppointmentDto {
 
   @ApiPropertyOptional({
     type: Date,
-    description: 'When the appointment was created (auto-generated if not provided)',
+    description: 'When the appointment was created (in Etc/UTC)',
   })
   @IsOptional()
   @IsDateString()
@@ -26,27 +38,13 @@ export class CreateAppointmentDto {
   @IsBoolean()
   cancelled: boolean;
 
-  @ApiProperty({ type: String, description: 'Staff ID' })
-  @IsNotEmpty()
-  staffId: string;
-
-  @ApiPropertyOptional({ type: String, description: 'Room ID' })
-  @IsOptional()
-  @IsUUID()
-  roomId?: string | null;
-
-  @ApiPropertyOptional({ type: String, description: 'Equipment ID' })
-  @IsOptional()
-  @IsUUID()
-  equipmentId?: string | null;
-
   @ApiPropertyOptional({
     type: Object,
     description: 'Service options chosen with this appointment service',
   })
   @IsOptional()
   @IsArray()
-  appointmentServiceOptions?: Record<string, any>[] | null;
+  appointmentServiceOptions?: AppointmentServiceOption[] | null;
 
   @ApiPropertyOptional({
     type: Object,
@@ -54,7 +52,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsArray()
-  appointmentServiceResources?: Record<string, any>[] | null;
+  appointmentServiceResources?: AppointmentServiceResource[] | null;
 
   @ApiPropertyOptional({
     type: Object,
@@ -62,7 +60,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsArray()
-  appointmentServices?: Record<string, any>[] | null;
+  appointmentServices?: AppointmentServiceItem[] | null;
 
   @ApiPropertyOptional({ type: String, description: 'Booked by type' })
   @IsOptional()
@@ -75,7 +73,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsObject()
-  calendarLinks?: Record<string, any> | null;
+  calendarLinks?: CalendarLinks | null;
 
   @ApiPropertyOptional({
     type: Object,
@@ -83,7 +81,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsObject()
-  cancellation?: Record<string, any> | null;
+  cancellation?: AppointmentCancellation | null;
 
   @ApiPropertyOptional({
     type: Object,
@@ -91,7 +89,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsObject()
-  client?: Record<string, any> | null;
+  client?: AppointmentClientSummary | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -121,11 +119,6 @@ export class CreateAppointmentDto {
   @IsOptional()
   @IsArray()
   customFields?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({ type: [String], description: 'Keys' })
-  @IsOptional()
-  @IsArray()
-  keys?: string[] | null;
 
   @ApiPropertyOptional({
     type: Number,
@@ -173,7 +166,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsObject()
-  location?: Record<string, any> | null;
+  location?: BoulevardLocationSummary | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -237,7 +230,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsObject()
-  rating?: Record<string, any> | null;
+  rating?: AppointmentRating | null;
 
   @ApiPropertyOptional({
     type: Object,
@@ -245,7 +238,7 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsObject()
-  remotePlatforms?: Record<string, any> | null;
+  remotePlatforms?: RemotePlatforms | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -261,5 +254,5 @@ export class CreateAppointmentDto {
   })
   @IsOptional()
   @IsArray()
-  tags?: Record<string, any>[] | null;
+  tags?: BoulevardTag[] | null;
 }

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { EquipmentEntity } from '../entities/equipment.entity';
@@ -57,7 +57,7 @@ export class EquipmentRelationalRepository implements EquipmentRepository {
     });
 
     if (!entity) {
-      throw new Error('Equipment not found');
+      throw new NotFoundException('Equipment not found');
     }
 
     if (payload.name !== undefined) {

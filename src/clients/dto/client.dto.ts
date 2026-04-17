@@ -1,4 +1,12 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
+import type {
+  CreditCard,
+  MarketingSetting,
+  ClientNote,
+  BoulevardLocationSummary,
+  ReminderSetting,
+  BoulevardTag,
+} from '../../utils/types/boulevard.types';
 
 export class ClientDto {
   @ApiProperty({
@@ -29,7 +37,7 @@ export class ClientDto {
     type: Object,
     description: 'Credit cards on file for the client',
   })
-  creditCardsOnFile?: Record<string, any>[] | null;
+  creditCardsOnFile?: CreditCard[] | null;
 
   @ApiProperty({
     type: Number,
@@ -54,12 +62,6 @@ export class ClientDto {
     description: 'Custom fields',
   })
   customFields?: Record<string, any>[] | null;
-
-  @ApiPropertyOptional({
-    type: [String],
-    description: 'Keys',
-  })
-  keys?: string[] | null;
 
   @ApiPropertyOptional({
     type: Date,
@@ -101,7 +103,7 @@ export class ClientDto {
     type: Object,
     description: "The client's marketing settings",
   })
-  marketingSettings?: Record<string, any>[] | null;
+  marketingSettings?: MarketingSetting[] | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -125,13 +127,13 @@ export class ClientDto {
     type: Object,
     description: 'Notes that are available for the client',
   })
-  notes?: Record<string, any>[] | null;
+  notes?: ClientNote[] | null;
 
   @ApiPropertyOptional({
     type: Object,
     description: 'Primary location (based on last 3 appointments)',
   })
-  primaryLocation?: Record<string, any> | null;
+  primaryLocation?: BoulevardLocationSummary | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -143,7 +145,7 @@ export class ClientDto {
     type: Object,
     description: "The client's reminder settings",
   })
-  reminderSettings?: Record<string, any>[] | null;
+  reminderSettings?: ReminderSetting[] | null;
 
   @ApiPropertyOptional({
     type: String,
@@ -155,7 +157,7 @@ export class ClientDto {
     type: Object,
     description: 'Tags that have been applied to the client',
   })
-  tags?: Record<string, any>[] | null;
+  tags?: BoulevardTag[] | null;
 
   @ApiProperty({
     type: Date,
