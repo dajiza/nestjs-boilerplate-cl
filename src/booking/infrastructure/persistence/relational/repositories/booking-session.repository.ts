@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, LessThan } from 'typeorm';
+import { Repository } from 'typeorm';
 import { BookingSessionEntity } from '../entities/booking-session.entity';
 import { BookingSession } from '../../../../domain/booking-session';
 import { BookingSessionRepository } from '../../booking-session.repository';

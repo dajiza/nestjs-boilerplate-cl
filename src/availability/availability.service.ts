@@ -334,6 +334,7 @@ export class AvailabilityService {
    * 获取门店下的活跃员工 ID 列表
    */
   private async getStaffIdsForLocation(locationId: string): Promise<string[]> {
+    void locationId;
     try {
       const { data } = await this.staffService.findManyWithPagination({
         paginationOptions: { page: 1, limit: 100 },

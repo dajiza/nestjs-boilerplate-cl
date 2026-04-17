@@ -1,5 +1,5 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { IsNotEmpty, IsOptional, IsBoolean, IsDateString, IsArray, IsObject, IsNumber, IsString } from 'class-validator';
+import { IsOptional, IsBoolean, IsDateString, IsArray, IsObject, IsNumber, IsString } from 'class-validator';
 import type {
   AppointmentClientSummary,
   AppointmentServiceOption,

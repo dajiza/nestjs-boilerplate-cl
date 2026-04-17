@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException, BadRequestException, Inject, forwardRef } from '@nestjs/common';
 import { CreateAppointmentDto } from './dto/create-appointment.dto';
-import { UpdateAppointmentDto } from './dto/update-appointment.dto';
+
 import { CancelAppointmentDto } from './dto/cancel-appointment.dto';
 import { UpdateStateDto } from './dto/update-state.dto';
 import { RescheduleAppointmentDto } from './dto/reschedule-appointment.dto';
@@ -15,7 +15,7 @@ import type { BoulevardTag } from '../utils/types/boulevard.types';
 import { NullableType } from '../utils/types/nullable.type';
 import { IPaginationOptions } from '../utils/types/pagination-options';
 import { AppointmentState, isValidTransition, WRITABLE_STATES } from './domain/appointment-state';
-import { CancellationReason } from './domain/cancellation-reason';
+
 import { AvailabilityService, StaffAvailability } from '../availability/availability.service';
 import { BookingService } from '../booking/booking.service';
 

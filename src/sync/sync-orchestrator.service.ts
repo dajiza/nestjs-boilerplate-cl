@@ -76,7 +76,7 @@ export class SyncOrchestratorService {
   /**
    * Cancel appointment with dual-write
    */
-  async cancelAppointmentWithSync(id: string, _reason?: string): Promise<any> {
+  async cancelAppointmentWithSync(id: string): Promise<any> {
     // 1. Get the appointment first
     const localAppointment = await this.appointmentsService.findById(id);
 

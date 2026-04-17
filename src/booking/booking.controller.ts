@@ -6,7 +6,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { RolesGuard } from '../roles/roles.guard';
 import { BookingService } from './booking.service';
 import { CreateBookingDto } from './dto/create-booking.dto';
-import { AddServiceDto, RemoveServiceDto } from './dto/add-service.dto';
+import { AddServiceDto } from './dto/add-service.dto';
 import { SetClientDto } from './dto/set-client.dto';
 import { SetTimeDto } from './dto/set-time.dto';
 import { SetStaffDto } from './dto/set-staff.dto';
